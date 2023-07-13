@@ -131,6 +131,7 @@
   - SeniorResearcher # Corvax-MentorRoles
   - Scientist
   - ResearchAssistant
+  - Roboticist
 
 - type: department
   id: Silicon
