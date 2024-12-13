@@ -84,10 +84,8 @@ namespace Content.Shared.Roles
         [DataField("canBeAntag")]
         public bool CanBeAntag { get; private set; } = true;
 
-        // Sunrise-Start
         [DataField("radioBold")]
-        public bool RadioIsBold { get; }
-        // Sunrise-End
+        public bool RadioIsBold { get; } = false;
 
         /// <summary>
         ///     The "weight" or importance of this job. If this number is large, the job system will assign this job
