@@ -801,6 +801,11 @@
   - StationEngineerJumpsuit
   - StationEngineerJumpskirt
   - StationEngineerHazardsuit
+<<<<<<< HEAD
+=======
+  - EngineeringWorkUniform # Adventure
+  - EngineeringWorkUniform2 # Adventure
+>>>>>>> f52947eafb (теперь эта станция под каблуком)
   - SeniorEngineerJumpsuit
   - SeniorEngineerJumpskirt
 
