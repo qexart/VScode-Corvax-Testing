@@ -162,6 +162,8 @@
   - type: SSDIndicator
   - type: StandingState
   - type: Crawler
+  - type: SpeechSynthesis # Corvax-Fallout-Barks
+  - type: Fingerprint
   - type: Dna
   - type: MindContainer
     showExamineInfo: true

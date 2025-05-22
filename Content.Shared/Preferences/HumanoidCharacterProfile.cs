@@ -7,6 +7,7 @@ using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Preferences.Loadouts;
 using Content.Shared.Roles;
+using Content.Shared._NC.Speech.Synthesis; // Corvax-Fallout-Barks
 using Content.Shared.Traits;
 using Robust.Shared.Collections;
 using Robust.Shared.Configuration;
@@ -28,6 +29,9 @@ namespace Content.Shared.Preferences
     {
         private static readonly Regex RestrictedNameRegex = new("[^А-Яа-яёЁ0-9' -]"); // Corvax-Localization
         private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
+
+        [DataField] // Corvax-Fallout-Barks
+        public string BarkVoice { get; set; } = SharedHumanoidAppearanceSystem.DefaultBarkVoice; // Corvax-Fallout-Barks
 
         /// <summary>
         /// Job preferences for initial spawn.
@@ -140,7 +144,8 @@ namespace Content.Shared.Preferences
             PreferenceUnavailableMode preferenceUnavailable,
             HashSet<ProtoId<AntagPrototype>> antagPreferences,
             HashSet<ProtoId<TraitPrototype>> traitPreferences,
-            Dictionary<string, RoleLoadout> loadouts)
+            Dictionary<string, RoleLoadout> loadouts,
+            string barkVoice) // Corvax-Fallout-Barks
         {
             Name = name;
             FlavorText = flavortext;
@@ -156,6 +161,7 @@ namespace Content.Shared.Preferences
             _antagPreferences = antagPreferences;
             _traitPreferences = traitPreferences;
             _loadouts = loadouts;
+            BarkVoice = barkVoice; // Corvax-Fallout-Barks
 
             var hasHighPrority = false;
             foreach (var (key, value) in _jobPriorities)
@@ -187,7 +193,8 @@ namespace Content.Shared.Preferences
                 other.PreferenceUnavailable,
                 new HashSet<ProtoId<AntagPrototype>>(other.AntagPreferences),
                 new HashSet<ProtoId<TraitPrototype>>(other.TraitPreferences),
-                new Dictionary<string, RoleLoadout>(other.Loadouts))
+                new Dictionary<string, RoleLoadout>(other.Loadouts),
+                other.BarkVoice) // Corvax-Fallout-Barks
         {
         }
 
@@ -251,6 +258,13 @@ namespace Content.Shared.Preferences
                 .Where(o => CanHaveVoice(o, sex)).ToArray()
             ).ID;
             // Corvax-TTS-End
+
+            // Corvax-Fallout-Barks-start
+            var barkvoiceId = random.Pick(prototypeManager
+                .EnumeratePrototypes<BarkPrototype>()
+                .ToArray()
+            ).ID;
+            // Corvax-Fallout-Barks-end
 
             var gender = Gender.Epicene;
 
@@ -348,6 +362,9 @@ namespace Content.Shared.Preferences
                 _jobPriorities = dictionary
             };
         }
+
+        public HumanoidCharacterProfile WithBarkVoice(string barkVoice) => // Corvax-Fallout-Barks
+            new(this) { BarkVoice = barkVoice }; // Corvax-Fallout-Barks
 
         public HumanoidCharacterProfile WithJobPriority(ProtoId<JobPrototype> jobId, JobPriority priority)
         {
@@ -491,6 +508,7 @@ namespace Content.Shared.Preferences
             if (!_traitPreferences.SequenceEqual(other._traitPreferences)) return false;
             if (!Loadouts.SequenceEqual(other.Loadouts)) return false;
             if (FlavorText != other.FlavorText) return false;
+            if (BarkVoice != other.BarkVoice); // Corvax-Fallout-Barks
             return Appearance.MemberwiseEquals(other.Appearance);
         }
 
@@ -768,6 +786,7 @@ namespace Content.Shared.Preferences
             hashCode.Add(Appearance);
             hashCode.Add((int)SpawnPriority);
             hashCode.Add((int)PreferenceUnavailable);
+            hashCode.Add(BarkVoice); // Corvax-Fallout-Barks
             return hashCode.ToHashCode();
         }
 
