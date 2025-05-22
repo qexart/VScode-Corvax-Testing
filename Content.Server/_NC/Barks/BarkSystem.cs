@@ -1,6 +1,6 @@
 using Content.Shared._NC.CorvaxVars;
-using Content.Shared.Chat;
 using Content.Server.Chat.Systems;
+using Content.Shared.Chat;
 using Content.Shared._NC.Speech.Synthesis;
 using Content.Shared._NC.Speech.Synthesis.Components;
 using Robust.Server.Audio;
