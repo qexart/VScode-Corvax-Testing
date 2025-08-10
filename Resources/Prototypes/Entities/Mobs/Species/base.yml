@@ -223,6 +223,7 @@
   id: BaseMobSpeciesOrganic
   abstract: true
   components:
+  - type: PickupHumans # ADT-Tweak
   - type: Barotrauma
     damage:
       types:
