@@ -1,0 +1,20 @@
+- type: entity
+  name: рация синдиката
+  description: Рация имеющая возможность связать вас с тем, с кем лучше не связываться вовсе.
+  parent: RadioHandheld
+  id: RadioHandheldSyndicate
+  components:
+  - type: RadioMicrophone
+    broadcastChannel: Syndicate
+  - type: RadioSpeaker
+    channels:
+    - Syndicate
+  - type: Sprite
+    sprite: SS220/Objects/Devices/syndiehandy.rsi
+    layers:
+    - state: walkietalkie
+    - state: walkietalkie-on
+    state: walkietalkie
+  - type: Item
+    sprite: SS220/Objects/Devices/syndiehandy.rsi
+    heldPrefix: walkietalkie

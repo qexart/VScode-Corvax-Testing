@@ -1,0 +1,61 @@
+- type: entity
+  parent: IDCardStandard
+  id: MagistratIDCard
+  name: ID карта магистрата
+  components:
+   - type: Sprite
+     sprite: /Textures/SS220/Objects/Misc/id_cards.rsi
+     layers:
+     - state: silver
+     - state: idmagistrat
+   - type: Item
+     heldPrefix: silver
+   - type: PresetIdCard
+     jobTitle: Магистрат
+     job: Magistrat
+
+- type: entity
+  parent: IDCardStandard
+  id: NanotrasenRepresentiveIDCard
+  name: ID карта представителя NanoTrasen
+  components:
+   - type: Sprite
+     sprite: /Textures/SS220/Objects/Misc/id_cards.rsi
+     layers:
+     - state: silver
+     - state: idntr
+   - type: Item
+     heldPrefix: silver
+   - type: PresetIdCard
+     jobTitle: Представитель NanoTrasen
+     job: NanotrasenRepresentive
+
+- type: entity
+  parent: IDCardStandard
+  id: BlueshieldIDCard
+  name: ID карта офицера "Синий Щит"
+  components:
+   - type: Sprite
+     spite: Objects/Misc/id_cards.rsi
+     layers:
+     - state: silver
+     - state: idbs
+   - type: Item
+     heldPrefix: silver
+   - type: PresetIdCard
+     jobTitle: Офицер "Синий Щит"
+     job: Blueshield
+
+- type: entity
+  parent: IDCardStandard
+  id: PathologistIDCard
+  name: ID Карта патологоанатома
+  components:
+   - type: Sprite
+     sprite: /Textures/SS220/Objects/Misc/id_cards.rsi
+     layers:
+     - state: default
+     - state: idpatologoanatom
+   - type: PresetIdCard
+     jobTitle: Патологоанатом
+     job: MedicalPathologist

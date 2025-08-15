@@ -1,0 +1,41 @@
+- type: job
+  id: CentCommHSCC
+  name: job-name-centcommHSCC
+  description: job-description-centcommHSCC
+  playTimeTracker: JobCentCommHSCC
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobCentCommRepresentive
+      time: 90000 #25 hrs # _FNStation-Time
+    - !type:RoleTimeRequirement
+      role: JobCentCommOperator
+      time: 54000 #15 hrs # _FNStation-Time
+    - !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 54000 #15 hrs
+  weight: 60
+  startingGear: NSCCCentCommGear
+  icon: "JobIconNanotrasenAverage"
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: NSCCCentCommGear
+  equipment:
+    belt: BoxFolderCentComClipboard
+    gloves: ClothingHandsGlovesCentcomNaval
+    eyes: ClothingEyesGlassesCommand
+    id: CentcomPDA
+    ears: ClothingHeadsetAltCentCom
+    pocket1: PenCentcom
+    pocket2: WeaponPistolN1984
+  storage:
+    back:
+    - Flash

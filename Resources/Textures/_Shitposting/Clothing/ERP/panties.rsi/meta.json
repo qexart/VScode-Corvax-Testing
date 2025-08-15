@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "strings",
+      "directions": 4
+    },
+    {
+      "name": "icon_strings"
+    },
+    {
+      "name": "strings_rainbow",
+      "directions": 4
+    },
+    {
+      "name": "icon_strings_rainbow"
+    },
+    {
+      "name": "strings_transparent",
+      "directions": 4
+    },
+    {
+      "name": "icon_strings_transparent"
+    }
+  ]
+}

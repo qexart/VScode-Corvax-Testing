@@ -1,0 +1,352 @@
+# Blueshield
+
+- type: loadoutGroup
+  id: BlueshieldUniforms
+  name: Синий Щит, комбинезон
+  loadouts:
+  - BlueshieldUniform
+
+- type: loadoutGroup
+  id: BlueshieldShoes
+  name: Синий Щит, обувь
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BlueshieldShoes
+  - BlueshieldShoesCombat
+
+- type: loadoutGroup
+  id: BlueshieldNeck
+  name: Синий Щит, шея
+  minLimit: 0
+  loadouts:
+  - BlueshieldNeck
+
+- type: loadoutGroup
+  id: BlueshieldHead
+  name: Синий Щит, голова
+  minLimit: 0
+  loadouts:
+  - BlueshieldHead
+
+# Magistrat
+
+- type: loadoutGroup
+  id: MagistratHead
+  name: Магистрат, голова
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - MagistratHead
+
+#- type: loadoutGroup
+#  id: MagistratHead
+#  name: Магистрат, шея
+#  minLimit: 1
+#  maxLimit: 1
+#  loadouts:
+#  - MagistratNeck   ---   Добавить плащ на подобии адмирала НТ.
+
+- type: loadoutGroup
+  id: MagistratGloves
+  name: Магистрат, перчатки
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - NTRBlackGloves
+  - NTRGrayGloves
+  - NTRWhiteGloves
+
+#- type: loadoutGroup
+#  id: MagistratJumpsuit
+#  name: Магистрат, комбинезон
+#  minLimit: 1
+#  maxLimit: 1
+#  loadouts:
+#  - MagistratJumpsuit   ---   Добавить уникальную униформу для Магистрата.
+
+- type: loadoutGroup
+  id: MagistratBelt
+  name: Магистрат, пояс
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - MagistratClipboard
+
+- type: loadoutGroup
+  id: MagistratOuterClothing
+  name: Магистрат, верхняя одежда
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - MagistratJudgeRobes
+
+- type: loadoutGroup
+  id: MagistratShoes
+  name: Магистрат, обувь
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - NTRShoesJack
+  - NTRShoesLaceup
+
+# NanotrasenRepresentive
+
+- type: loadoutGroup
+  id: NanotrasenRepresentiveHead
+  name: ПНТ, голова
+  minLimit: 0
+  loadouts:
+  - NTRHead
+
+- type: loadoutGroup
+  id: NanotrasenRepresentiveNeck
+  name: ПНТ, шея
+  minLimit: 0
+  loadouts:
+  - NTRNeck
+
+- type: loadoutGroup
+  id: NanotrasenRepresentiveGloves
+  name: ПНТ, перчатки
+  minLimit: 0
+  loadouts:
+  - NTRBlackGloves
+  - NTRGrayGloves
+  - NTRWhiteGloves
+
+- type: loadoutGroup
+  id: NanotrasenRepresentiveBelt
+  name: ПНТ, пояс
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - NTRCCClipboard
+
+- type: loadoutGroup
+  id: NanotrasenRepresentiveShoes
+  name: ПНТ, обувь
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - NTRShoesJack
+  - NTRShoesLaceup
+
+# CentralCommand
+
+# Head
+- type: loadoutGroup
+  id: CentCommAssistantHead
+  name: АЦК, голова
+  minLimit: 0
+  loadouts:
+  - CentCommAssistantBeret
+
+- type: loadoutGroup
+  id: CentCommOperatorHead
+  name: ОЦК, голова
+  minLimit: 0
+  loadouts:
+  - CentCommOperatorBeret
+  - CentCommOperatorHat
+  - CentCommOperatorCap
+
+- type: loadoutGroup
+  id: CentCommRepresentiveHead
+  name: ПЦК, голова
+  minLimit: 0
+  loadouts:
+  - CentCommCCRBeret
+  - CentCommCCRHat
+  - CentCommCCRCap
+
+- type: loadoutGroup
+  id: CentCommOSSHead
+  name: ОССБ, голова
+  minLimit: 0
+  loadouts:
+  - CentCommOSSBeret
+
+# Neck
+- type: loadoutGroup
+  id: CentCommAssistantNeck
+  name: АЦК, шея
+  minLimit: 0
+  loadouts:
+  - CentCommAssistantScarf
+
+- type: loadoutGroup
+  id: CentCommOperatorNeck
+  name: ОЦК, шея
+  minLimit: 0
+  loadouts:
+  - CentCommOperatorScarf
+  - CentCommOperatorCloak
+
+- type: loadoutGroup
+  id: CentCommRepresentiveNeck
+  name: ПЦК, шея
+  minLimit: 0
+  loadouts:
+  - CentCommCCRScarf
+  - CentCommCCRCloak
+
+# Jumpsuit
+- type: loadoutGroup
+  id: CentCommAssistantJumpsuit
+  name: АЦК, комбинезон
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CentCommAssistantJumpsuit
+  - CentCommAssistantJumpskirt
+
+- type: loadoutGroup
+  id: CentCommOperatorJumpsuit
+  name: ОЦК, комбинезон
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CentCommOperatorJumpsuitOfficial
+  - CentCommOperatorJumpskirtOfficial
+
+- type: loadoutGroup
+  id: CentCommRepresentiveJumpsuit
+  name: ПЦК, комбинезон
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CentCommCCRJumpsuitFormalDress
+  - CentCommCCRJumpskirtFormalDress
+  - CentCommCCRJumpsuitOfficial
+  - CentCommCCRJumpskirtOfficial
+
+# OuterClothing
+- type: loadoutGroup
+  id: CentCommAssistantOuterClothing
+  name: АЦК, верхняя одежда
+  minLimit: 0
+  loadouts:
+  - CentCommAssistantWintercoat
+  - CentCommAssistantArmorBasic
+  - CentCommAssistantVest
+
+- type: loadoutGroup
+  id: CentCommOperatorOuterClothing
+  name: ОЦК, верхняя одежда
+  minLimit: 0
+  loadouts:
+  - CentCommOperatorWintercoat
+  - CentCommOperatorArmorBasic
+  - CentCommOperatorVest
+
+- type: loadoutGroup
+  id: CentCommRepresentiveOuterClothing
+  name: ПЦК, верхняя одежда
+  minLimit: 0
+  loadouts:
+  - CentCommCCRWintercoat
+  - CentCommCCRArmorCarapace
+  - CentCommCCRArmorBasic
+  - CentCommCCRVest
+
+- type: loadoutGroup
+  id: CentCommOSSOuterClothing
+  name: ОССБ, верхняя одежда
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CentCommOSSArmorBulletproof
+  - CentCommOSSArmorBasic
+  - CentCommOSSVest
+
+# Boots
+- type: loadoutGroup
+  id: CentCommAssistantBoots
+  name: АЦК, обувь
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CentCommAssistantBootsJack
+  - CentCommAssistantBootsCombat
+  - CentCommAssistantBootsLaceup
+
+- type: loadoutGroup
+  id: CentCommOperatorBoots
+  name: ОЦК, обувь
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CentCommOperatorBootsJack
+  - CentCommOperatorBootsCombat
+  - CentCommOperatorBootsLaceup
+
+- type: loadoutGroup
+  id: CentCommRepresentiveBoots
+  name: ПЦК, обувь
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CentCommCCRBootsJack
+  - CentCommCCRBootsCombat
+  - CentCommCCRBootsLaceup
+
+- type: loadoutGroup
+  id: CentCommOSSBoots
+  name: ОССБ, обувь
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CentCommOSSBootsJack
+  - CentCommOSSBootsCombat
+
+# HSCC
+
+- type: loadoutGroup
+  id: CentCommHSCCHead
+  name: НШЦК, голова
+  minLimit: 0
+  loadouts:
+  - CentCommHSCCNaval
+  - CentCommCCRBeret
+  - CentCommCCRHat
+  - CentCommCCRCap
+
+- type: loadoutGroup
+  id: CentCommHSCCNeck
+  name: НШЦК, шея
+  minLimit: 0
+  loadouts:
+  - CentCommCCRScarf
+  - CentCommCCRCloak
+
+- type: loadoutGroup
+  id: CentCommHSCCJumpsuit
+  name: НШЦК, комбинезон
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CentCommHSCCJumpsuitAdmiral
+  - CentCommCCRJumpsuitFormalDress
+  - CentCommCCRJumpskirtFormalDress
+
+- type: loadoutGroup
+  id: CentCommHSCCOuterClothing
+  name: НШЦК, верхняя одежда
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CentCommCCRWintercoat
+  - CentCommCCRArmorCarapace
+  - CentCommCCRArmorBasic
+  - CentCommCCRVest
+
+- type: loadoutGroup
+  id: CentCommHSCCBoots
+  name: НШЦК, обувь
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CentCommCCRBootsJack
+  - CentCommCCRBootsCombat
+  - CentCommCCRBootsLaceup

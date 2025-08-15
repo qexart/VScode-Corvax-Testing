@@ -227,6 +227,12 @@
     },
     {
       "name": "paper_stamp-wizard"
+    },
+    {
+      "name": "paper_stamp-magistrat"
+    },
+    {
+      "name": "paper_stamp-ntr"
     }
   ]
 }

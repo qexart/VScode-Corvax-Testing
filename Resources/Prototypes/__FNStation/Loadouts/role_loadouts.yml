@@ -1,0 +1,103 @@
+# Magistrat
+- type: roleLoadout
+  id: JobMagistrat
+  groups:
+  - MagistratHead
+#  - MagistratNeck
+  - LawyerNeck
+#  - MagistratJumpsuit
+  - LawyerJumpsuit
+  - MagistratGloves
+  - CommonBackpack
+  - MagistratOuterClothing
+  - MagistratShoes
+  - MagistratBelt
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+
+# NanotrasenRepresentive
+- type: roleLoadout
+  id: JobNanotrasenRepresentive
+  groups:
+  - NanotrasenRepresentiveHead
+  - NanotrasenRepresentiveNeck
+  - CommonBackpack
+  - NanotrasenRepresentiveGloves
+  - NanotrasenRepresentiveBelt
+  - NanotrasenRepresentiveShoes
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# Blueshield
+- type: roleLoadout
+  id: JobBlueshield
+  groups:
+  - BlueshieldHead
+  - BlueshieldNeck
+  - CommonBackpack
+  - BlueshieldShoes
+  - SurvivalSecurity
+  - Trinkets
+  - GroupSpeciesBreathToolSecurity
+
+# CentralCommand
+- type: roleLoadout
+  id: JobCentCommAssistant
+  groups:
+  - CentCommAssistantHead
+  - CentCommAssistantNeck
+  - CentCommAssistantJumpsuit
+  - CommonBackpack
+  - CentCommAssistantOuterClothing
+  - CentCommAssistantBoots
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobCentCommOperator
+  groups:
+  - CentCommOperatorHead
+  - CentCommOperatorNeck
+  - CentCommOperatorJumpsuit
+  - CommonBackpack
+  - CentCommOperatorOuterClothing
+  - CentCommOperatorBoots
+  - Survival
+  - Trinkets
+
+- type: roleLoadout
+  id: JobCentCommRepresentive
+  groups:
+  - CentCommRepresentiveHead
+  - CentCommRepresentiveNeck
+  - CentCommRepresentiveJumpsuit
+  - CommonBackpack
+  - CentCommRepresentiveOuterClothing
+  - CentCommRepresentiveBoots
+  - Survival
+  - Trinkets
+
+- type: roleLoadout
+  id: JobCentCommHSCC
+  groups:
+  - CentCommHSCCHead
+  - CentCommHSCCNeck
+  - CentCommHSCCJumpsuit
+  - CommonBackpack
+  - CentCommHSCCOuterClothing
+  - CentCommHSCCBoots
+  - Survival
+  - Trinkets
+
+- type: roleLoadout
+  id: JobCentCommOSS
+  groups:
+  - CentCommOSSHead
+  - CentCommOSSOuterClothing
+  - CentCommOSSBoots
+  - Survival
+  - Trinkets

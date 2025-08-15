@@ -1,0 +1,38 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtStrings
+  name: тёмные стринги
+  description: Стринги стандартного, тёмного цвета.
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/panties.rsi
+    state: icon_strings
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/panties.rsi
+    state: strings
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtStringsTransparent
+  name: прозрачные стринги
+  description: Прозрачные стринги.
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/panties.rsi
+    state: icon_strings_transparent
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/panties.rsi
+    state: strings_transparent
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtStringsRainbow
+  name: радужные стринги
+  description: Радужные стринги.
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/panties.rsi
+    state: icon_strings_rainbow
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/panties.rsi
+    state: strings_rainbow

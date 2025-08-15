@@ -1,0 +1,7 @@
+- type: speechVerb
+  id: Felinid
+  name: акцент фелинида
+  speechVerbStrings:
+  - говорит
+  - мяукает
+  - мурлыкает

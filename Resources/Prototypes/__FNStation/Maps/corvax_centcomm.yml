@@ -1,0 +1,21 @@
+- type: gameMap
+  id: CorvaxCentComm
+  mapName: 'Центральное Командование'
+  mapPath: /Maps/_FNStation/corvax_centcomm.yml
+  minPlayers: 0
+  stations:
+    centcomm:
+      stationProto: NanotrasenCentralCommand
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Central Command {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'TG'
+        - type: StationJobs
+          availableJobs: # FNStation edit for CentComm station, yea.
+            CentCommHSCC: [ 1, 1 ] # _FNStation CentComm Roles
+            CentCommAssistant: [ 2, 2 ] # _FNStation CentComm Roles
+            CentCommOperator: [ 2, 2 ] # _FNStation CentComm Roles
+            CentCommRepresentive: [ 1, 1 ] # _FNStation CentComm Roles
+            CentCommOSS: [ 3, 3 ] # _FNStation CentComm Roles

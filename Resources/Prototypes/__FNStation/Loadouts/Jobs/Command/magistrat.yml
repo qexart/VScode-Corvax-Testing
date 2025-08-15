@@ -1,0 +1,39 @@
+# For mantles
+#- type: loadoutEffectGroup
+#  id: MasterCap
+#  effects:
+#  - !type:JobRequirementLoadoutEffect
+#    requirement:
+#      !type:RoleTimeRequirement
+#      role: JobCaptain
+#      time: 72000 #20 hrs
+
+# Head
+- type: loadout
+  id: MagistratHead
+  equipment:
+    head: ClothingHeadHatPwig
+
+# Neck
+#- type: loadout
+#  id: NTRNeck
+#  equipment:
+#    neck: ClothingNeckCloakNanotrasenRepresentive
+
+# Jumpsuit
+- type: loadout
+  id: MagistratJudgeRobes
+  equipment:
+    outerClothing: ClothingOuterRobesJudge
+
+# Belt
+- type: loadout
+  id: MagistratClipboard
+  equipment:
+    belt: BoxFolderClipboard
+
+# Gloves
+- type: loadout
+  id: NTRBlackGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorBlack

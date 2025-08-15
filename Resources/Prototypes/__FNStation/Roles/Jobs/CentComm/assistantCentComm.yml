@@ -1,0 +1,39 @@
+- type: job
+  id: CentCommAssistant
+  name: job-name-centcommAssistant
+  description: job-description-centcommAssistant
+  playTimeTracker: JobCentCommAssistant
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobIAA
+      time: 18000 #5 hrs # _FNStation-Time
+    - !type:DepartmentTimeRequirement
+      department: Juridical
+      time: 72000 #20 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 270000 #75 hrs
+  weight: 50
+  startingGear: OfficerCentCommGear
+  icon: "JobIconNanotrasenAverage"
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: OfficerCentCommGear
+  equipment:
+    belt: BoxFolderCentComClipboard
+    gloves: ClothingHandsGlovesCombat
+    eyes: ClothingEyesGlassesSunglasses
+    id: CentcomPDA
+    ears: ClothingHeadsetAltCentCom
+    pocket2: PenCentcom
+  storage:
+    back:
+    - Flash

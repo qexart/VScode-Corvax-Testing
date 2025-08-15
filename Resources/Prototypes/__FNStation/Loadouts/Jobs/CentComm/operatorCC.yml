@@ -1,0 +1,71 @@
+# Head
+- type: loadout
+  id: CentCommOperatorBeret
+  equipment:
+    head: ClothingHeadHatBeretCentcomNaval
+
+- type: loadout
+  id: CentCommOperatorCap
+  equipment:
+    head: ClothingHeadHatCentcomcap
+
+- type: loadout
+  id: CentCommOperatorHat
+  equipment:
+    head: ClothingHeadHatCentcom
+
+# Neck
+- type: loadout
+  id: CentCommOperatorScarf
+  equipment:
+    neck: ClothingNeckScarfStripedCentcom
+
+- type: loadout
+  id: CentCommOperatorCloak
+  equipment:
+    neck: ClothingNeckCloakCentcom
+
+# Jumpsuit
+- type: loadout
+  id: CentCommOperatorJumpsuitOfficial
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomOfficial
+
+- type: loadout
+  id: CentCommOperatorJumpskirtOfficial
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCentcomOfficial
+
+# Back
+
+# OuterClothing
+- type: loadout
+  id: CentCommOperatorWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterCentcom
+
+- type: loadout
+  id: CentCommOperatorArmorBasic
+  equipment:
+    outerClothing: ClothingOuterArmorBasic
+
+- type: loadout
+  id: CentCommOperatorVest
+  equipment:
+    outerClothing: ClothingOuterVest
+
+# Shoes
+- type: loadout
+  id: CentCommOperatorBootsJack
+  equipment:
+    shoes: ClothingShoesBootsJackFilled
+
+- type: loadout
+  id: CentCommOperatorBootsCombat
+  equipment:
+    shoes: ClothingShoesBootsCombatFilled
+
+- type: loadout
+  id: CentCommOperatorBootsLaceup
+  equipment:
+    shoes: ClothingShoesBootsLaceup

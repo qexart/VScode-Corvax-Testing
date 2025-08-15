@@ -22,6 +22,9 @@
   - HeadOfSecurity
   - Quartermaster
   - ResearchDirector
+  - NanotrasenRepresentive #_FNStation edit
+  - Blueshield #_FNStation edit
+  - Magistrat #_FNStation edit
   
 - type: accessLevel
   id: EmergencyShuttleRepealAll

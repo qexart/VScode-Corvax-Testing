@@ -1,0 +1,24 @@
+- type: playTimeTracker
+  id: JobBlueshield
+
+- type: playTimeTracker
+  id: JobNanotrasenRepresentive
+
+- type: playTimeTracker
+  id: JobMagistrat
+
+- type: playTimeTracker
+  id: JobPathologist
+
+# Ведущие роли отделов
+- type: playTimeTracker
+  id: JobSeniorOfficer
+
+- type: playTimeTracker
+  id: JobSeniorEngineer
+
+- type: playTimeTracker
+  id: JobSeniorPhysician
+
+- type: playTimeTracker
+  id: JobSeniorResearcher

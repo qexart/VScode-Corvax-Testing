@@ -5,8 +5,8 @@
   playTimeTracker: JobIAA
   requirements:
   - !type:DepartmentTimeRequirement
-    department: Command
-    time: 72000
+    department: Juridical
+    time: 36000
   - !type:DepartmentTimeRequirement
     department: Security
     time: 36000

@@ -1,0 +1,47 @@
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetPatologoanatom
+  name: гарнитура патологоанатома
+  description: Гарнитура что бы рассказать товарищам-медикам о внутреннем мире своих клиентов.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyMedical
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: SS220/Clothing/Ears/Headsets/headset_patologoanatom.rsi
+  - type: Clothing
+    sprite: SS220/Clothing/Ears/Headsets/headset_patologoanatom.rsi
+
+#Mosley
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetJuridical
+  name: гарнитура юридического отдела
+  description: Алё.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyJuridical
+      - EncryptionKeySecurity
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: SS220/Clothing/Ears/Headsets/juridical.rsi
+  - type: Clothing
+    sprite: SS220/Clothing/Ears/Headsets/juridical.rsi
+
+- type: entity
+  parent: ClothingHeadsetJuridical
+  id: ClothingHeadsetMagistrat
+  name: гарнитура магистрата
+  description: Я слушаю.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyJuridical
+      - EncryptionKeySecurity
+      - EncryptionKeyCommand
+      - EncryptionKeyCommon

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bra_dark",
+      "directions": 4
+    },
+    {
+      "name": "icon_bra_dark"
+    },
+    {
+      "name": "bra_rainbow",
+      "directions": 4
+    },
+    {
+      "name": "icon_bra_rainbow"
+    },
+    {
+      "name": "bra_transparent",
+      "directions": 4
+    },
+    {
+      "name": "icon_bra_transparent"
+    }
+  ]
+}

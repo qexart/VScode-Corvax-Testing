@@ -1,0 +1,38 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckBraDark
+  name: тёмный бюстгалтер
+  description: Пуш-ап бюстгалтер стандартного, тёмного цвета.
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/bra.rsi
+    state: bra_dark
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/bra.rsi
+    state: icon_bra_dark
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckBraTransparent
+  name: прозрачный бюстгалтер
+  description: прозрачный пуш-ап бюстгалтер.
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/bra.rsi
+    state: icon_bra_transparent
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/bra.rsi
+    state: bra_transparent
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckBraRainbow
+  name: радужный бюстгалтер
+  description: радужный пуш-ап бюстгалтер.
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/bra.rsi
+    state: icon_bra_rainbow
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/bra.rsi
+    state: bra_rainbow

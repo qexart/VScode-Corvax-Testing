@@ -1,0 +1,12 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadChoker
+  name: чёрный чокер с ленточкой
+  description: 'Gentlemen?'
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/neck.rsi
+    state: icon_choker_d
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/neck.rsi
+    state: choker_d

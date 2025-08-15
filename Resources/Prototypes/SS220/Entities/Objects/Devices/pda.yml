@@ -1,0 +1,94 @@
+- type: entity
+  parent: BasePDA
+  id: MagistratPDA
+  name: КПК магистрата
+  suffix: Magistrat
+  description: Изможденный временем, влагает в себя аромат закона и судебной власти.
+  components:
+  - type: Sprite
+    sprite: SS220/Objects/Devices/pda.rsi
+  - type: Pda
+    id: MagistratIDCard
+    penSlot:
+      startingItem: LuxuryPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-magistrat
+  - type: PdaBorderColor
+    borderColor: "#6f6192"
+    accentVColor: "#DFDFDF"
+  - type: Icon
+    sprite: SS220/Objects/Devices/pda.rsi
+    state: pda-magistrat
+
+- type: entity
+  parent: BasePDA
+  id: NanotrasenRepresentivePDA
+  name: КПК представителя NanoTrasen
+  suffix: Nanotrasen Representive
+  description: Представляет вашу идею.
+  components:
+  - type: Sprite
+    sprite: SS220/Objects/Devices/pda.rsi
+  - type: Pda
+    id: NanotrasenRepresentiveIDCard
+    penSlot:
+      startingItem: LuxuryPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-ntr
+  - type: Icon
+    sprite: SS220/Objects/Devices/pda.rsi
+    state: pda-ntr
+
+- type: entity
+  parent: BasePDA
+  id: BlueshieldPDA
+  name: КПК офицера "Синий Щит"
+  suffix: Blueshield
+  description: Почему он не синий?
+  components:
+  - type: Sprite
+    sprite: SS220/Objects/Devices/pda.rsi
+  - type: Pda
+    id: BlueshieldIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-bs
+  - type: Icon
+    sprite: SS220/Objects/Devices/pda.rsi
+    state: pda-bs
+
+- type: entity
+  parent: BaseMedicalPDA
+  id: PathologistPDA
+  name: КПК патологоанатома
+  suffix: Pathologist
+  description: А сколько ты, открыл "подарков" сегодня?
+  components:
+  - type: Sprite
+    sprite: SS220/Objects/Devices/pda.rsi
+  - type: Pda
+    id: PathologistIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-patologoanatom
+  - type: Icon
+    sprite: SS220/Objects/Devices/pda.rsi
+    state: pda-patologoanatom

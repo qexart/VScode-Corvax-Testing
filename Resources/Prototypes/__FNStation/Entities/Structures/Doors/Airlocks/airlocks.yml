@@ -1,0 +1,41 @@
+- type: entity
+  parent: Airlock
+  id: AirlockBlueshield
+  name: шлюз [Синий Щит, Закрыт]
+  components:
+  - type: Sprite
+    sprite: _FNStation/Structures/Doors/Airlocks/Standart/blueshield.rsi
+  - type: Wires
+    layoutId: AirlockBlueshield
+
+- type: entity
+  parent: Airlock
+  id: AirlockJuridical
+  name: шлюз [Юридический, Закрыт]
+  components:
+  - type: Sprite
+    sprite: _FNStation/Structures/Doors/Airlocks/Standart/juridical.rsi
+  - type: Wires
+    layoutId: AirlockJuridical
+
+# Glass
+
+- type: entity
+  parent: AirlockGlass
+  id: AirlockBlueshieldGlass
+  suffix: Blueshield
+  components:
+  - type: Sprite
+    sprite: _FNStation/Structures/Doors/Airlocks/Glass/blueshield.rsi
+  - type: Wires
+    layoutId: AirlockBlueshield
+
+- type: entity
+  parent: AirlockGlass
+  id: AirlockJuridicalGlass
+  suffix: Juridical
+  components:
+  - type: Sprite
+    sprite: _FNStation/Structures/Doors/Airlocks/Glass/juridical.rsi
+  - type: Wires
+    layoutId: AirlockJuridical

@@ -1,0 +1,18 @@
+#- type: entity
+#  id: BaseCentCommShuttles
+#  abstract: true
+#  components:
+#  - type: SpawnGridAndDockToStation
+#    gridPath: /Maps/_Sunrise/Shuttles/centcom_shuttle.yml
+#    priorityTag: DockCentComm
+
+#- type: entity
+#  id: BaseStationCentcomm
+#  abstract: true
+#  components:
+#  - type: StationCentcomm
+#    station: CorvaxCentComm
+#    shuttleWhitelist:
+#      components:
+#      - CentCommShuttle
+#      - ErtShuttle

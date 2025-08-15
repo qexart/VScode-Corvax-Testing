@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "choker_d",
+      "directions": 4
+    },
+    {
+      "name": "icon_choker_d"
+    }
+  ]
+}

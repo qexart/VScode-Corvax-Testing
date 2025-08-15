@@ -1,0 +1,23 @@
+- type: department
+  id: Juridical
+  name: department-Juridical
+  description: department-Juridical-description
+  color: "#634b2f"
+  weight: 30
+  roles:
+   - IAA # Corvax-IAA
+   - Lawyer
+   - Magistrat
+
+- type: department
+  id: CentCommFNS # _FNStation Content
+  name: department-CentComm
+  description: department-CentComm-description
+  color: "#267513"
+  weight: 40
+  roles:
+   - CentCommHSCC
+   - CentCommAssistant
+   - CentCommOperator
+   - CentCommRepresentive
+   - CentCommOSS

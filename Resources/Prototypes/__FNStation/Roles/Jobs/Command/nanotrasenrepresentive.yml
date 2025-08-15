@@ -1,0 +1,51 @@
+﻿- type: job
+  id: NanotrasenRepresentive
+  name: job-name-nanotrasenrepresentive
+  description: job-description-nanotrasenrepresentive
+  playTimeTracker: JobNanotrasenRepresentive
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 90000 #25 hrs
+    - !type:DepartmentTimeRequirement
+      department: Juridical
+      time: 36000 #10 hrs # _FNStation-Time
+    - !type:OverallPlaytimeRequirement
+      time: 216000 #60 hrs
+  weight: 20
+  startingGear: NanotrasenRepresentiveGear
+  icon: "JobIconNanotrasenRepresentive"
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - Command
+  - Maintenance
+  - External
+  - Engineering
+  - Research
+  - Security
+  - Brig
+  - Cargo
+  - Medical
+  - NanotrasenRepresentive
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: NanotrasenRepresentiveGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNTRepresentive
+    eyes: ClothingEyesGlassesSunglasses
+    outerClothing: ClothingOuterArmorBasic
+    id: NanotrasenRepresentivePDA
+    ears: ClothingHeadsetAltCommand
+    pocket2: PenCentcom
+  storage:
+    back:
+    - Flash
+
+  inhand:
+    - BriefcaseBrownFilled

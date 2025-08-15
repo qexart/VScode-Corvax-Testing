@@ -1,0 +1,77 @@
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingUnderSocksAroace
+  name: aroace socks
+  description: It's time to code sisters!!11!
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/socks.rsi
+    state: "icon_ae"
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/socks.rsi
+    state: "ae"
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingUnderSocksAsexual
+  name: asexual socks
+  description: It's time to code sisters!!11!
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/socks.rsi
+    state: "icon_al"
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/socks.rsi
+    state: "al"
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingUnderSocksAromance
+  name: aromance socks
+  description: It's time to code sisters!!11!
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/socks.rsi
+    state: "icon_an"
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/socks.rsi
+    state: "an"
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingUnderSocksBisexual
+  name: bisexual socks
+  description: It's time to code sisters!!11!
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/socks.rsi
+    state: "icon_bl"
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/socks.rsi
+    state: "bl"
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingUnderSocksGeterosexual
+  name: geterosexual socks
+  description: It's time to code sisters!!11!
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/socks.rsi
+    state: "icon_gy"
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/socks.rsi
+    state: "gy"
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingUnderSocksGrille
+  name: grille socks
+  description: It's time to code sisters!!11!
+  components:
+  - type: Sprite
+    sprite: _Shitposting/Clothing/ERP/socks.rsi
+    state: "grille"
+  - type: Clothing
+    sprite: _Shitposting/Clothing/ERP/socks.rsi
+    state: "icon_grille"

@@ -1,0 +1,15 @@
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyJuridical
+  name: ключ шифрования юридического отдела
+  description: Ключ шифрования, используемый юридическим отделом.
+  components:
+   - type: EncryptionKey
+     channels:
+     - Juridical
+     defaultChannel: Juridical
+   - type: Sprite
+     sprite: /Textures/SS220/Objects/Devices/encryption_keys.rsi
+     layers:
+     - state: crypt_gray
+     - state: juridical_label

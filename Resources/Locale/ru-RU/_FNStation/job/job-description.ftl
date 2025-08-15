@@ -1,0 +1,12 @@
+job-description-blueshield = Cпециально обученный сотрудник NanoTrasen, высланный на станцию Центральным Командованием для защиты Капитана, Командного состава и VIP-персон с ЦК.
+job-description-centcommAssistant = job-description-centcommAssistant
+job-description-centcommOperator = job-description-centcommOperator
+job-description-centcommRepresentive = job-description-centcommRepresentive
+job-description-centcommHSCC = job-description-centcommHSCC
+job-description-centcommOSS = job-description-centcommOSS
+job-description-nanotrasenrepresentive = Представляйте NanoTrasen. Отправляйте отчеты о ситуации на станции и информируйте командование об приказах с ЦК.
+job-description-magistrat = Страж Космического закона, основная опора в координации агентов внутренних дел и в управлении его подопечных, обеспечивайте порядок и справедливость на станции.
+job-description-senior-engineer = Обучайте новых инженеров основам работы силовых установок, ремонту, атмосферике и энергоснабжению станции.
+job-description-senior-researcher = Обучайте новых учёных основам печати предметов, исследования артефактов и аномальных объектов.
+job-description-senior-physician = Обучайте новых врачей основам оказания помощи раненым, химии, диагностике больных и утилизации трупов.
+job-description-senior-officer = Обучать новых офицеров основам обыска и задержания, срокам заключения и правильному обращению с огнестрельным оружием.

@@ -1,0 +1,32 @@
+# Head
+- type: loadout
+  id: CentCommOSSBeret
+  equipment:
+    head: ClothingHeadHatBeretSecurityPilot
+
+# OuterClothing
+- type: loadout
+  id: CentCommOSSArmorBulletproof
+  equipment:
+    outerClothing: ClothingOuterArmorBulletproof
+
+- type: loadout
+  id: CentCommOSSArmorBasic
+  equipment:
+    outerClothing: ClothingOuterArmorBasic
+
+- type: loadout
+  id: CentCommOSSVest
+  equipment:
+    outerClothing: ClothingOuterArmorBasicSlim
+
+# Shoes
+- type: loadout
+  id: CentCommOSSBootsJack
+  equipment:
+    shoes: ClothingShoesBootsJackFilled
+
+- type: loadout
+  id: CentCommOSSBootsCombat
+  equipment:
+    shoes: ClothingShoesBootsCombatFilled

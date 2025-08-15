@@ -1,0 +1,25 @@
+- type: entity
+  name: печать представителя NanoTrasen
+  parent: [RubberStampBase, BaseCommandContraband]
+  id: RubberStampNanotrasenRepresentive
+  categories: [ DoNotMap ]
+  components:
+  - type: Stamp
+    stampedName: Представитель NT
+    stampedColor: "#ceac00"
+    stampState: "paper_stamp-ntr"
+  - type: Sprite
+    state: stamp-ntr
+
+- type: entity
+  name: печать магистрата
+  parent: [RubberStampBase, BaseCommandContraband]
+  id: RubberStampMagistrat
+  categories: [ DoNotMap ]
+  components:
+  - type: Stamp
+    stampedName: Магистрат
+    stampedColor: "#987654"
+    stampState: "paper_stamp-magistrat"
+  - type: Sprite
+    state: stamp-magistrat

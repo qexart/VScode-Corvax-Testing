@@ -1,0 +1,44 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieArbuz
+  name: плюшевый Арбуз
+  description: Это плюшевый Арбуз. Поверьте, он точно не взорвётся если...
+  components:
+  - type: Sprite
+    sprite: _FNStation/Objects/Fun/toys.rsi
+    state: arbuz
+#  - type: EmitSoundOnUse
+#    sound:
+#      path: /Audio/SS220/Items/Toys/ArbuzPerni.ogg
+#  - type: EmitSoundOnLand
+#    sound:
+#      path: /Audio/SS220/Items/Toys/ArbuzPerni.ogg
+#  - type: EmitSoundOnActivate
+#    sound:
+#      path: /Audio/SS220/Items/Toys/ArbuzPerni.ogg
+#  - type: EmitSoundOnTrigger
+#    sound:
+#      path: /Audio/SS220/Items/Toys/ArbuzPerni.ogg
+#  - type: EmitSoundOnCollide
+#    sound:
+#      path: /Audio/SS220/Items/Toys/ArbuzPerni.ogg
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieCrow
+  name: PLUSHIEFICATION!!!
+  description: THIS IF PLUSHIEFICATION
+  components:
+  - type: Sprite
+    sprite: _FNStation/Objects/Fun/toys.rsi
+    state: crow
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieQexart
+  name: плюшевый qexart
+  description: Человек который точно не тратил время на подобные вещи.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Objects/Fun/toys.rsi
+    state: plushie_qexart

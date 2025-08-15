@@ -1,0 +1,100 @@
+- type: emote
+  id: Meow
+  name: мяукнул!
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [мяукнул!]
+  chatTriggers:
+    - мяу
+    - мяукнул
+    - мяукнул.
+    - мяукнул!
+    - мяукнула
+    - мяукнула.
+    - мяукнула!
+    - мяукает
+    - мяукает.
+    - мяукает!
+
+- type: emote
+  id: Mew
+  name: мявкнул!
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [мявкнул!]
+  chatTriggers:
+    - мя
+    - мякает
+    - мякает.
+    - мякает!
+    - ня
+    - мякает?
+    - mews.
+    - mews!
+    - mewing
+    - mewed
+
+- type: emote
+  id: Hisses
+  name: шипит!
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [шипит!]
+  chatTriggers:
+  - шипит
+  - шипит.
+  - шипит!
+
+- type: emote
+  id: FelinidGrowl
+  name: рычит!
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [рычит!]
+  chatTriggers:
+  - рычит
+  - рычит.
+  - рычит!
+  - Growls
+  - Growls.
+  - Growls!
+
+# Дубликат
+# - type: emote
+#  id: Purr
+#  name: мурчит!
+#  available: false
+#  whitelist:
+#    components:
+#    - Vocal
+#  blacklist:
+#    components:
+#    - BorgChassis
+#  chatMessages: [мурчит!]
+#  chatTriggers:
+#    - мур
+#    - мурчит
+#    - мурчит.
+#    - мурчит!
