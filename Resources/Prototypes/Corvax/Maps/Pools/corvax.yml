@@ -2,7 +2,7 @@
   id: CorvaxMapPool
   maps:
   # Highpop 55+
-  - CorvaxDelta
+  - FNSnDelta # _FNStation edit
   - CorvaxAvrite
   - CorvaxAstra
   - CorvaxPilgrim
@@ -20,6 +20,7 @@
   - Bagel
   
   # Lowpop 0–25
+  - FNSnCluster # _FNStation edit
   - CorvaxMaus  
   - CorvaxSilly
   - CorvaxTushkan

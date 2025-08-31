@@ -1,8 +1,8 @@
-using Content.Server._Sunrise.StationCentComm;
+using Content.Server._FNStation.StationCentComm;
 using Content.Server.GameTicking;
 using Content.Server.Maps;
 using Content.Server.Shuttles.Systems;
-using Content.Shared._Sunrise.AlwaysPoweredMap;
+using Content.Shared._FNStation.AlwaysPoweredMap;
 using Robust.Server.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;

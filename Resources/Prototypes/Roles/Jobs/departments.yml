@@ -73,8 +73,8 @@
   - ERTSecurity
   - ERTEngineer
   - DeathSquad
-  - Blueshield
-  - NanotrasenRepresentive
+  - Blueshield # _FNStation edit
+  - NanotrasenRepresentive # _FNStation edit
   primary: false
   weight: 100
 
@@ -98,11 +98,12 @@
   roles:
   - Chemist
   - ChiefMedicalOfficer
-  - SeniorPhysician
+  - SeniorPhysician # _FNStation edit
   - MedicalDoctor
   - MedicalIntern
   - Psychologist
   - Paramedic
+  - MedicalPathologist # _FNStation edit
 
 - type: department
   id: Security
@@ -112,7 +113,7 @@
   weight: 20
   roles:
   - HeadOfSecurity
-  - SeniorOfficer
+  - SeniorOfficer # _FNStation edit
   - SecurityCadet
   - SecurityOfficer
   - Pilot # Corvax-Pilot
@@ -127,7 +128,7 @@
   color: "#D381C9"
   roles:
   - ResearchDirector
-  - SeniorResearcher
+  - SeniorResearcher # _FNStation edit
   - Scientist
   - ResearchAssistant
 

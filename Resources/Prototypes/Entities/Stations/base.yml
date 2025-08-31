@@ -122,12 +122,12 @@
           - /Maps/Corvax/Shuttles/corvax_mining.yml
         # Corvax-Mapping-End
 
-- type: entity
-  id: BaseStationCentcomm
-  abstract: true
-  components:
-    - type: StationCentcomm
-      station: CorvaxCentComm # Corvax-Mapping
+#- type: entity
+#  id: BaseStationCentcomm
+#  abstract: true
+#  components:
+#    - type: StationCentcomm
+#      station: CorvaxCentComm # Corvax-Mapping # Перенос в _FNStation
 
 - type: entity
   id: BaseStationEvacuation

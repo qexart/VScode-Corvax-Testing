@@ -16,3 +16,10 @@
 #      components:
 #      - CentCommShuttle
 #      - ErtShuttle
+
+- type: entity
+  id: BaseStationCentcomm
+  abstract: true
+  components:
+  - type: StationCentcomm
+    station: CorvaxCentComm # Corvax-Mapping

@@ -1,0 +1,11 @@
+- type: entity
+  id: SuitStorageBlueshield
+  parent: SuitStorageBase
+  suffix: Blueshield
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillBlueshieldHardsuit
+  - type: AccessReader
+    access: [["Blueshield"]]

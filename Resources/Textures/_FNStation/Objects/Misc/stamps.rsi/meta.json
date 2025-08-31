@@ -8,10 +8,13 @@
   },
   "states": [
     {
-      "name": "stamp_ntr"
+      "name": "stamp-ntr"
     },
     {
-      "name": "stamp_magistrat"
+      "name": "stamp-magistrat"
+    },
+    {
+      "name": "stamp-patologoanatom"
     }
   ]
 }

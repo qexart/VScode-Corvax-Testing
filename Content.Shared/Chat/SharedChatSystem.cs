@@ -179,6 +179,45 @@ public abstract class SharedChatSystem : EntitySystem
         return true;
     }
 
+    // _FNStation-Start
+    public bool TryProccessCollectiveMindMessage(
+        EntityUid source,
+        string input,
+        out string output,
+        out CollectiveMindPrototype? channel,
+        bool quiet = false)
+    {
+        output = input.Trim();
+        channel = null;
+
+        if (input.Length == 0)
+            return false;
+
+        if (!input.StartsWith(CollectiveMindPrefix))
+            return false;
+
+        if (input.Length < 2 || char.IsWhiteSpace(input[1]))
+        {
+            output = SanitizeMessageCapital(input[1..].TrimStart());
+            if (!quiet)
+                _popup.PopupEntity(Loc.GetString("chat-manager-no-radio-key"), source, source);
+            return true;
+        }
+
+        var channelKey = input[1];
+        channelKey = char.ToLower(channelKey);
+        output = SanitizeMessageCapital(input[2..].TrimStart());
+
+        if (_mindKeyCodes.TryGetValue(channelKey, out channel) || quiet)
+            return true;
+
+        var msg = Loc.GetString("chat-manager-no-such-channel", ("key", channelKey));
+        _popup.PopupEntity(msg, source, source);
+
+        return false;
+    }
+    // _FNStation-End
+
     public string SanitizeMessageCapital(string message)
     {
         if (string.IsNullOrEmpty(message))

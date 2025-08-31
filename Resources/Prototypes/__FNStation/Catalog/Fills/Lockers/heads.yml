@@ -1,0 +1,151 @@
+- type: entityTable
+  id: LockerFillBlueshieldNoLecter
+  table: !type:AllSelector
+    children:
+    - id: ClothingHeadsetAltCommand
+    - id: ClothingNeckCloakShcloack
+    - id: TrackingImplanter
+#    - id: RubberStampBlueshield
+    - id: WeaponDisabler
+
+- type: entityTable
+  id: LockerFillBlueshieldLecter
+  table: !type:AllSelector
+    children:
+    - !type:NestedSelector
+      tableId: LockerFillBlueshieldNoLecter
+    - id: WeaponRifleLecter
+    - id: MagazineRifle
+      amount: 2
+
+- type: entityTable
+  id: FillBlueshieldHardsuit
+  table: !type:AllSelector
+    children:
+    - id: ClothingOuterHardsuitBlueshield
+    - id: ClothingMaskBreath
+    - id: JetpackMiniFilled
+    - id: OxygenTankFilled
+
+- type: entity
+  id: LockerBlueshieldFilledNoLecter
+  suffix: Filled
+  parent: LockerBlueshield
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LockerFillBlueshieldNoLecter
+
+- type: entity
+  id: LockerBlueshieldFilledLecter
+  suffix: Filled, Лектер
+  parent: LockerBlueshield
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LockerFillBlueshieldLecter
+
+- type: entity
+  id: LockerBlueshieldFilledHardsuit
+  suffix: Filled, Hardsuit
+  parent: LockerBlueshield
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:AllSelector
+        children:
+        - !type:NestedSelector
+          tableId: LockerFillBlueshieldNoLecter
+        - !type:NestedSelector
+          tableId: FillBlueshieldHardsuit
+
+- type: entity
+  id: LockerBlueshieldFilledHardsuitLecter
+  suffix: Filled, Hardsuit, Лектер
+  parent: LockerBlueshield
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:AllSelector
+        children:
+        - !type:NestedSelector
+          tableId: LockerFillBlueshieldLecter
+        - !type:NestedSelector
+          tableId: FillBlueshieldHardsuit
+
+# Представитель НаноТрейзен.
+
+- type: entityTable
+  id: LockerFillNanotrasenRepresentative
+  table: !type:AllSelector
+    children:
+    - id: CigarGoldCase
+      prob: 0.25
+      # Fuck the HoP they don't deserve fucking cigars.
+      # Yes they do fuck you.
+    - id: FlippoEngravedLighter
+    - id: ClothingHeadsetAltCommand
+    - id: ClothingNeckCloakNanotrasenRepresentive
+    - id: RubberStampNanotrasenRepresentive
+    - id: WeaponDisabler
+
+- type: entity
+  id: LockerNanotrasenRepresentativeFilled
+  suffix: Filled
+  parent: LockerNanotrasenRepresentative
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LockerFillNanotrasenRepresentative
+
+# Магистрат
+
+- type: entityTable
+  id: LockerFillMagistrat
+  table: !type:AllSelector
+    children:
+    - id: BriefcaseBrownFilled
+    - id: ClothingHeadsetAltJuridical
+    - id: ClothingOuterRobesJudge
+    - id: RubberStampMagistrat
+    - id: WeaponDisabler
+
+- type: entity
+  id: LockerMagistratFilled
+  suffix: Filled
+  parent: LockerMagistrat
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LockerFillMagistrat
+
+# Патологоанатом, да он пока что в файле с главами потому что мне лень
+
+- type: entityTable
+  id: LockerFillPatologoanatom
+  table: !type:AllSelector
+    children:
+    - id: ClothingHeadHatPatologonatHat
+    - id: ClothingHandsGlovesLatex
+    - id: ClothingHeadsetPatologoanatom
+    - id: ClothingOuterCoatPatologoanatom
+    - id: RubberStampPatologoanatom
+    - id: RubberStampApproved
+    - id: RubberStampDenied
+    - id: BoxFolderBlack
+    - id: BodyBagFolded
+      amount: 2
+
+- type: entity
+  id: LockerPatologoanatomFilled
+  suffix: Filled
+  parent: LockerPatologoanatom
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LockerFillPatologoanatom
