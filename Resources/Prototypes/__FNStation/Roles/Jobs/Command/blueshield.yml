@@ -50,7 +50,7 @@
 - type: startingGear
   id: BlueshieldGear
   equipment:
-    belt: ClothingBeltSecurity
+    belt: ClothingBeltSecurityFilled
     jumpsuit: ClothingUniformJumpsuitBlueshield
     eyes: ClothingEyesGlassesBlueshield
     outerClothing: ClothingOuterArmorBulletproof

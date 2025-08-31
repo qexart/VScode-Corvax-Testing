@@ -148,6 +148,9 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
         {
             _idCard.TryChangeJobIcon(targetId, jobIcon, player: player);
             _idCard.TryChangeJobDepartment(targetId, job);
+            // _FNStation-Start
+            _idCard.TryChangeJobColor(targetId,_idCard.GetJobColor(_prototype, job), job.RadioIsBold);
+            // _FNStation-End
         }
 
         UpdateStationRecord(uid, targetId, newFullName, newJobTitle, job);

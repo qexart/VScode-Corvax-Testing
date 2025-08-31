@@ -9,6 +9,7 @@
     stampedColor: "#ceac00"
     stampState: "paper_stamp-ntr"
   - type: Sprite
+    sprite: _FNStation/Objects/Misc/stamps.rsi
     state: stamp-ntr
 
 - type: entity
@@ -22,4 +23,19 @@
     stampedColor: "#987654"
     stampState: "paper_stamp-magistrat"
   - type: Sprite
+    sprite: _FNStation/Objects/Misc/stamps.rsi
     state: stamp-magistrat
+
+- type: entity
+  name: печать патологоанатома
+  parent: RubberStampBase
+  id: RubberStampPatologoanatom
+  categories: [ DoNotMap ]
+  components:
+  - type: Stamp
+    stampedName: Патологоанатом
+    stampedColor: "#1d1d1d"
+    stampState: "paper_stamp-patologoanatom"
+  - type: Sprite
+    sprite: _FNStation/Objects/Misc/stamps.rsi
+    state: stamp-patologoanatom

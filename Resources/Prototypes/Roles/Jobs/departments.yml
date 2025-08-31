@@ -73,8 +73,8 @@
   - ERTSecurity
   - ERTEngineer
   - DeathSquad
-  - Blueshield
-  - NanotrasenRepresentive
+  - Blueshield # _FNStation edit
+  - NanotrasenRepresentive # _FNStation edit
   primary: false
   weight: 100
 
@@ -103,6 +103,7 @@
   - Psychologist
   - Paramedic
   - SeniorPhysician # Corvax-MentorRoles
+  - MedicalPathologist # _FNStation edit
 
 - type: department
   id: Security
