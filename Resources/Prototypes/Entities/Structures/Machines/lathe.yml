@@ -306,11 +306,17 @@
     - RoboticsStatic
     - BorgModulesStatic
     - BorgLimbsStatic
+    - ModSuitStatic # Adventure modsuits
     dynamicPacks:
     - Robotics
     - BorgModules
     - MechParts
     - MechEquipment
+    # Adventure modsuits start
+    - ModSuitAdvanced
+    - ModSuitCombat
+    - ModSuitWorker
+    # Adventure modsuits end
   - type: MaterialStorage
     whitelist: *StandardMaterialWhitelist
   - type: OreSiloClient
