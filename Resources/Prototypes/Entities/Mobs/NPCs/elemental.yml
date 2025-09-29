@@ -35,6 +35,7 @@
     bodyType: KinematicController # Same for all inheritors
   - type: StatusEffects
     allowed:
+    - Stutter
     - Electrocution
   - type: Pullable
   - type: Tag

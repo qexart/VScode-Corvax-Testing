@@ -1,13 +1,13 @@
 - type: species
-  id: CorvaxVulpkanin
+  id: Vulpkanin
   name: species-name-vulpkanin
-  roundStart: True
-  sponsorOnly: false # Corvax-Sponsors
-  prototype: MobCorvaxVulpkanin
-  sprites: MobCorvaxVulpkaninSprites
+  roundStart: true
+  sponsorOnly: false
+  prototype: MobVulpkanin
+  sprites: MobVulpkaninSprites
   defaultSkinTone: "#eb943d"
-  markingLimits: MobCorvaxVulpkaninMarkingLimits
-  dollPrototype: MobCorvaxVulpkaninDummy
+  markingLimits: MobVulpkaninMarkingLimits
+  dollPrototype: MobVulpkaninDummy
   skinColoration: Hues
   maleFirstNames: NamesVulpFirstMale
   femaleFirstNames: NamesVulpFirstFemale
@@ -15,28 +15,28 @@
   femaleLastNames: NamesVulpLast # Corvax-LastnameGender
 
 - type: speciesBaseSprites
-  id: MobCorvaxVulpkaninSprites
+  id: MobVulpkaninSprites
   sprites:
-    Head: MobCorvaxVulpkaninHead
+    Head: MobVulpkaninHead
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
-    Chest: MobCorvaxVulpkaninTorso
+    Chest: MobVulpkaninTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
     Tail: MobHumanoidAnyMarking
     Eyes: MobHumanoidEyes
-    LArm: MobCorvaxVulpkaninLArm
-    RArm: MobCorvaxVulpkaninRArm
-    LHand: MobCorvaxVulpkaninLHand
-    RHand: MobCorvaxVulpkaninRHand
-    LLeg: MobCorvaxVulpkaninLLeg
-    RLeg: MobCorvaxVulpkaninRLeg
-    LFoot: MobCorvaxVulpkaninLFoot
-    RFoot: MobCorvaxVulpkaninRFoot
+    LArm: MobVulpkaninLArm
+    RArm: MobVulpkaninRArm
+    LHand: MobVulpkaninLHand
+    RHand: MobVulpkaninRHand
+    LLeg: MobVulpkaninLLeg
+    RLeg: MobVulpkaninRLeg
+    LFoot: MobVulpkaninLFoot
+    RFoot: MobVulpkaninRFoot
 
 - type: markingPoints
-  id: MobCorvaxVulpkaninMarkingLimits
+  id: MobVulpkaninMarkingLimits
   points:
     Hair:
       points: 1
@@ -61,85 +61,85 @@
       required: false
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninHead
+  id: MobVulpkaninHead
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninHeadMale
+  id: MobVulpkaninHeadMale
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninHeadFemale
+  id: MobVulpkaninHeadFemale
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: head_f
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninTorso
+  id: MobVulpkaninTorso
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninTorsoMale
+  id: MobVulpkaninTorsoMale
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninTorsoFemale
+  id: MobVulpkaninTorsoFemale
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: torso_f
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninLLeg
+  id: MobVulpkaninLLeg
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: l_leg
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninLHand
+  id: MobVulpkaninLHand
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: l_hand
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninLArm
+  id: MobVulpkaninLArm
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: l_arm
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninLFoot
+  id: MobVulpkaninLFoot
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: l_foot
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninRLeg
+  id: MobVulpkaninRLeg
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: r_leg
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninRHand
+  id: MobVulpkaninRHand
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: r_hand
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninRArm
+  id: MobVulpkaninRArm
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: r_arm
 
 - type: humanoidBaseSprite
-  id: MobCorvaxVulpkaninRFoot
+  id: MobVulpkaninRFoot
   baseSprite:
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: r_foot

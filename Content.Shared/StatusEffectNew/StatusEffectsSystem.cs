@@ -55,7 +55,11 @@ public sealed partial class StatusEffectsSystem : EntitySystem
             if (effect.AppliedTo is null)
                 continue;
 
-            PredictedQueueDel(ent);
+            var meta = MetaData(ent);
+            if (meta.EntityPrototype is null)
+                continue;
+
+            TryRemoveStatusEffect(effect.AppliedTo.Value, meta.EntityPrototype);
         }
     }
 
@@ -123,7 +127,7 @@ public sealed partial class StatusEffectsSystem : EntitySystem
 
     public bool CanAddStatusEffect(EntityUid uid, EntProtoId effectProto)
     {
-        if (!_proto.Resolve(effectProto, out var effectProtoData))
+        if (!_proto.TryIndex(effectProto, out var effectProtoData))
             return false;
 
         if (!effectProtoData.TryGetComponent<StatusEffectComponent>(out var effectProtoComp, Factory))

@@ -19,21 +19,16 @@ public sealed class LockOnTriggerSystem : EntitySystem
         if (args.Key != null && !ent.Comp.KeysIn.Contains(args.Key))
             return;
 
-        var target = ent.Comp.TargetUser ? args.User : ent.Owner;
-
-        if (!TryComp<LockComponent>(target, out var lockComp))
-            return; // prevent the Resolve in Lock/Unlock/ToggleLock from logging errors in case the user does not have the component
-
-        switch (ent.Comp.LockMode)
+        switch (ent.Comp.LockOnTrigger)
         {
             case LockAction.Lock:
-                _lock.Lock(target.Value, args.User, lockComp);
+                _lock.Lock(ent.Owner, args.User);
                 break;
             case LockAction.Unlock:
-                _lock.Unlock(target.Value, args.User, lockComp);
+                _lock.Unlock(ent, args.User);
                 break;
             case LockAction.Toggle:
-                _lock.ToggleLock(target.Value, args.User, lockComp);
+                _lock.ToggleLock(ent, args.User);
                 break;
         }
     }

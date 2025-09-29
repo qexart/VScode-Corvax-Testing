@@ -1,1349 +1,1214 @@
 - type: marking
-  id: IpcShellguardShellguardMonitorHead2
+  id: ShellguardShellguardMonitorHead2
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_monitor.rsi
       state: head-2
 
 - type: marking
-  id: IpcShellguardShellguardMonitorHead1
+  id: ShellguardShellguardMonitorHead1
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_monitor.rsi
       state: head-1
 
 - type: marking
-  id: IpcShellguardShellguardMainLLeg1
+  id: ShellguardShellguardMainLLeg1
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: l_leg-1
 
 - type: marking
-  id: IpcShellguardShellguardMainRHand2
+  id: ShellguardShellguardMainRHand2
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: r_hand-2
 
 - type: marking
-  id: IpcShellguardShellguardMainLFoot1
+  id: ShellguardShellguardMainLFoot1
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: l_foot-1
 
 - type: marking
-  id: IpcShellguardShellguardMainLHand1
+  id: ShellguardShellguardMainLHand1
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: l_hand-1
 
 - type: marking
-  id: IpcShellguardShellguardMainRArm2
+  id: ShellguardShellguardMainRArm2
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: r_arm-2
 
 - type: marking
-  id: IpcShellguardShellguardMainTorso2
+  id: ShellguardShellguardMainTorso2
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: torso-2
 
 - type: marking
-  id: IpcShellguardShellguardMainTorso1
+  id: ShellguardShellguardMainTorso1
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: torso-1
 
 - type: marking
-  id: IpcShellguardShellguardMainLArm2
+  id: ShellguardShellguardMainLArm2
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: l_arm-2
 
 - type: marking
-  id: IpcShellguardShellguardMainRHand1
+  id: ShellguardShellguardMainRHand1
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: r_hand-1
 
 - type: marking
-  id: IpcShellguardShellguardMainRLeg2
+  id: ShellguardShellguardMainRLeg2
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: r_leg-2
 
 - type: marking
-  id: IpcShellguardShellguardMainRLeg1
+  id: ShellguardShellguardMainRLeg1
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: r_leg-1
 
 - type: marking
-  id: IpcShellguardShellguardMainLArm1
+  id: ShellguardShellguardMainLArm1
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: l_arm-1
 
 - type: marking
-  id: IpcShellguardShellguardMainLHand2
+  id: ShellguardShellguardMainLHand2
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: l_hand-2
 
 - type: marking
-  id: IpcShellguardShellguardMainRArm1
+  id: ShellguardShellguardMainRArm1
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: r_arm-1
 
 - type: marking
-  id: IpcShellguardShellguardMainRFoot2
+  id: ShellguardShellguardMainRFoot2
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: r_foot-2
 
 - type: marking
-  id: IpcShellguardShellguardMainRFoot1
+  id: ShellguardShellguardMainRFoot1
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: r_foot-1
 
 - type: marking
-  id: IpcShellguardShellguardMainLFoot2
+  id: ShellguardShellguardMainLFoot2
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: l_foot-2
 
 - type: marking
-  id: IpcShellguardShellguardMainLLeg2
+  id: ShellguardShellguardMainLLeg2
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_main.rsi
       state: l_leg-2
 
 - type: marking
-  id: IpcShellguardShellguardAlt1Head2
+  id: ShellguardShellguardAlt1Head2
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_alt1.rsi
       state: head-2
 
 - type: marking
-  id: IpcShellguardShellguardAlt1Head1
+  id: ShellguardShellguardAlt1Head1
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/shellguard/shellguard_alt1.rsi
       state: head-1
 
 - type: marking
-  id: IpcZenghuZenghuMainLLeg1
+  id: ZenghuZenghuMainLLeg1
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: l_leg-1
 
 - type: marking
-  id: IpcZenghuZenghuMainRHand2
+  id: ZenghuZenghuMainRHand2
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: r_hand-2
 
 - type: marking
-  id: IpcZenghuZenghuMainLFoot1
+  id: ZenghuZenghuMainLFoot1
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: l_foot-1
 
 - type: marking
-  id: IpcZenghuZenghuMainLHand1
+  id: ZenghuZenghuMainLHand1
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: l_hand-1
 
 - type: marking
-  id: IpcZenghuZenghuMainRArm2
+  id: ZenghuZenghuMainRArm2
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: r_arm-2
 
 - type: marking
-  id: IpcZenghuZenghuMainTorso2
+  id: ZenghuZenghuMainTorso2
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: torso-2
 
 - type: marking
-  id: IpcZenghuZenghuMainTorso1
+  id: ZenghuZenghuMainTorso1
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: torso-1
 
 - type: marking
-  id: IpcZenghuZenghuMainLArm2
+  id: ZenghuZenghuMainLArm2
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: l_arm-2
 
 - type: marking
-  id: IpcZenghuZenghuMainRHand1
+  id: ZenghuZenghuMainRHand1
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: r_hand-1
 
 - type: marking
-  id: IpcZenghuZenghuMainRLeg2
+  id: ZenghuZenghuMainRLeg2
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: r_leg-2
 
 - type: marking
-  id: IpcZenghuZenghuMainGroin
+  id: ZenghuZenghuMainGroin
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: groin
 
 - type: marking
-  id: IpcZenghuZenghuMainRLeg1
+  id: ZenghuZenghuMainRLeg1
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: r_leg-1
 
 - type: marking
-  id: IpcZenghuZenghuMainHead2
+  id: ZenghuZenghuMainHead2
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: head-2
 
 - type: marking
-  id: IpcZenghuZenghuMainLArm1
+  id: ZenghuZenghuMainLArm1
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: l_arm-1
 
 - type: marking
-  id: IpcZenghuZenghuMainLHand2
+  id: ZenghuZenghuMainLHand2
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: l_hand-2
 
 - type: marking
-  id: IpcZenghuZenghuMainRArm1
+  id: ZenghuZenghuMainRArm1
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: r_arm-1
 
 - type: marking
-  id: IpcZenghuZenghuMainRFoot2
+  id: ZenghuZenghuMainRFoot2
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: r_foot-2
 
 - type: marking
-  id: IpcZenghuZenghuMainRFoot1
+  id: ZenghuZenghuMainRFoot1
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: r_foot-1
 
 - type: marking
-  id: IpcZenghuZenghuMainLFoot2
+  id: ZenghuZenghuMainLFoot2
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: l_foot-2
 
 - type: marking
-  id: IpcZenghuZenghuMainHead1
+  id: ZenghuZenghuMainHead1
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: head-1
 
 - type: marking
-  id: IpcZenghuZenghuMainLLeg2
+  id: ZenghuZenghuMainLLeg2
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/zenghu/zenghu_main.rsi
       state: l_leg-2
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainLLeg1
+  id: HesphiastosHesphiastosMainLLeg1
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: l_leg-1
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainRHand2
+  id: HesphiastosHesphiastosMainRHand2
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: r_hand-2
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainLFoot1
+  id: HesphiastosHesphiastosMainLFoot1
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: l_foot-1
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainLHand1
+  id: HesphiastosHesphiastosMainLHand1
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: l_hand-1
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainRArm2
+  id: HesphiastosHesphiastosMainRArm2
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: r_arm-2
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainTorso2
+  id: HesphiastosHesphiastosMainTorso2
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: torso-2
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainTorso1
+  id: HesphiastosHesphiastosMainTorso1
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: torso-1
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainLArm2
+  id: HesphiastosHesphiastosMainLArm2
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: l_arm-2
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainRHand1
+  id: HesphiastosHesphiastosMainRHand1
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: r_hand-1
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainRLeg2
+  id: HesphiastosHesphiastosMainRLeg2
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: r_leg-2
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainRLeg1
+  id: HesphiastosHesphiastosMainRLeg1
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: r_leg-1
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainLArm1
+  id: HesphiastosHesphiastosMainLArm1
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: l_arm-1
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainLHand2
+  id: HesphiastosHesphiastosMainLHand2
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: l_hand-2
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainRArm1
+  id: HesphiastosHesphiastosMainRArm1
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: r_arm-1
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainRFoot2
+  id: HesphiastosHesphiastosMainRFoot2
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: r_foot-2
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainRFoot1
+  id: HesphiastosHesphiastosMainRFoot1
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: r_foot-1
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainLFoot2
+  id: HesphiastosHesphiastosMainLFoot2
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: l_foot-2
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMainLLeg2
+  id: HesphiastosHesphiastosMainLLeg2
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_main.rsi
       state: l_leg-2
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMonitorHead2
+  id: HesphiastosHesphiastosMonitorHead2
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_monitor.rsi
       state: head-2
 
 - type: marking
-  id: IpcHesphiastosHesphiastosMonitorHead1
+  id: HesphiastosHesphiastosMonitorHead1
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_monitor.rsi
       state: head-1
 
 - type: marking
-  id: IpcHesphiastosHesphiastosAlt1Head2
+  id: HesphiastosHesphiastosAlt1Head2
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_alt1.rsi
       state: head-2
 
 - type: marking
-  id: IpcHesphiastosHesphiastosAlt1Head3
+  id: HesphiastosHesphiastosAlt1Head3
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_alt1.rsi
       state: head-3
 
 - type: marking
-  id: IpcHesphiastosHesphiastosAlt1Head1
+  id: HesphiastosHesphiastosAlt1Head1
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/hesphiastos/hesphiastos_alt1.rsi
       state: head-1
 
 - type: marking
-  id: IpcBishopBishopMonitorHead2
+  id: BishopBishopMonitorHead2
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_monitor.rsi
       state: head-2
 
 - type: marking
-  id: IpcBishopBishopMonitorHead
+  id: BishopBishopMonitorHead
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_monitor.rsi
       state: head
 
 - type: marking
-  id: IpcBishopBishopAlt1Head
+  id: BishopBishopAlt1Head
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_alt1.rsi
       state: head
 
 - type: marking
-  id: IpcBishopBishopMainLArmCombined
+  id: BishopBishopMainLArmCombined
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: l_arm-combined
 
 - type: marking
-  id: IpcBishopBishopMainTorsoPrimary
+  id: BishopBishopMainTorsoPrimary
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: torso-primary
 
 - type: marking
-  id: IpcBishopBishopMainLLegSecondary
+  id: BishopBishopMainLLegSecondary
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: l_leg-secondary
 
 - type: marking
-  id: IpcBishopBishopMainRArmPrimary
+  id: BishopBishopMainRArmPrimary
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: r_arm-primary
 
 - type: marking
-  id: IpcBishopBishopMainLArmTertiary
+  id: BishopBishopMainLArmTertiary
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: l_arm-tertiary
 
 - type: marking
-  id: IpcBishopBishopMainRHand
+  id: BishopBishopMainRHand
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: r_hand
 
 - type: marking
-  id: IpcBishopBishopMainLArmPrimary
+  id: BishopBishopMainLArmPrimary
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: l_arm-primary
 
 - type: marking
-  id: IpcBishopBishopMainRLegPrimary
+  id: BishopBishopMainRLegPrimary
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: r_leg-primary
 
 - type: marking
-  id: IpcBishopBishopMainTorsoSecondary
+  id: BishopBishopMainTorsoSecondary
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: torso-secondary
 
 - type: marking
-  id: IpcBishopBishopMainRLegCombined
+  id: BishopBishopMainRLegCombined
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: r_leg-combined
 
 - type: marking
-  id: IpcBishopBishopMainRArmSecondary
+  id: BishopBishopMainRArmSecondary
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: r_arm-secondary
 
 - type: marking
-  id: IpcBishopBishopMainHead
+  id: BishopBishopMainHead
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: head
 
 - type: marking
-  id: IpcBishopBishopMainLFoot
+  id: BishopBishopMainLFoot
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: l_foot
 
 - type: marking
-  id: IpcBishopBishopMainLArmSecondary
+  id: BishopBishopMainLArmSecondary
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: l_arm-secondary
 
 - type: marking
-  id: IpcBishopBishopMainLLegPrimary
+  id: BishopBishopMainLLegPrimary
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: l_leg-primary
 
 - type: marking
-  id: IpcBishopBishopMainRArmTertiary
+  id: BishopBishopMainRArmTertiary
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: r_arm-tertiary
 
 - type: marking
-  id: IpcBishopBishopMainLHand
+  id: BishopBishopMainLHand
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: l_hand
 
 - type: marking
-  id: IpcBishopBishopMainLLegCombined
+  id: BishopBishopMainLLegCombined
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: l_leg-combined
 
 - type: marking
-  id: IpcBishopBishopMainRFoot
+  id: BishopBishopMainRFoot
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: r_foot
 
 - type: marking
-  id: IpcBishopBishopMainRLegSecondary
+  id: BishopBishopMainRLegSecondary
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: r_leg-secondary
 
 - type: marking
-  id: IpcBishopBishopMainRArmCombined
+  id: BishopBishopMainRArmCombined
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/bishop/bishop_main.rsi
       state: r_arm-combined
 
 - type: marking
-  id: IpcMorpheusMorpheusAlt1Head
+  id: MorpheusMorpheusAlt1Head
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/morpheus/morpheus_alt1.rsi
       state: head
 
 - type: marking
-  id: IpcMorpheusMorpheusMainRHand
+  id: MorpheusMorpheusMainRHand
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/morpheus/morpheus_main.rsi
       state: r_hand
 
 - type: marking
-  id: IpcMorpheusMorpheusMainLArm
+  id: MorpheusMorpheusMainLArm
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/morpheus/morpheus_main.rsi
       state: l_arm
 
 - type: marking
-  id: IpcMorpheusMorpheusMainTorso
+  id: MorpheusMorpheusMainTorso
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/morpheus/morpheus_main.rsi
       state: torso
 
 - type: marking
-  id: IpcMorpheusMorpheusMainHead
+  id: MorpheusMorpheusMainHead
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/morpheus/morpheus_main.rsi
       state: head
 
 - type: marking
-  id: IpcMorpheusMorpheusMainRLeg
+  id: MorpheusMorpheusMainRLeg
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/morpheus/morpheus_main.rsi
       state: r_leg
 
 - type: marking
-  id: IpcMorpheusMorpheusMainLFoot
+  id: MorpheusMorpheusMainLFoot
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/morpheus/morpheus_main.rsi
       state: l_foot
 
 - type: marking
-  id: IpcMorpheusMorpheusMainLHand
+  id: MorpheusMorpheusMainLHand
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/morpheus/morpheus_main.rsi
       state: l_hand
 
 - type: marking
-  id: IpcMorpheusMorpheusMainRArm
+  id: MorpheusMorpheusMainRArm
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/morpheus/morpheus_main.rsi
       state: r_arm
 
 - type: marking
-  id: IpcMorpheusMorpheusMainRFoot
+  id: MorpheusMorpheusMainRFoot
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/morpheus/morpheus_main.rsi
       state: r_foot
 
 - type: marking
-  id: IpcMorpheusMorpheusMainLLeg
+  id: MorpheusMorpheusMainLLeg
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/morpheus/morpheus_main.rsi
       state: l_leg
 
 - type: marking
-  id: IpcWardtakahashiWardtakahashiMainRHand
+  id: WardtakahashiWardtakahashiMainRHand
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/wardtakahashi/wardtakahashi_main.rsi
       state: r_hand
 
 - type: marking
-  id: IpcWardtakahashiWardtakahashiMainLArm
+  id: WardtakahashiWardtakahashiMainLArm
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/wardtakahashi/wardtakahashi_main.rsi
       state: l_arm
 
 - type: marking
-  id: IpcWardtakahashiWardtakahashiMainTorso
+  id: WardtakahashiWardtakahashiMainTorso
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/wardtakahashi/wardtakahashi_main.rsi
       state: torso
 
 - type: marking
-  id: IpcWardtakahashiWardtakahashiMainHead
+  id: WardtakahashiWardtakahashiMainHead
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/wardtakahashi/wardtakahashi_main.rsi
       state: head
 
 - type: marking
-  id: IpcWardtakahashiWardtakahashiMainRLeg
+  id: WardtakahashiWardtakahashiMainRLeg
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/wardtakahashi/wardtakahashi_main.rsi
       state: r_leg
 
 - type: marking
-  id: IpcWardtakahashiWardtakahashiMainLFoot
+  id: WardtakahashiWardtakahashiMainLFoot
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/wardtakahashi/wardtakahashi_main.rsi
       state: l_foot
 
 - type: marking
-  id: IpcWardtakahashiWardtakahashiMainLHand
+  id: WardtakahashiWardtakahashiMainLHand
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/wardtakahashi/wardtakahashi_main.rsi
       state: l_hand
 
 - type: marking
-  id: IpcWardtakahashiWardtakahashiMainRArm
+  id: WardtakahashiWardtakahashiMainRArm
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/wardtakahashi/wardtakahashi_main.rsi
       state: r_arm
 
 - type: marking
-  id: IpcWardtakahashiWardtakahashiMainRFoot
+  id: WardtakahashiWardtakahashiMainRFoot
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/wardtakahashi/wardtakahashi_main.rsi
       state: r_foot
 
 - type: marking
-  id: IpcWardtakahashiWardtakahashiMainLLeg
+  id: WardtakahashiWardtakahashiMainLLeg
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/wardtakahashi/wardtakahashi_main.rsi
       state: l_leg
 
 - type: marking
-  id: IpcWardtakahashiWardtakahashiMonitorHead
+  id: WardtakahashiWardtakahashiMonitorHead
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/wardtakahashi/wardtakahashi_monitor.rsi
       state: head
 
 - type: marking
-  id: IpcWardtakahashiWardtakahashiAlt1Head
+  id: WardtakahashiWardtakahashiAlt1Head
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/wardtakahashi/wardtakahashi_alt1.rsi
       state: head
 
 - type: marking
-  id: IpcXionXionMonitorHead2
+  id: XionXionMonitorHead2
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_monitor.rsi
       state: head-2
 
 - type: marking
-  id: IpcXionXionMonitorHead1
+  id: XionXionMonitorHead1
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_monitor.rsi
       state: head-1
 
 - type: marking
-  id: IpcXionXionMainLLeg1
+  id: XionXionMainLLeg1
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: l_leg-1
 
 - type: marking
-  id: IpcXionXionMainRHand2
+  id: XionXionMainRHand2
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: r_hand-2
 
 - type: marking
-  id: IpcXionXionMainLFoot1
+  id: XionXionMainLFoot1
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: l_foot-1
 
 - type: marking
-  id: IpcXionXionMainLHand1
+  id: XionXionMainLHand1
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: l_hand-1
 
 - type: marking
-  id: IpcXionXionMainRArm2
+  id: XionXionMainRArm2
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: r_arm-2
 
 - type: marking
-  id: IpcXionXionMainTorso2
+  id: XionXionMainTorso2
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: torso-2
 
 - type: marking
-  id: IpcXionXionMainTorso1
+  id: XionXionMainTorso1
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: torso-1
 
 - type: marking
-  id: IpcXionXionMainLArm2
+  id: XionXionMainLArm2
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: l_arm-2
 
 - type: marking
-  id: IpcXionXionMainRHand1
+  id: XionXionMainRHand1
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: r_hand-1
 
 - type: marking
-  id: IpcXionXionMainRLeg2
+  id: XionXionMainRLeg2
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: r_leg-2
 
 - type: marking
-  id: IpcXionXionMainRLeg1
+  id: XionXionMainRLeg1
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: r_leg-1
 
 - type: marking
-  id: IpcXionXionMainLArm1
+  id: XionXionMainLArm1
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: l_arm-1
 
 - type: marking
-  id: IpcXionXionMainLHand2
+  id: XionXionMainLHand2
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: l_hand-2
 
 - type: marking
-  id: IpcXionXionMainRArm1
+  id: XionXionMainRArm1
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: r_arm-1
 
 - type: marking
-  id: IpcXionXionMainRFoot2
+  id: XionXionMainRFoot2
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: r_foot-2
 
 - type: marking
-  id: IpcXionXionMainRFoot1
+  id: XionXionMainRFoot1
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: r_foot-1
 
 - type: marking
-  id: IpcXionXionMainLFoot2
+  id: XionXionMainLFoot2
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: l_foot-2
 
 - type: marking
-  id: IpcXionXionMainLLeg2
+  id: XionXionMainLLeg2
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_main.rsi
       state: l_leg-2
 
 - type: marking
-  id: IpcXionXionAlt1Head2
+  id: XionXionAlt1Head2
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_alt1.rsi
       state: head-2
 
 - type: marking
-  id: IpcXionXionAlt1Head1
+  id: XionXionAlt1Head1
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/xion/xion_alt1.rsi
       state: head-1

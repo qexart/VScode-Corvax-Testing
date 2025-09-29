@@ -25,7 +25,6 @@ using Content.Shared.Overlays;
 using Content.Shared.Projectiles;
 using Content.Shared.Radio;
 using Content.Shared.Slippery;
-using Content.Shared.Standing;
 using Content.Shared.Strip.Components;
 using Content.Shared.Temperature;
 using Content.Shared.Verbs;
@@ -59,8 +58,6 @@ public partial class InventorySystem
         SubscribeLocalEvent<InventoryComponent, IsUnequippingTargetAttemptEvent>(RelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, ChameleonControllerOutfitSelectedEvent>(RelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, BeforeEmoteEvent>(RelayInventoryEvent);
-        SubscribeLocalEvent<InventoryComponent, StoodEvent>(RelayInventoryEvent);
-        SubscribeLocalEvent<InventoryComponent, DownedEvent>(RelayInventoryEvent);
 
         // Corvax-TTS
         SubscribeLocalEvent<InventoryComponent, TransformSpeakerVoiceEvent>(RelayInventoryEvent);
@@ -121,7 +118,7 @@ public partial class InventorySystem
             return;
 
         // this copies the by-ref event if it is a struct
-        var ev = new InventoryRelayedEvent<T>(args, inventory.Owner);
+        var ev = new InventoryRelayedEvent<T>(args);
         var enumerator = new InventorySlotEnumerator(inventory, args.TargetSlots);
         while (enumerator.NextItem(out var item))
         {
@@ -137,7 +134,7 @@ public partial class InventorySystem
         if (args.TargetSlots == SlotFlags.NONE)
             return;
 
-        var ev = new InventoryRelayedEvent<T>(args, inventory.Owner);
+        var ev = new InventoryRelayedEvent<T>(args);
         var enumerator = new InventorySlotEnumerator(inventory, args.TargetSlots);
         while (enumerator.NextItem(out var item))
         {
@@ -148,7 +145,7 @@ public partial class InventorySystem
     private void OnGetEquipmentVerbs(EntityUid uid, InventoryComponent component, GetVerbsEvent<EquipmentVerb> args)
     {
         // Automatically relay stripping related verbs to all equipped clothing.
-        var ev = new InventoryRelayedEvent<GetVerbsEvent<EquipmentVerb>>(args, uid);
+        var ev = new InventoryRelayedEvent<GetVerbsEvent<EquipmentVerb>>(args);
         var enumerator = new InventorySlotEnumerator(component);
         while (enumerator.NextItem(out var item, out var slotDef))
         {
@@ -160,7 +157,7 @@ public partial class InventorySystem
     private void OnGetInnateVerbs(EntityUid uid, InventoryComponent component, GetVerbsEvent<InnateVerb> args)
     {
         // Automatically relay stripping related verbs to all equipped clothing.
-        var ev = new InventoryRelayedEvent<GetVerbsEvent<InnateVerb>>(args, uid);
+        var ev = new InventoryRelayedEvent<GetVerbsEvent<InnateVerb>>(args);
         var enumerator = new InventorySlotEnumerator(component, SlotFlags.WITHOUT_POCKET);
         while (enumerator.NextItem(out var item))
         {
@@ -183,12 +180,9 @@ public sealed class InventoryRelayedEvent<TEvent> : EntityEventArgs
 {
     public TEvent Args;
 
-    public EntityUid Owner;
-
-    public InventoryRelayedEvent(TEvent args, EntityUid owner)
+    public InventoryRelayedEvent(TEvent args)
     {
         Args = args;
-        Owner = owner;
     }
 }
 

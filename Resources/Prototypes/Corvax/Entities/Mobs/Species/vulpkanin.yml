@@ -2,11 +2,11 @@
   save: false
   name: Urist McVulp
   parent: BaseMobSpeciesOrganic
-  id: BaseMobCorvaxVulpkanin
+  id: BaseMobVulpkanin
   abstract: true
   components:
   - type: HumanoidAppearance
-    species: CorvaxVulpkanin
+    species: Vulpkanin
   - type: Hunger # on 1.5x more
     thresholds:
       Overfed: 250
@@ -27,7 +27,7 @@
     sprite: Corvax/Mobs/Species/Vulpkanin/parts.rsi
     state: full
   - type: Body
-    prototype: CorvaxVulpkanin
+    prototype: Vulpkanin
     requiredLegs: 2
   - type: Inventory
     speciesId: reptilian # whyyy
@@ -60,9 +60,9 @@
     allowedEmotes: ['Howl', 'Growl']
   - type: Vocal
     sounds:
-      Male: MaleCorvaxVulpkanin
-      Female: FemaleCorvaxVulpkanin
-      Unsexed: MaleCorvaxVulpkanin
+      Male: MaleVulpkanin
+      Female: FemaleVulpkanin
+      Unsexed: MaleVulpkanin
   - type: GrowlingAccent
   - type: MeleeWeapon
     animation: WeaponArcClaw
@@ -73,7 +73,7 @@
         Slash: 5
   - type: Damageable
     damageContainer: Biological
-    damageModifierSet: CorvaxVulpkanin
+    damageModifierSet: Vulpkanin
   - type: Respirator
     damage:
       types:
@@ -100,12 +100,12 @@
   save: false
   name: Urist McHands
   parent: MobHumanDummy
-  id: MobCorvaxVulpkaninDummy
+  id: MobVulpkaninDummy
   categories: [ HideSpawnMenu ]
   description: A dummy vulpkanin meant to be used in character setup.
   components:
   - type: HumanoidAppearance
-    species: CorvaxVulpkanin
+    species: Vulpkanin
   - type: Inventory
     speciesId: reptilian
     femaleDisplacements:

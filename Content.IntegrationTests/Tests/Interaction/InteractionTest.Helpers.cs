@@ -264,10 +264,9 @@ public abstract partial class InteractionTest
     /// <param name="id">The entity or stack prototype to spawn and place into the users hand</param>
     /// <param name="quantity">The number of entities to spawn. If the prototype is a stack, this sets the stack count.</param>
     /// <param name="awaitDoAfters">Whether or not to wait for any do-afters to complete</param>
-    /// <param name="altInteract">If true, perform an alternate interaction instead of a standard one.
-    protected async Task InteractUsing(string id, int quantity = 1, bool awaitDoAfters = true, bool altInteract = false)
+    protected async Task InteractUsing(string id, int quantity = 1, bool awaitDoAfters = true)
     {
-        await InteractUsing((id, quantity), awaitDoAfters, altInteract);
+        await InteractUsing((id, quantity), awaitDoAfters);
     }
 
     /// <summary>
@@ -275,8 +274,7 @@ public abstract partial class InteractionTest
     /// </summary>
     /// <param name="entity">The entity type & quantity to spawn and place into the users hand</param>
     /// <param name="awaitDoAfters">Whether or not to wait for any do-afters to complete</param>
-    /// <param name="altInteract">If true, perform an alternate interaction instead of a standard one.
-    protected async Task InteractUsing(EntitySpecifier entity, bool awaitDoAfters = true, bool altInteract = false)
+    protected async Task InteractUsing(EntitySpecifier entity, bool awaitDoAfters = true)
     {
         // For every interaction, we will also examine the entity, just in case this breaks something, somehow.
         // (e.g., servers attempt to assemble construction examine hints).
@@ -286,19 +284,18 @@ public abstract partial class InteractionTest
         }
 
         await PlaceInHands(entity);
-        await Interact(awaitDoAfters, altInteract);
+        await Interact(awaitDoAfters);
     }
 
     /// <summary>
     /// Interact with an entity using the currently held entity.
     /// </summary>
     /// <param name="awaitDoAfters">Whether or not to wait for any do-afters to complete</param>
-    /// <param name="altInteract">If true, performs an alternate interaction instead of a standard one.
-    protected async Task Interact(bool awaitDoAfters = true, bool altInteract = false)
+    protected async Task Interact(bool awaitDoAfters = true)
     {
         if (Target == null || !Target.Value.IsClientSide())
         {
-            await Interact(Target, TargetCoords, awaitDoAfters, altInteract);
+            await Interact(Target, TargetCoords, awaitDoAfters);
             return;
         }
 
@@ -314,23 +311,23 @@ public abstract partial class InteractionTest
         await CheckTargetChange();
     }
 
-    /// <inheritdoc cref="Interact(EntityUid?,EntityCoordinates,bool,bool)"/>
-    protected async Task Interact(NetEntity? target, NetCoordinates coordinates, bool awaitDoAfters = true, bool altInteract = false)
+    /// <inheritdoc cref="Interact(EntityUid?,EntityCoordinates,bool)"/>
+    protected async Task Interact(NetEntity? target, NetCoordinates coordinates, bool awaitDoAfters = true)
     {
         Assert.That(SEntMan.TryGetEntity(target, out var sTarget) || target == null);
         var coords = SEntMan.GetCoordinates(coordinates);
         Assert.That(coords.IsValid(SEntMan));
-        await Interact(sTarget, coords, awaitDoAfters, altInteract);
+        await Interact(sTarget, coords, awaitDoAfters);
     }
 
     /// <summary>
     /// Interact with an entity using the currently held entity.
     /// </summary>
-    protected async Task Interact(EntityUid? target, EntityCoordinates coordinates, bool awaitDoAfters = true, bool altInteract = false)
+    protected async Task Interact(EntityUid? target, EntityCoordinates coordinates, bool awaitDoAfters = true)
     {
         Assert.That(SEntMan.TryGetEntity(Player, out var player));
 
-        await Server.WaitPost(() => InteractSys.UserInteraction(player!.Value, coordinates, target, altInteract: altInteract));
+        await Server.WaitPost(() => InteractSys.UserInteraction(player!.Value, coordinates, target));
         await RunTicks(1);
 
         if (awaitDoAfters)

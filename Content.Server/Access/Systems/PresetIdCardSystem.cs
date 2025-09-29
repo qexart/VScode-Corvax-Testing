@@ -84,7 +84,7 @@ public sealed class PresetIdCardSystem : EntitySystem
         _cardSystem.TryChangeJobDepartment(uid, job);
         _cardSystem.TryChangeJobColor(uid, _cardSystem.GetJobColor(_prototypeManager, job), job.RadioIsBold); // _FNStation-End
 
-        if (_prototypeManager.Resolve(job.Icon, out var jobIcon))
+        if (_prototypeManager.TryIndex(job.Icon, out var jobIcon))
             _cardSystem.TryChangeJobIcon(uid, jobIcon);
     }
 }

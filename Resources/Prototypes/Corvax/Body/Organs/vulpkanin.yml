@@ -1,5 +1,5 @@
 ﻿- type: entity
-  id: OrganCorvaxVulpkaninStomach
+  id: OrganVulpkaninStomach
   parent: OrganAnimalStomach
   categories: [ HideSpawnMenu ]
   components:

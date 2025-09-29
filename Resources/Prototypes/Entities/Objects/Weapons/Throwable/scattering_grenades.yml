@@ -87,7 +87,6 @@
     - timer
     sound:
       path: "/Audio/Machines/door_lock_off.ogg"
-    positional: true
 
 - type: entity
   parent: [ScatteringGrenadeBase, BaseSyndicateContraband]
@@ -115,7 +114,6 @@
     - timer
     sound:
       path: "/Audio/Machines/door_lock_off.ogg"
-    positional: true
   - type: StaticPrice
     price: 2500
 
@@ -142,7 +140,6 @@
     - timer
     sound:
       path: "/Audio/Items/bikehorn.ogg"
-    positional: true
 
 - type: entity
   parent: [SoapSyndie, ScatteringGrenadeBase, BaseSyndicateContraband]
@@ -170,7 +167,6 @@
     - timer
     sound:
       path: "/Audio/Effects/flash_bang.ogg"
-    positional: true
   - type: StaticPrice
     price: 1000
 
@@ -203,4 +199,3 @@
     - timer
     sound:
       path: "/Audio/Weapons/Guns/Gunshots/batrifle.ogg"
-    positional: true

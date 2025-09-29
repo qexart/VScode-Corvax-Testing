@@ -1,309 +1,278 @@
 - type: marking
-  id: IpcBreakoutS
+  id: BreakoutS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: breakout_s
 
 - type: marking
-  id: IpcNatureS
+  id: NatureS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: nature_s
 
 - type: marking
-  id: IpcEightS
+  id: EightS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: eight_s
 
 - type: marking
-  id: IpcOrangeHespAltS
+  id: OrangeHespAltS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: orange_hesp_alt_s
 
 - type: marking
-  id: IpcPinkHespAltS
+  id: PinkHespAltS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: pink_hesp_alt_s
 
 - type: marking
-  id: IpcSmokingS
+  id: SmokingS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: smoking_s
 
 - type: marking
-  id: IpcRainbowS
+  id: RainbowS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: rainbow_s
 
 - type: marking
-  id: IpcHeartS
+  id: HeartS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: heart_s
 
 - type: marking
-  id: IpcScrollS
+  id: ScrollS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: scroll_s
 
 - type: marking
-  id: IpcScrollHespAltS
+  id: ScrollHespAltS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: scroll_hesp_alt_s
 
 - type: marking
-  id: IpcStaticS
+  id: StaticS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: static_s
 
 - type: marking
-  id: IpcGreenS
+  id: GreenS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: green_s
 
 - type: marking
-  id: IpcYellowS
+  id: YellowS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: yellow_s
 
 - type: marking
-  id: IpcGolGliderS
+  id: GolGliderS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: gol_glider_s
 
 - type: marking
-  id: IpcRgbHespAltS
+  id: RgbHespAltS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: rgb_hesp_alt_s
 
 - type: marking
-  id: IpcGogglesHespAltS
+  id: GogglesHespAltS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: goggles_hesp_alt_s
 
 - type: marking
-  id: IpcOffHespAltS
+  id: OffHespAltS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: off_hesp_alt_s
 
 - type: marking
-  id: IpcPinkS
+  id: PinkS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: pink_s
 
 - type: marking
-  id: IpcRedS
+  id: RedS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: red_s
 
 - type: marking
-  id: IpcShowerS
+  id: ShowerS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: shower_s
 
 - type: marking
-  id: IpcRainbowHespAltS
+  id: RainbowHespAltS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: rainbow_hesp_alt_s
 
 - type: marking
-  id: IpcGogglesS
+  id: GogglesS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: goggles_s
 
 - type: marking
-  id: IpcMonoeyeS
+  id: MonoeyeS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: monoeye_s
 
 - type: marking
-  id: IpcBlueS
+  id: BlueS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: blue_s
 
 - type: marking
-  id: IpcTestS
+  id: TestS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: test_s
 
 - type: marking
-  id: IpcRgbS
+  id: RgbS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: rgb_s
 
 - type: marking
-  id: IpcMusicS
+  id: MusicS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: music_s
 
 - type: marking
-  id: IpcConsoleS
+  id: ConsoleS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: console_s
 
 - type: marking
-  id: IpcPurpleS
+  id: PurpleS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: purple_s
 
 - type: marking
-  id: IpcOrangeS
+  id: OrangeS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: orange_s
 
 - type: marking
-  id: IpcWaitingS
+  id: WaitingS
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Ipc]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Ipc/ips_face.rsi
       state: waiting_s

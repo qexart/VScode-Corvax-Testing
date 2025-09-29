@@ -5,21 +5,19 @@
     state: eyes
 
 - type: marking
-  id: TajaranPatch
+  id: Patch
   markingCategory: Overlay
   bodyPart: Chest
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
       state: patch
 
 - type: marking
-  id: TajaranSkeletonBody
+  id: SkeletonBody
   markingCategory: Overlay
   bodyPart: Chest
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
       state: skeleton_body
@@ -29,27 +27,24 @@
 #   markingCategory: Overlay
 #   bodyPart: Chest
 #   speciesRestriction: [Tajaran]
-#   sponsorOnly: true # Corvax-Sponsors
 #   sprites:
 #     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
 #       state: points
 
 - type: marking
-  id: TajaranBlotsBody
+  id: BlotsBody
   markingCategory: Overlay
   bodyPart: Chest
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
       state: blots_body
 
 - type: marking
-  id: TajaranStripesBody
+  id: StripesBody
   markingCategory: Overlay
   bodyPart: Chest
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
       state: stripes_body
@@ -59,7 +54,6 @@
 #   markingCategory: Legs
 #   bodyPart: RFoot
 #   speciesRestriction: [Tajaran]
-#   sponsorOnly: true # Corvax-Sponsors
 #   sprites:
 #     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
 #       state: gradient_RLeg
@@ -69,67 +63,60 @@
 #   markingCategory: Legs
 #   bodyPart: LFoot
 #   speciesRestriction: [Tajaran]
-#   sponsorOnly: true # Corvax-Sponsors
 #   sprites:
 #     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
 #       state: gradient_LLeg
 
 - type: marking
-  id: TajaranGradientLhand
+  id: GradientLhand
   markingCategory: Arms
   bodyPart: LHand
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
       state: gradient_LHand
 
 - type: marking
-  id: TajaranGradientLarm
+  id: GradientLarm
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
       state: gradient_LArm
 
 - type: marking
-  id: TajaranGradientRhand
+  id: GradientRhand
   markingCategory: Arms
   bodyPart: RHand
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
       state: gradient_RHand
 
 - type: marking
-  id: TajaranGradientRarm
+  id: GradientRarm
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
       state: gradient_RArm
 
 - type: marking
-  id: TajaranSpikey
+  id: Spikey
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: spikey
 
 - type: marking
-  id: TajaranTajaranHairLadiesretro
+  id: TajaranHairLadiesretro
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: ladiesretro
@@ -139,7 +126,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: braid
@@ -149,7 +135,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: eyebrows
@@ -159,7 +144,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: pigtail
@@ -169,7 +153,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: curly
@@ -179,7 +162,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: bob
@@ -189,7 +171,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: fingerwave
@@ -199,7 +180,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: plait
@@ -209,7 +189,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: ponytail
@@ -219,7 +198,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: clean
@@ -229,7 +207,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: rattail
@@ -239,7 +216,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: bedhead
@@ -249,7 +225,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: victory
@@ -259,7 +234,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: shaggy
@@ -269,7 +243,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: mohawk
@@ -279,7 +252,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: bangs
@@ -289,7 +261,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: messy
@@ -299,7 +270,6 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: straight
@@ -309,234 +279,211 @@
   markingCategory: Hair
   bodyPart: Hair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: long
 
 - type: marking
-  id: TajaranMustache2
+  id: Mustache2
   markingCategory: FacialHair
   bodyPart: FacialHair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
       state: mustache_2
 
 - type: marking
-  id: TajaranBeard
+  id: Beard
   markingCategory: FacialHair
   bodyPart: FacialHair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
       state: beard
 
 - type: marking
-  id: TajaranMustache3
+  id: Mustache3
   markingCategory: FacialHair
   bodyPart: FacialHair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
       state: mustache_3
 
 - type: marking
-  id: TajaranCheeks
+  id: Cheeks
   markingCategory: FacialHair
   bodyPart: FacialHair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
       state: cheeks
 
 - type: marking
-  id: TajaranMustache
+  id: Mustache
   markingCategory: FacialHair
   bodyPart: FacialHair
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
       state: mustache
 
 - type: marking
-  id: TajaranPatch2
+  id: Patch2
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: patch_2
 
 - type: marking
-  id: TajaranEyeStripesHead
+  id: EyeStripesHead
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: eye_stripes_head
 
 - type: marking
-  id: TajaranOutears
+  id: Outears
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: outears
 
 - type: marking
-  id: TajaranTigerHead
+  id: TigerHead
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: tiger_head
 
 - type: marking
-  id: TajaranMuzzle
+  id: Muzzle
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: muzzle
 
 - type: marking
-  id: TajaranTigerFace
+  id: TigerFace
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: tiger_face
 
 - type: marking
-  id: TajaranStarHead
+  id: StarHead
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: star_head
 
 - type: marking
-  id: TajaranInears
+  id: Inears
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: inears
 
 - type: marking
-  id: TajaranNose
+  id: Nose
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: nose
 
 - type: marking
-  id: TajaranRaccoon-head
+  id: Raccoon-head
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: raccoon-head
 
 - type: marking
-  id: TajaranManeHead
+  id: ManeHead
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: mane_head
 
 - type: marking
-  id: TajaranMuzzleinears
+  id: Muzzleinears
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: muzzleinears
 
 - type: marking
-  id: TajaranTailFluffy
+  id: TailFluffy
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy
 
 
 - type: marking
-  id: TajaranBelly2
+  id: Belly2
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_chest.rsi
       state: belly2
 
 - type: marking
-  id: TajaranChest
+  id: Chest
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_chest.rsi
       state: chest
 
 - type: marking
-  id: TajaranBelly1
+  id: Belly1
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_chest.rsi
       state: belly1
 
 - type: marking
-  id: TajaranBelly3
+  id: Belly3
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_chest.rsi
       state: belly3
 
 - type: marking
-  id: TajaranTailM
+  id: TailM
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: []
@@ -545,11 +492,10 @@
       state: tail_m
 
 - type: marking
-  id: TajaranTailRing
+  id: TailRing
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_m
@@ -557,11 +503,10 @@
       state: tail_ring
 
 - type: marking
-  id: TajaranTailSkeleton
+  id: TailSkeleton
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_m
@@ -569,11 +514,10 @@
       state: tail_skeleton
 
 - type: marking
-  id: TajaranTailTip
+  id: TailTip
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_m
@@ -581,11 +525,10 @@
       state: tail_tip
 
 - type: marking
-  id: TajaranTailFluffySkeleton
+  id: TailFluffySkeleton
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy
@@ -594,11 +537,10 @@
 
 
 - type: marking
-  id: TajaranTailWingler1
+  id: TailWingler1
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy
@@ -606,11 +548,10 @@
       state: wingler_1
 
 - type: marking
-  id: TajaranTailWingler2
+  id: TailWingler2
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy
@@ -618,11 +559,10 @@
       state: wingler_2
 
 - type: marking
-  id: TajaranTailWingler3
+  id: TailWingler3
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Tajaran]
-  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy
@@ -631,7 +571,7 @@
 
 # Animated
 - type: marking
-  id: TajaranTailFluffyAnimated
+  id: TailFluffyAnimated
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: []
@@ -696,7 +636,7 @@
 
 
 - type: marking
-  id: TajaranTailMAnimated
+  id: TailMAnimated
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: []

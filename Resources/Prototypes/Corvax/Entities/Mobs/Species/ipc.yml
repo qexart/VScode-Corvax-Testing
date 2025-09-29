@@ -5,7 +5,6 @@
   id: BaseMobIpc
   abstract: true
   components:
-  - type: Crawler
   - type: HumanoidAppearance
     species: Ipc
   - type: Icon
@@ -34,9 +33,7 @@
   - type: Damageable
     damageContainer: SiliconIpc
     damageModifierSet: Ipc
-  - type: ItemTogglePointLight
-  - type: ToggleableVisuals
-    spriteLayer: light
+  - type: ToggleableLightVisuals
   - type: PointLight
     enabled: false
     mask: /Textures/Effects/LightMasks/cone.png
