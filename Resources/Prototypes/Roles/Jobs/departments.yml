@@ -86,7 +86,7 @@
   roles:
   - AtmosphericTechnician
   - ChiefEngineer
-  - SeniorEngineer # _FNStation Edit
+  - SeniorEngineer # Corvax-MentorRoles
   - StationEngineer
   - TechnicalAssistant
 
@@ -98,11 +98,11 @@
   roles:
   - Chemist
   - ChiefMedicalOfficer
-  - SeniorPhysician
   - MedicalDoctor
   - MedicalIntern
   - Psychologist
   - Paramedic
+  - SeniorPhysician # Corvax-MentorRoles
 
 - type: department
   id: Security
@@ -112,9 +112,9 @@
   weight: 20
   roles:
   - HeadOfSecurity
-  - SeniorOfficer
   - SecurityCadet
   - SecurityOfficer
+  - SeniorOfficer # Corvax-MentorRoles
   - Pilot # Corvax-Pilot
   - Detective
   - Warden
@@ -127,7 +127,7 @@
   color: "#D381C9"
   roles:
   - ResearchDirector
-  - SeniorResearcher
+  - SeniorResearcher # Corvax-MentorRoles
   - Scientist
   - ResearchAssistant
 
