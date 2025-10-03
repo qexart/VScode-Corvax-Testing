@@ -19,17 +19,17 @@
   - External
   - Atmospherics
 
-- type: startingGear
-  id: SeniorEngineerGear
-  equipment:
-    head: ClothingHeadHatBeretEngineering
-    jumpsuit: ClothingUniformJumpsuitSeniorEngineer
-    back: ClothingBackpackEngineering
-    shoes: ClothingShoesBootsWork
-    id: SeniorEngineerPDA
-    eyes: ClothingEyesGlassesMeson
-    belt: ClothingBeltUtilityEngineering
-    ears: ClothingHeadsetEngineering
-  innerClothingSkirt: ClothingUniformJumpskirtSeniorEngineer
-  satchel: ClothingBackpackSatchelEngineering
-  duffelbag: ClothingBackpackDuffelEngineering
+#- type: startingGear
+#  id: SeniorEngineerGear
+#  equipment:
+#    head: ClothingHeadHatBeretEngineering
+#    jumpsuit: ClothingUniformJumpsuitSeniorEngineer
+#    back: ClothingBackpackEngineering
+#    shoes: ClothingShoesBootsWork
+#    id: SeniorEngineerPDA
+#    eyes: ClothingEyesGlassesMeson
+#    belt: ClothingBeltUtilityEngineering
+#    ears: ClothingHeadsetEngineering
+#  innerClothingSkirt: ClothingUniformJumpskirtSeniorEngineer
+#  satchel: ClothingBackpackSatchelEngineering
+#  duffelbag: ClothingBackpackDuffelEngineering

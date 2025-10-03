@@ -21,19 +21,19 @@
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
 
-- type: startingGear
-  id: SeniorOfficerGear
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitSeniorOfficer
-    back: ClothingBackpackSecurity
-    shoes: ClothingShoesBootsJackSecFilled # Corvax-Resprite
-    eyes: ClothingEyesGlassesSecurity
-    head: ClothingHeadHatBeretSecurity
-    outerClothing: ClothingOuterVestArmorSec # Corvax-Resprite
-    id: SeniorOfficerPDA
-    ears: ClothingHeadsetSecurity
-    belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolMk58
-  innerClothingSkirt: ClothingUniformJumpskirtSeniorOfficer
-  satchel: ClothingBackpackSatchelSecurity
-  duffelbag: ClothingBackpackDuffelSecurity
+#- type: startingGear
+#  id: SeniorOfficerGear
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitSeniorOfficer
+#    back: ClothingBackpackSecurity
+#    shoes: ClothingShoesBootsJackSecFilled # Corvax-Resprite
+#    eyes: ClothingEyesGlassesSecurity
+#    head: ClothingHeadHatBeretSecurity
+#    outerClothing: ClothingOuterVestArmorSec # Corvax-Resprite
+#    id: SeniorOfficerPDA
+#    ears: ClothingHeadsetSecurity
+#    belt: ClothingBeltSecurityFilled
+#    pocket1: WeaponPistolMk58
+#  innerClothingSkirt: ClothingUniformJumpskirtSeniorOfficer
+#  satchel: ClothingBackpackSatchelSecurity
+#  duffelbag: ClothingBackpackDuffelSecurity

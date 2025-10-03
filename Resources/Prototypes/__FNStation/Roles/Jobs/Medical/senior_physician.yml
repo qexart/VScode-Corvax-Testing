@@ -18,17 +18,17 @@
   - Maintenance
   - Chemistry
 
-- type: startingGear
-  id: SeniorPhysicianGear
-  equipment:
-    head: ClothingHeadHatBeretSeniorPhysician
-    jumpsuit: ClothingUniformJumpsuitSeniorPhysician
-    back: ClothingBackpackMedical
-    shoes: ClothingShoesColorBlack
-    outerClothing: ClothingOuterCoatLabSeniorPhysician
-    id: SeniorPhysicianPDA
-    ears: ClothingHeadsetMedical
-    belt: ClothingBeltMedicalFilled
-  innerClothingSkirt: ClothingUniformJumpskirtSeniorPhysician
-  satchel: ClothingBackpackSatchelMedical
-  duffelbag: ClothingBackpackDuffelMedical
+#- type: startingGear
+#  id: SeniorPhysicianGear
+#  equipment:
+#    head: ClothingHeadHatBeretSeniorPhysician
+#    jumpsuit: ClothingUniformJumpsuitSeniorPhysician
+#    back: ClothingBackpackMedical
+#    shoes: ClothingShoesColorBlack
+#    outerClothing: ClothingOuterCoatLabSeniorPhysician
+#    id: SeniorPhysicianPDA
+#    ears: ClothingHeadsetMedical
+#    belt: ClothingBeltMedicalFilled
+#  innerClothingSkirt: ClothingUniformJumpskirtSeniorPhysician
+#  satchel: ClothingBackpackSatchelMedical
+#  duffelbag: ClothingBackpackDuffelMedical
