@@ -2,7 +2,7 @@
   id: Juridical
   name: department-Juridical
   description: department-Juridical-description
-  color: "#634b2f"
+  color: "#5e4b42"
   weight: 30
   roles:
    - IAA # Corvax-IAA

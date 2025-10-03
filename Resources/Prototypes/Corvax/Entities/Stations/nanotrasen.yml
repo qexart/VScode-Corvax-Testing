@@ -9,7 +9,7 @@
     - BaseStationJobsSpawning
     - BaseStationRecords
     - BaseStationGateway
-    - BaseStationCentcomm
+    - BaseStationCentComm
     - BaseStationEvacuation
     - BaseStationAlertLevels
     - BaseStationMagnet

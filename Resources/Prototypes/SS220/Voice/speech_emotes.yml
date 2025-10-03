@@ -61,25 +61,25 @@
   - шипит.
   - шипит!
 
-- type: emote
-  id: FelinidGrowl
-  name: рычит!
-  category: Vocal
-  available: false
-  whitelist:
-    components:
-    - Vocal
-  blacklist:
-    components:
-    - BorgChassis
-  chatMessages: [рычит!]
-  chatTriggers:
-  - рычит
-  - рычит.
-  - рычит!
-  - Growls
-  - Growls.
-  - Growls!
+#- type: emote
+#  id: FelinidGrowl
+#  name: рычит!
+#  category: Vocal
+#  available: false
+#  whitelist:
+#    components:
+#    - Vocal
+#  blacklist:
+#    components:
+#    - BorgChassis
+#  chatMessages: [рычит!]
+#  chatTriggers:
+#  - рычит
+#  - рычит.
+#  - рычит!
+#  - Growls
+#  - Growls.
+#  - Growls!
 
 # Дубликат
 # - type: emote
