@@ -10,7 +10,7 @@
    - Magistrat
 
 - type: department
-  id: CentCommFNS # _FNStation Content
+  id: CentCommFNS # _FNStation CentComm # Lobby-Color
   name: department-CentComm
   description: department-CentComm-description
   color: "#267513"
@@ -21,3 +21,17 @@
    - CentCommOperator
    - CentCommRepresentive
    - CentCommOSS
+
+- type: department
+  id: CentCommFNSColor # _FNStation CentComm # InRound-Color
+  name: department-CentComm
+  description: department-CentComm-description
+  color: "#ffd700"
+  weight: 110
+  roles:
+   - CentCommHSCC
+   - CentCommAssistant
+   - CentCommOperator
+   - CentCommRepresentive
+   - CentCommOSS
+  editorHidden: true

@@ -36,7 +36,7 @@
   id: CentralCommand
   name: department-CentralCommand
   description: department-CentralCommand-description
-  color: "#0c344d"
+  color: "#ffd700"
   roles:
   - CentralCommandOfficial
   - CBURN
@@ -54,7 +54,7 @@
   id: Command
   name: department-Command
   description: department-Command-description
-  color: "#334E6D"
+  color: "#ffd700"
   roles:
   - Captain
   - IAA # Corvax-IAA
