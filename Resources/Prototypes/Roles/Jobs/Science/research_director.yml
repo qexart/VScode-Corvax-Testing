@@ -17,6 +17,7 @@
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"
   supervisors: job-supervisors-captain
+  radioBold: true
   canBeAntag: false
   access:
   - Research

@@ -9,6 +9,7 @@
   icon: "JobIconNanotrasen"
   supervisors: job-supervisors-centcom
   canBeAntag: false
+  radioBold: true
   accessGroups:
   - AllAccess
   access:

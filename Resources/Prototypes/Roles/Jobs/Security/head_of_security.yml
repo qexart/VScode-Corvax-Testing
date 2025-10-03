@@ -23,6 +23,7 @@
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"
   supervisors: job-supervisors-captain
+  radioBold: true
   canBeAntag: false
   access:
   - HeadOfSecurity

@@ -75,6 +75,25 @@
         - !type:NestedSelector
           tableId: FillBlueshieldHardsuit
 
+- type: entity
+  parent: [GunSafeBaseSecure, BaseSecurityContraband]
+  id: GunSafeRifleLecterBlueshield
+  name: сейф офицера "Синий Щит"
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillGunSafeRifleLecter
+
+- type: entityTable
+  id: FillGunSafeRifleLecterBlueshield
+  table: !type:AllSelector
+    children:
+    - id: WeaponRifleLecter
+      amount: 1
+    - id: MagazineRifle
+      amount: 2
+
 # Представитель НаноТрейзен.
 
 - type: entityTable

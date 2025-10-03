@@ -17,6 +17,7 @@
   icon: "JobIconBlueshield"
   supervisors: job-supervisors-centcom
   canBeAntag: false
+  radioBold: true
   access:
   - Command
   - Bar
@@ -39,6 +40,7 @@
   - Atmospherics
   - Cargo
   - Medical
+  - Lawyer
   - Blueshield
   special:
   - !type:AddImplantSpecial

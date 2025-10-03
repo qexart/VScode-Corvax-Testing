@@ -1,3 +1,4 @@
+using System.Linq;
 using Content.Server.Access.Components;
 using Content.Server.GameTicking;
 using Content.Server.Station.Components;
@@ -77,7 +78,31 @@ public sealed class PresetIdCardSystem : EntitySystem
             return;
         }
 
-        if (_prototypeManager.Resolve(job.Icon, out var jobIcon))
+        _accessSystem.SetAccessToJob(uid, job, extended);
+
+        _cardSystem.TryChangeJobTitle(uid, job.LocalizedName);
+        _cardSystem.TryChangeJobDepartment(uid, job);
+        _cardSystem.TryChangeJobColor(uid, GetJobColor(_prototypeManager, job), job.RadioIsBold);
+
+        if (_prototypeManager.TryIndex(job.Icon, out var jobIcon))
             _cardSystem.TryChangeJobIcon(uid, jobIcon);
+    }
+
+    public static string GetJobColor(IPrototypeManager prototypeManager, IPrototype job)
+    {
+        var jobCode = job.ID;
+
+        var departments = prototypeManager.EnumeratePrototypes<DepartmentPrototype>().ToList();
+        departments.Sort((a, b) => a.Weight.CompareTo(b.Weight));
+
+        foreach (var department in from department in departments
+                 from jobId in department.Roles
+                 where jobId == jobCode
+                 select department)
+        {
+            return department.Color.ToHex();
+        }
+
+        return string.Empty;
     }
 }

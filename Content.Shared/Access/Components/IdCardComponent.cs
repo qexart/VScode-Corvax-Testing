@@ -50,7 +50,6 @@ public sealed partial class IdCardComponent : Component
     [AutoNetworkedField]
     public List<ProtoId<DepartmentPrototype>> JobDepartments = new();
 
-    // Sunrise-Start
     [DataField("jobColor")]
     [AutoNetworkedField]
     public string? JobColor;
@@ -58,7 +57,6 @@ public sealed partial class IdCardComponent : Component
     [DataField("radioBold")]
     [AutoNetworkedField]
     public bool? RadioBold;
-    // Sunrise-End
 
     /// <summary>
     /// Determines if accesses from this card should be logged by <see cref="AccessReaderComponent"/>

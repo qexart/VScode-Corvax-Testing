@@ -19,6 +19,7 @@
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
   canBeAntag: false
+  radioBold: true
   access:
   - Command
   - Maintenance
@@ -29,6 +30,7 @@
   - Brig
   - Cargo
   - Medical
+  - Lawyer
   - NanotrasenRepresentive
   special:
   - !type:AddImplantSpecial

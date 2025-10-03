@@ -8,6 +8,7 @@
   icon: "JobIconNanotrasen"
   supervisors: job-supervisors-centcom # Corvax-JobSupervisors
   canBeAntag: false
+  radioBold: true
   accessGroups:
   - AllAccess
   access:
