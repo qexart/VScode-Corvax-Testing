@@ -6,7 +6,6 @@ job-name-centcommHSCC = Начальник Штаба Центрального �
 job-name-centcommOSS = Офицер Специальной Службы безопасности
 job-name-magistrat = магистрат
 job-name-nanotrasenrepresentive = представитель NanoTrasen
-job-name-roboticist = робототехник
 #       Перевод таймеров ролей, делайте по алфавиту.
 JobBlueshield = офицер "Синий Щит"
 JobCentCommAssistant = ассистент центрального командования

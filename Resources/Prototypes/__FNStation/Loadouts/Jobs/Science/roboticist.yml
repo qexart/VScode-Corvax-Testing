@@ -1,7 +1,7 @@
 # Head
 
 - type: loadout
-  id: RoboticistCap
+  id: RoboticistCapCorpsoft
   equipment: RoboticistCap
 
 - type: startingGear
@@ -10,7 +10,7 @@
     head: ClothingHeadHatCorpsoft
 
 - type: loadout
-  id: SkullBandana
+  id: RoboticistSkullBandana
   equipment: SkullBandana
 
 - type: startingGear

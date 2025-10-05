@@ -1,7 +1,7 @@
 - type: gameMap
   id: FNSnDelta
   mapName: 'Delta Station'
-  mapPath: /Maps/_FNStation/fns_delta.yml
+  mapPath: /Maps/_FNStation/FNSDelta.yml
   minPlayers: 40
   stations:
     Delta:
@@ -26,6 +26,7 @@
             SeniorOfficer: [ 1, 1 ] # _FNStation edit
             SeniorResearcher: [ 1, 1 ] # _FNStation edit
             SeniorEngineer: [ 1, 1 ] # _FNStation edit
+            Roboticist: [ 1, 1 ]
             CargoTechnician: [ 4, 4 ]
             Passenger: [ -1, -1 ]
             Bartender: [ 1, 1 ]
