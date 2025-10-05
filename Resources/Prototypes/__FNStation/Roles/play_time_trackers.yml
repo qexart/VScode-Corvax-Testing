@@ -10,6 +10,9 @@
 - type: playTimeTracker
   id: JobPathologist
 
+- type: playTimeTracker
+  id: JobRoboticist
+
 # Ведущие роли отделов # Corvax Mentor Roles
 
 #- type: playTimeTracker

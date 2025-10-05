@@ -2,7 +2,7 @@
 - type: gameMap
   id: Packed
   mapName: 'Packed'
-  mapPath: /Maps/packed.yml
+  mapPath: /Maps/_FNStation/FNSPacked.yml
   # Corvax-start
   minPlayers: 0
   maxPlayers: 25
@@ -24,6 +24,9 @@
             Captain: [ 1, 1 ]
             IAA: [ 1, 1 ] # Corvax-IAA
             HeadOfPersonnel: [ 1, 1 ]
+            Blueshield: [ 1, 1 ] # _FNStation edit
+            NanotrasenRepresentive: [ 1, 1 ] # _FNStation edit
+            Magistrat: [ 1, 1 ] # _FNStation edit
             Bartender: [ 1, 1 ]
             Botanist: [ 1, 2 ]
             Chef: [ 1, 1 ]
@@ -33,26 +36,32 @@
             ServiceWorker: [ 2, 2 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
+            SeniorEngineer: [ 1, 1 ] # _FNStation edit
             AtmosphericTechnician: [ 2, 2 ]
             StationEngineer: [ 4, 4 ]
             TechnicalAssistant: [ 3, 3 ]
             #medical
             ChiefMedicalOfficer: [ 1, 1 ]
+            SeniorPhysician: [ 1, 1 ] # _FNStation edit
+            Patologoanatom: [ 1, 1 ] # _FNStation edit
             Chemist: [ 2, 2 ]
             MedicalDoctor: [ 3, 3 ]
             MedicalIntern: [ 2, 2 ]
             Paramedic: [ 1, 1 ]
             #science
             ResearchDirector: [ 1, 1 ]
+            Roboticist: [ 1, 1 ] # _FNStation edit 
+            SeniorResearcher: [ 1, 1 ] # _FNStation edit
             Scientist: [ 4, 4 ]
             ResearchAssistant: [ 2, 2 ]
             #security
             HeadOfSecurity: [ 1, 1 ]
+            SeniorOfficer: [ 1, 1 ] # _FNStation edit
             Warden: [ 1, 1 ]
             SecurityOfficer: [ 3, 3 ]
             Detective: [ 1, 1 ]
             SecurityCadet: [ 2, 2 ]
-            #Lawyer: [ 1, 1 ] # Corvax-IAA
+            Lawyer: [ 1, 1 ] # Corvax-IAA # _FNStation edit
             #supply
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 2, 2 ]
