@@ -3,19 +3,19 @@
   "license": "CC-BY-SA-3.0",
   "copyright": "made by borkroman",
   "size": {
-    "x": 32,
-    "y": 32
+    "x": 34,
+    "y": 34
   },
   "states": [
     {
       "name": "icon"
     },
     {
-      "name": "equipped-INNERCLOTHING",
+      "name": "equipped",
       "directions": 4
     },
     {
-      "name": "equipped-INNERCLOTHING-reptilian",
+      "name": "equipped-rep",
       "directions": 4
     }
   ]

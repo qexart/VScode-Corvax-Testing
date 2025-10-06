@@ -109,6 +109,7 @@
     - id: ClothingNeckCloakNanotrasenRepresentive
     - id: RubberStampNanotrasenRepresentive
     - id: WeaponDisabler
+    - id: BaseClothingShoesHeeled
 
 - type: entity
   id: LockerNanotrasenRepresentativeFilled

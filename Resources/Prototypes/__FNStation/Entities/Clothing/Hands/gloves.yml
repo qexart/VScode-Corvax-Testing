@@ -1,0 +1,12 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesNTR
+  name: перчатки представителя Nanotrasen
+  description: Пара высококачественных плотных перчаток, украшенных золотым шитьём, которым выдаются только представительным лицам Nanotrasen.
+  components:
+    - type: Sprite
+      sprite: _FNStation/Clothing/Hands/Gloves/ntr.rsi
+    - type: Clothing
+      sprite: _FNStation/Clothing/Hands/Gloves/ntr.rsi
+    - type: Insulated
+    - type: FingerprintMask

@@ -154,11 +154,14 @@
 - type: loadoutGroup
   id: NanotrasenRepresentiveGloves
   name: ПНТ, перчатки
-  minLimit: 0
+  minLimit: 1
+  maxLimit: 1
   loadouts:
-  - NTRBlackGloves
-  - NTRGrayGloves
-  - NTRWhiteGloves
+  - NTRCombatGloves
+  - NTRFormalGloves
+#  - NTRBlackGloves
+#  - NTRGrayGloves
+#  - NTRWhiteGloves
 
 - type: loadoutGroup
   id: NanotrasenRepresentiveBelt

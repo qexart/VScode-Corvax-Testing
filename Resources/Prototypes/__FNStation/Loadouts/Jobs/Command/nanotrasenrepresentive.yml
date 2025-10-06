@@ -65,6 +65,16 @@
 
 # Gloves
 - type: loadout
+  id: NTRFormalGloves
+  equipment:
+    gloves: ClothingHandsGlovesNTR
+
+- type: loadout
+  id: NTRCombatGloves
+  equipment:
+    gloves: ClothingHandsGlovesCombat
+
+- type: loadout
   id: NTRBlackGloves
   equipment:
     gloves: ClothingHandsGlovesColorBlack
