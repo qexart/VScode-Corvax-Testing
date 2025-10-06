@@ -39,9 +39,7 @@
 - type: startingGear
   id: NanotrasenRepresentiveGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitNTRepresentive
     eyes: ClothingEyesGlassesSunglasses
-    outerClothing: ClothingOuterArmorBasic
     id: NanotrasenRepresentivePDA
     ears: ClothingHeadsetAltCommand
     pocket2: PenCentcom

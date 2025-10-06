@@ -88,10 +88,10 @@
       - map: ["enum.HumanoidVisualLayers.LHand"]
       - map: ["enum.HumanoidVisualLayers.RHand"]
       - map: [ "gloves" ]
-      - map: [ "shoes" ]
-      - map: [ "belt" ]
-      - map: [ "id" ]
       - map: [ "outerClothing" ]
+      - map: [ "shoes" ]
+      - map: [ "id" ]
+      - map: [ "belt" ]
       - map: [ "enum.HumanoidVisualLayers.Tail" ] # Mentioned in moth code: This needs renaming lol.
       - map: [ "back" ]
       - map: [ "neck" ]

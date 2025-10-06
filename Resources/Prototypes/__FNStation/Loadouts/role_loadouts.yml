@@ -23,6 +23,8 @@
   groups:
   - NanotrasenRepresentiveHead
   - NanotrasenRepresentiveNeck
+  - NanotrasenRepresentiveOuterClothing
+  - NanotrasenRepresentiveJumpsuit
   - CommonBackpack
   - NanotrasenRepresentiveGloves
   - NanotrasenRepresentiveBelt
@@ -37,6 +39,9 @@
   groups:
   - BlueshieldHead
   - BlueshieldNeck
+  - BlueshieldOuterClothing
+  - BlueshieldUniforms
+  - BlueshieldBelt
   - CommonBackpack
   - BlueshieldShoes
   - SurvivalSecurity

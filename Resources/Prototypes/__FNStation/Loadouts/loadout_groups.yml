@@ -1,10 +1,37 @@
 # Blueshield
+- type: loadoutGroup
+  id: BlueshieldOuterClothing
+  name: Синий Щит, верхняя одежда
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BlueshieldCarapace
+
+- type: loadoutGroup
+  id: BlueshieldBelt
+  name: Синий Щит, пояс
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BlueshieldBeltSecurity
+  - BlueshieldBeltAssault
+
+- type: loadoutGroup
+  id: BlueshieldArmor
+  name: Синий Щит, комбинезон
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BlueshieldCarapace
 
 - type: loadoutGroup
   id: BlueshieldUniforms
   name: Синий Щит, комбинезон
+  minLimit: 1
+  maxLimit: 1
   loadouts:
   - BlueshieldUniform
+  - BlueshieldJumpsuitNew
 
 - type: loadoutGroup
   id: BlueshieldShoes
@@ -105,6 +132,24 @@
   minLimit: 0
   loadouts:
   - NTRNeck
+
+- type: loadoutGroup
+  id: NanotrasenRepresentiveOuterClothing
+  name: ПНТ, верхняя одежда
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - NTRArmorBasic
+
+- type: loadoutGroup
+  id: NanotrasenRepresentiveJumpsuit
+  name: ПНТ, комбинезон
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - NTRbasesuit
+  - NTRformalsuit
+  - NTRformalskirt
 
 - type: loadoutGroup
   id: NanotrasenRepresentiveGloves

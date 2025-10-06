@@ -31,6 +31,30 @@
   equipment:
     neck: ClothingNeckCloakNanotrasenRepresentive
 
+# OuterClothing
+
+- type: loadout
+  id: NTRArmorBasic
+  equipment:
+    outerClothing: ClothingOuterArmorBasic
+
+# Jumpsuit | Jumpskirts
+
+- type: loadout
+  id: NTRbasesuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNTRepresentive
+
+- type: loadout
+  id: NTRformalsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNTRformal
+
+- type: loadout
+  id: NTRformalskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtNTRformal
+
 # Back
 
 # Belt

@@ -52,10 +52,7 @@
 - type: startingGear
   id: BlueshieldGear
   equipment:
-    belt: ClothingBeltSecurityFilled
-    jumpsuit: ClothingUniformJumpsuitBlueshield
     eyes: ClothingEyesGlassesBlueshield
-    outerClothing: ClothingOuterArmorBulletproof
     id: BlueshieldPDA
     ears: ClothingHeadsetAltCommand
     gloves: ClothingHandsGlovesCombat

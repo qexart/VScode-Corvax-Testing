@@ -8,12 +8,33 @@
 #      role: JobCaptain
 #      time: 72000 #20 hrs
 
-# Uniform
+# Armor
+- type: loadout
+  id: BlueshieldCarapace
+  equipment:
+    outerClothing: ClothingOuterArmorBlueshield
 
+# Uniform
 - type: loadout
   id: BlueshieldUniform
   equipment:
     jumpsuit: ClothingUniformJumpsuitBlueshield
+
+- type: loadout
+  id: BlueshieldJumpsuitNew
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBlueshieldBase
+
+# Belt
+- type: loadout
+  id: BlueshieldBeltSecurity
+  equipment:
+    belt: ClothingBeltSecurityFilled
+
+- type: loadout
+  id: BlueshieldBeltAssault
+  equipment:
+    belt: ClothingBeltAssaultFilled
 
 # Shoes
 - type: loadout
