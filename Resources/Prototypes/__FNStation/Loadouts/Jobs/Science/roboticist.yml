@@ -1,19 +1,1 @@
 # Head
-
-- type: loadout
-  id: RoboticistCapCorpsoft
-  equipment: RoboticistCap
-
-- type: startingGear
-  id: RoboticistCap
-  equipment:
-    head: ClothingHeadHatCorpsoft
-
-- type: loadout
-  id: RoboticistSkullBandana
-  equipment: SkullBandana
-
-- type: startingGear
-  id: SkullBandana
-  equipment:
-    head: ClothingHeadBandSkull

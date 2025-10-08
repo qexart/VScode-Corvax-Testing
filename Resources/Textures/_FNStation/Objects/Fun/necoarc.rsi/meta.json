@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "copyright": "Taken from Old Fish Station build (original build has been lose). Ported by qexart",
+  "size": {
+    "x": 48,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "necoarc"
+    }
+  ]
+}

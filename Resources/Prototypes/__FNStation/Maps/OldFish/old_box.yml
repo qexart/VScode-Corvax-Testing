@@ -18,10 +18,13 @@
           overflowJobs:
             - Passenger
           availableJobs:
+            # _FNStation edit
+            Blueshield: [ 1, 1 ] # _FNStation edit
+            NanotrasenRepresentive: [ 1, 1 ] # _FNStation edit
+            Magistrat: [ 1, 1 ] # _FNStation edit
+            Roboticist: [ 1, 1 ] # _FNStation edit
             #service
             Captain: [ 1, 1 ]
-            Blueshield: [ 1, 1 ]
-            NanotrasenRepresentive: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 2, 2 ]
             Botanist: [ 3, 3 ]
@@ -63,7 +66,6 @@
             #Juridical
             Lawyer: [ 2, 2 ]
             IAA: [ 1, 1 ] # Corvax-IAA
-            Magistrat: [ 1, 1 ]
             #supply
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 3, 3 ]

@@ -42,3 +42,52 @@
   - type: Sprite
     sprite: _FNStation/Objects/Fun/toys.rsi
     state: plushie_qexart
+
+# buranyaa ~~
+- type: entity
+  parent: BasePlushie
+  id: NecoArc
+  name: плюшевая неко арк
+  description: бурунью
+  components:
+  - type: Sprite
+    sprite: _FNStation/Objects/Fun/necoarc.rsi
+    state: necoarc
+    scale: 0.80, 0.80
+  - type: EmitSoundOnUse
+    sound:
+      collection: NecoArcSounds
+      volume: -2
+      params:
+        variation: 0.125
+  - type: EmitSoundOnLand
+    sound:
+      collection: NecoArcSounds
+      volume: -2
+      params:
+        variation: 0.125
+  - type: EmitSoundOnActivate
+    sound:
+      collection: NecoArcSounds
+      volume: -2
+      params:
+        variation: 0.125
+  - type: EmitSoundOnCollide
+    sound:
+      collection: NecoArcSounds
+      volume: -2
+      params:
+        variation: 0.125
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: NecoArcSounds
+      volume: -2
+      params:
+        variation: 0.125
+  - type: MeleeWeapon
+    wideAnimationRotation: 110
+    soundHit:
+      collection: NecoArcSounds
+      volume: -2
+      params:
+        variation: 0.125

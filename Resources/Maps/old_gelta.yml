@@ -65353,18 +65353,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 61.26216,-5.289681
       parent: 13307
-- proto: Brutepack10Lingering
-  entities:
-  - uid: 40993
-    components:
-    - type: Transform
-      pos: -8.375776,-1.3957825
-      parent: 39617
-  - uid: 41088
-    components:
-    - type: Transform
-      pos: -8.598,-1.21521
-      parent: 39617
 - proto: Bucket
   entities:
   - uid: 835
