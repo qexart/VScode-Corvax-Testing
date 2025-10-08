@@ -1,5 +1,5 @@
 ﻿- type: gameMap
-  id: FNSnCluster
+  id: FNSCluster
   mapName: 'Cluster'
   mapPath: /Maps/_FNStation/fns_cluster.yml
   minPlayers: 10
@@ -23,6 +23,7 @@
             Blueshield: [ 1, 1 ] # _FNStation edit
             NanotrasenRepresentive: [ 1, 1 ] # _FNStation edit
             Magistrat: [ 1, 1 ] # _FNStation edit
+            Roboticist: [ 1, 1 ] # _FNStation edit
             MedicalPathologist: [ 1, 1 ] # _FNStation edit
             SeniorPhysician: [ 1, 1 ] # _FNStation edit
             SeniorOfficer: [ 1, 1 ] # _FNStation edit

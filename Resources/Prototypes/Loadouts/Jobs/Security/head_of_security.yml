@@ -56,6 +56,11 @@
   equipment:
     head: ClothingHeadHatBeretHoS
 
+- type: loadout
+  id: HeadofSecurityHat
+  equipment:
+    head: ClothingHeadHatCapHoS
+
 # Neck
 - type: loadout
   id: HeadofSecurityCloak

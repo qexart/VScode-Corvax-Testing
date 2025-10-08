@@ -1,8 +1,8 @@
 - type: gameMap
-  id: FNSnDelta
+  id: FNSDelta
   mapName: 'Delta Station'
   mapPath: /Maps/_FNStation/FNSDelta.yml
-  minPlayers: 40
+  minPlayers: 0
   stations:
     Delta:
       stationProto: StandardNanotrasenStation
@@ -21,6 +21,7 @@
             Blueshield: [ 1, 1 ] # _FNStation edit
             NanotrasenRepresentive: [ 1, 1 ] # _FNStation edit
             Magistrat: [ 1, 1 ] # _FNStation edit
+            Roboticist: [ 1, 1 ] # _FNStation edit
             MedicalPathologist: [ 1, 1 ] # _FNStation edit
             SeniorPhysician: [ 1, 1 ] # _FNStation edit
             SeniorOfficer: [ 1, 1 ] # _FNStation edit

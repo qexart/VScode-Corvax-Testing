@@ -18,9 +18,15 @@
           overflowJobs:
             - Passenger
           availableJobs:
-            Blueshield: [ 1, 1 ]
-            NanotrasenRepresentive: [ 1, 1 ]
-            Magistrat: [ 1, 1 ]
+            Blueshield: [ 1, 1 ] # _FNStation edit
+            NanotrasenRepresentive: [ 1, 1 ] # _FNStation edit
+            Magistrat: [ 1, 1 ] # _FNStation edit
+            Roboticist: [ 1, 1 ] # _FNStation edit
+            MedicalPathologist: [ 1, 1 ] # _FNStation edit
+            SeniorPhysician: [ 1, 1 ] # _FNStation edit
+            SeniorOfficer: [ 1, 1 ] # _FNStation edit
+            SeniorResearcher: [ 1, 1 ] # _FNStation edit
+            SeniorEngineer: [ 1, 1 ] # _FNStation edit
             CargoTechnician: [ 4, 4 ]
             Passenger: [ -1, -1 ]
             Bartender: [ 1, 1 ]

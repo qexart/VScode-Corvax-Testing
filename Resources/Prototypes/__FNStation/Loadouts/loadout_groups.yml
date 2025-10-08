@@ -270,8 +270,8 @@
   name: loadout-group-roboticist-head
   minLimit: 0
   loadouts:
-  - RoboticistCapCorpsoft
-  - RoboticistSkullBandana
+  - RoboticistCap
+  - SkullBandana
 
 
 # CentralCommand
