@@ -1,0 +1,84 @@
+﻿[net]
+tickrate = 30
+
+[game]
+hostname = "🌑 FNS11 — Мейн 👾[RU][AlfaTesting]"
+desc = "FNS14/Frankenstein 👾 — Проект малых планов, основанный на сборке Corvax и исходя из названия, совмещающий контент других немалоизвестных сборок в Space Station 14.\n Идея зародилась из старого игрового опыта проекта "Рыбья Станция", до того как она было передана в руки Санрайза, поэтому сервер придерживается больше ванильной атмосферы.\n RU | LRP+"
+maxplayers = 125
+soft_max_players = 70
+map_rotation = true
+
+[shuttle]
+auto_call_time = 360
+auto_call_extension_time = 30
+camera_rotation_locked = false
+
+[atmos]
+space_wind = true
+space_wind_max_velocity = 22.0
+
+[game.panic_bunker]
+enabled = false
+
+[lookup]
+enlargement_range = 10.0
+
+[render]
+fov_color = "#000000FF"
+
+[salvage]
+expedition_cooldown = 300.0
+expedition_failed_cooldown = 600.0
+
+[discord]
+rich_main_icon_id = "corvax"
+rich_second_icon_id = "logo"
+
+# [ambience]
+# range = 8.0
+# min_max_sounds_configured = 16
+# max_max_sounds_configured = 64
+
+# [viewport]
+# minimum_width = 15
+# maximum_width = 26
+
+[server]
+# id = "frontier_main"
+# rules_file = "FrontierRuleset"
+
+[netres]
+limit = 25.0
+
+# [infolinks]
+# discord = "https://discord.gg/corvax-forge"
+# forum = ""
+# github = "https://github.com/Corvax-Frontier/Frontier"
+# website = ""
+# wiki = "https://station14.ru/wiki/Портал:Frontier"
+# patreon = "https://boosty.to/corvax-frontier"
+# bug_report = ""
+# appeal = "https://discord.gg/corvax-forge"
+
+[admin]
+see_own_notes = false
+note_fresh_days = 91.31055
+note_stale_days = 365.2422
+message_wait_time = 3.0
+new_player_threshold = 0
+role_ban_default_severity = "medium"
+department_ban_default_severity = "medium"
+server_ban_default_severity = "High"
+server_ban_ip_ban_default = true
+server_ban_hwid_ban_default = true
+server_ban_use_last_details = true
+server_ban_erase_player = false
+
+[tippy]
+entity = "TippyClippy"
+
+[console]
+login_host_user = "qexart"
+
+[voice]
+barks_enabled = true

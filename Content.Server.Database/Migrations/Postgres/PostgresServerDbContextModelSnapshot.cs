@@ -830,6 +830,13 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("integer")
                         .HasColumnName("age");
 
+                    // Corvax-Fallout-Barks-start
+                    b.Property<string>("BarkVoice")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("bark_voice");
+                    // Corvax-Fallout-Barks-end
+
                     b.Property<string>("CharacterName")
                         .IsRequired()
                         .HasColumnType("text")
