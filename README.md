@@ -1,5 +1,5 @@
 <div class="header" align="center">  
-<img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/qexart/FNS11-Frankenstein/d1242add7be09e93f36178b71ba22d4686ae98b9/Resources/Textures/_FNStation/Interface/Logo/logo.png">  
+<img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/qexart/FNS11-Frankenstein/76334dad9ac75ababd8d2fd7cdb8edb56dfa68cd/Resources/Textures/_FNStation/Interface/Logo/logo_frankenstein.png">  
 </div>
 
 Space Station 14 это ремейк SS13, который работает на собственном движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
