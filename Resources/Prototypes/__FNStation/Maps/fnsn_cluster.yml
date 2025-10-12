@@ -28,6 +28,7 @@
             SeniorOfficer: [ 1, 1 ] # _FNStation edit
             SeniorResearcher: [ 1, 1 ] # _FNStation edit
             SeniorEngineer: [ 1, 1 ] # _FNStation edit
+            StationAi: [ 1, 1 ] # _FNStation edit
             Captain: [ 1, 1 ]
             IAA: [ 1, 1 ] # Corvax-IAA
             HeadOfPersonnel: [ 1, 1 ]

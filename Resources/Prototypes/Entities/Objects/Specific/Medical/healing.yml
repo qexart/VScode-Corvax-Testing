@@ -23,8 +23,19 @@
   - type: Tag
     tags:
     - Ointment
+  - type: Stack
+    stackType: OintmentStack
+    count: 10
+    baseLayer: base
+    layerStates:
+    - ointment
+    - ointment_2
+    - ointment_3
   - type: Sprite
-    state: ointment
+    state: ointment_3
+    layers:
+    - state: ointment_3
+      map: ["base"]
   - type: Item
     heldPrefix: ointment
   - type: Healing
@@ -46,19 +57,27 @@
       params:
         volume: 1.0
         variation: 0.125
-  - type: Stack
-    stackType: Ointment
-    count: 10
   - type: StackPrice
     price: 5
+
+- type: entity
+  id: Ointment5
+  parent: Ointment
+  suffix: 5
+  components:
+  - type: Sprite
+    state: ointment_2
+  - type: Stack
+    count: 5
 
 - type: entity
   id: Ointment1
   parent: Ointment
   suffix: Single
   components:
+  - type: Sprite
+    state: ointment
   - type: Stack
-    stackType: Ointment
     count: 1
 
 - type: entity
@@ -71,8 +90,20 @@
   - type: Tag
     tags:
     - Ointment
+  - type: Stack
+    stackType: RegenerativeMeshStack
+    count: 10
+    baseLayer: base
+    layerStates:
+    - regenerative-mesh
+    - regenerative-mesh_2
+    - regenerative-mesh_3
+    - regenerative-mesh_4
   - type: Sprite
-    state: regenerative-mesh
+    state: regenerative-mesh_4
+    layers:
+    - state: regenerative-mesh_4
+      map: ["base"]
   - type: Item
     heldPrefix: regenerative-mesh
   - type: Healing
@@ -94,9 +125,6 @@
       params:
         volume: 1.0
         variation: 0.125
-  - type: Stack
-    stackType: RegenerativeMesh
-    count: 10
   - type: StackPrice
     price: 20
 
@@ -105,9 +133,20 @@
   parent: RegenerativeMesh
   suffix: Single
   components:
+  - type: Sprite
+    state: regenerative-mesh
   - type: Stack
-    stackType: RegenerativeMesh
     count: 1
+
+- type: entity
+  id: OintmentAdvanced5
+  parent: RegenerativeMesh
+  suffix: 5
+  components:
+  - type: Sprite
+    state: regenerative-mesh_2
+  - type: Stack
+    count: 5
 
 - type: entity
   name: bruise pack
@@ -119,8 +158,19 @@
   - type: Tag
     tags:
     - Brutepack
+  - type: Stack
+    stackType: BrutepackStack
+    count: 10
+    baseLayer: base
+    layerStates:
+    - brutepack
+    - brutepack_2
+    - brutepack_3
   - type: Sprite
-    state: brutepack
+    state: brutepack_3
+    layers:
+    - state: brutepack_3
+      map: ["base"]
   - type: Item
     heldPrefix: brutepack
   - type: Healing
@@ -139,9 +189,6 @@
       params:
         volume: 1.0
         variation: 0.125
-  - type: Stack
-    stackType: Brutepack
-    count: 10
   - type: StackPrice
     price: 5
 
@@ -150,9 +197,20 @@
   parent: Brutepack
   suffix: Single
   components:
+  - type: Sprite
+    state: brutepack
   - type: Stack
-    stackType: Brutepack
     count: 1
+
+- type: entity
+  id: Brutepack5
+  parent: Brutepack
+  suffix: 5
+  components:
+  - type: Sprite
+    state: brutepack_2
+  - type: Stack
+    count: 5
 
 - type: entity
   name: medicated suture
@@ -164,8 +222,19 @@
   - type: Tag
     tags:
     - Brutepack
+  - type: Stack
+    stackType: MedicatedSutureStack
+    count: 10
+    baseLayer: base
+    layerStates:
+    - medical-suture
+    - medical-suture_2
+    - medical-suture_3
   - type: Sprite
-    state: medicated-suture
+    state: medical-suture_3
+    layers:
+    - state: medical-suture_3
+      map: ["base"]
   - type: Item
     heldPrefix: medicated-suture
     storedRotation: -90
@@ -197,9 +266,20 @@
   parent: MedicatedSuture
   suffix: Single
   components:
+  - type: Sprite
+    state: medical-suture
   - type: Stack
-    stackType: MedicatedSuture
     count: 1
+
+- type: entity
+  id: BrutepackAdvanced5
+  parent: MedicatedSuture
+  suffix: 5
+  components:
+  - type: Sprite
+    state: medical-suture_2
+  - type: Stack
+    count: 5
 
 - type: entity
   name: blood pack
