@@ -103,9 +103,8 @@
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
-  - type: GunRequiresWield
   - type: Gun
-    fireRate: 0.4
+    fireRate: 0.55
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -118,12 +117,8 @@
     capacity: 5
     proto: CartridgeAntiMateriel
   - type: SpeedModifiedOnWield
-    walkModifier: 0.25
-    sprintModifier: 0.25
-  - type: CursorOffsetRequiresWield
-  - type: EyeCursorOffset
-    maxOffset: 3
-    pvsIncrease: 0.3
+    walkModifier: 0.85
+    sprintModifier: 0.85
   - type: StaticPrice
     price: 3500
 
