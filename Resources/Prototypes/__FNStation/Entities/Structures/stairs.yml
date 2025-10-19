@@ -2,7 +2,7 @@
 
 - type: entity
   id: WoodStairsBase
-  parent: SteelStairsBase
+  parent: Stairs
   name: ступеньки
   abstract: true
   description: По ним точно не стоит бегать.
@@ -47,7 +47,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 
+        damage: 125
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -56,7 +56,7 @@
 
 - type: entity
   id: DarkSteelStairsBase
-  parent: SteelStairsBase
+  parent: WoodStairsBase
   name: ступеньки
   abstract: true
   description: Прочные стальные ступеньки, по ним точно не стоит бегать.
@@ -100,8 +100,6 @@
   name: ступеньки
   suffix: Левые, дерево
   components:
-  - type: Construction
-    node: WoodStairsLeft
   - type: Sprite
     state: left
 
@@ -111,8 +109,6 @@
   name: ступеньки
   suffix: Центральные, дерево
   components:
-  - type: Construction
-    node: WoodStairsMiddle
   - type: Sprite
     state: middle
 
@@ -122,8 +118,6 @@
   name: ступеньки
   suffix: Правые, дерево
   components:
-  - type: Construction
-    node: WoodStairsRight
   - type: Sprite
     state: right
 
@@ -134,8 +128,6 @@
   name: ступеньки
   suffix: Одиночные, тёмные, сталь
   components:
-  - type: Construction
-    node: DarkSteelStairsSolo
   - type: Sprite
     state: solo
 
@@ -147,8 +139,6 @@
   name: ступеньки
   suffix: Левые, тёмные, сталь
   components:
-  - type: Construction
-    node: DarkSteelStairsLeft
   - type: Sprite
     state: left
 
@@ -158,8 +148,6 @@
   name: ступеньки
   suffix: Центральные, тёмные, сталь
   components:
-  - type: Construction
-    node: DarkSteelStairsMiddle
   - type: Sprite
     state: middle
 
@@ -169,7 +157,5 @@
   name: ступеньки
   suffix: Правые, тёмные, сталь
   components:
-  - type: Construction
-    node: DarkSteelStairsRight
   - type: Sprite
     state: right
