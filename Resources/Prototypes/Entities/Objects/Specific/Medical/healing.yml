@@ -227,13 +227,13 @@
     count: 10
     baseLayer: base
     layerStates:
-    - medical-suture
-    - medical-suture_2
-    - medical-suture_3
+    - medicated-suture
+    - medicated-suture_2
+    - medicated-suture_3
   - type: Sprite
-    state: medical-suture_3
+    state: medicated-suture_3
     layers:
-    - state: medical-suture_3
+    - state: medicated-suture_3
       map: ["base"]
   - type: Item
     heldPrefix: medicated-suture
@@ -255,9 +255,6 @@
       params:
         volume: 1.0
         variation: 0.125
-  - type: Stack
-    stackType: MedicatedSuture
-    count: 10
   - type: StackPrice
     price: 20
 
@@ -267,7 +264,7 @@
   suffix: Single
   components:
   - type: Sprite
-    state: medical-suture
+    state: medicated-suture
   - type: Stack
     count: 1
 
@@ -277,7 +274,7 @@
   suffix: 5
   components:
   - type: Sprite
-    state: medical-suture_2
+    state: medicated-suture_2
   - type: Stack
     count: 5
 
