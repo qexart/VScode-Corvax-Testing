@@ -105,5 +105,4 @@
       - state: holo
   - type: Tag
     tags:
-    - BoxCardboard
-    - BoxHug
+      - BoxHug

@@ -13,7 +13,6 @@ admin-smite-stomach-removal-self = Вы ощущаете пустоту в же�
 admin-smite-run-walk-swap-prompt = Для бега вы должны нажать Shift!
 admin-smite-super-speed-prompt = Вы двигаетесь почти со скоростью звука!
 admin-smite-lung-removal-self = Вы не можете вдохнуть!
-admin-smite-silicon-laws-bound-self = Вы внезапно вынуждены следовать строгому набору законов!
 
 ## Smite names
 
@@ -36,7 +35,6 @@ admin-smite-buffering-name = Буферизация
 admin-smite-become-instrument-name = Сделать инструментом
 admin-smite-remove-gravity-name = Антиграв
 admin-smite-reptilian-species-swap-name = Сделать унатхом
-admin-smite-vulpkanin-species-swap-name = Сделать вульпканином
 admin-smite-locker-stuff-name = Сунуть в шкаф
 admin-smite-headstand-name = Стойка на голове
 admin-smite-become-mouse-name = Сделать мышью
@@ -60,7 +58,6 @@ admin-smite-nyanify-name = НЯфикация
 admin-smite-kill-sign-name = Знак смерти
 admin-smite-omni-accent-name = Омни-акцент
 admin-smite-crawler-name = Ползун
-admin-smite-silicon-laws-bound-name = Сделать синтетиком
 
 ## Smite descriptions
 
@@ -86,7 +83,6 @@ admin-smite-buffering-description = Вызывает у цели случайн�
 admin-smite-become-instrument-description = Превращает цель в суперсинтезатор. И всё.
 admin-smite-remove-gravity-description = Наделяет цель антигравитацией.
 admin-smite-reptilian-species-swap-description = Меняет вид на Унатха. Пригодится для тех, кто ведёт себя как космический расист.
-admin-smite-vulpkanin-species-swap-description = Меняет вид на Вульпканина. Пригодится для тех, кто ведёт себя как космический расист.
 admin-smite-locker-stuff-description = Помещает цель в (заваренный) шкафчик.
 admin-smite-headstand-description = Переворачивает спрайт по вертикали.
 admin-smite-become-mouse-description = Цель станет мышью. Скуик.
@@ -108,7 +104,6 @@ admin-smite-super-slip-description = Очень сильно поскальзы�
 admin-smite-omni-accent-description = Заставляет цель говорить с почти каждым возможным акцентом.
 admin-smite-crawler-description = Заставляет цель упасть и не позволяет встать. Для дополнительного эффекта удалите и руки!
 admin-smite-super-bonk-lite-description = Заставляет цель удариться о каждый стол на станции и за её пределами. Прекращает действовать после смерти цели.
-admin-smite-silicon-laws-bound-description = Заставляет цель соблюдать законы синтетиков. Закон 2, выпрыгни с окна.
 
 ## Tricks descriptions
 

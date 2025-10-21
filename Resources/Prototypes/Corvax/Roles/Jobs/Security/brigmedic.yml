@@ -6,10 +6,10 @@
   requirements:
   - !type:DepartmentTimeRequirement
     department: Medical
-    time: 15h
+    time: 54000 # 15 hrs
   - !type:DepartmentTimeRequirement
     department: Security
-    time: 5h
+    time: 18000 # 5 hrs
   - !type:TraitsRequirement
     inverted: true
     traits:
