@@ -28,6 +28,7 @@
 - type: startingGear
   id: MagistratGear
   equipment:
+    eyes: ClothingEyesGlassesSecurity
     id: MagistratPDA
     ears: ClothingHeadsetAltJuridical
     pocket1: Flash
