@@ -185,6 +185,8 @@
 - type: loadoutGroup
   id: RoboticistJumpsuit
   name: loadout-group-roboticist-jumpsuit
+  minLimit: 1
+  maxLimit: 1
   loadouts:
   - RoboticistJumpsuit
   - RoboticistJumpskirt
