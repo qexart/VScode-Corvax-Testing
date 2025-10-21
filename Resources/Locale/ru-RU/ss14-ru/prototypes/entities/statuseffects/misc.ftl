@@ -1,4 +1,4 @@
-ent-StatusEffectBase = { "" }
+﻿ent-StatusEffectBase = { "" }
     .desc = { "" }
 ent-MobStatusEffectBase = { ent-StatusEffectBase }
     .desc = { ent-StatusEffectBase.desc }

@@ -36,10 +36,6 @@ stack-hv-cable = {$amount ->
     [1] hv cable
     *[other] hv cables
 }
-stack-explosive-cord = {$amount ->
-    [1] explosive cord
-    *[other] explosive cords
-}
 stack-wood-plank = {$amount ->
     [1] wood plank
     *[other] wood planks

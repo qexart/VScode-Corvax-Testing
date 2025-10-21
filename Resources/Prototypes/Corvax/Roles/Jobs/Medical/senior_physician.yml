@@ -6,13 +6,13 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobChemist
-      time: 6h
+      time: 21600 #6 hrs
     - !type:RoleTimeRequirement
       role: JobMedicalDoctor
-      time: 6h
+      time: 21600 #6 hrs
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 60h
+      time: 216000 # 60 hrs
   weight: 9
   startingGear: SeniorPhysicianGear
   icon: "JobIconSeniorPhysician"
