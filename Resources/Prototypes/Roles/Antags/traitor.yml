@@ -7,7 +7,7 @@
   guides: [ Traitors ]
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 30h # Corvax-RoleTime 1
+    time: 108000 # 30h # Corvax-RoleTime
 
 - type: antag
   id: TraitorSleeper
@@ -18,7 +18,7 @@
   guides: [ Traitors ]
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 1h
+    time: 3600 # 1h
 
 # Syndicate Operative Outfit - Monkey
 - type: startingGear
