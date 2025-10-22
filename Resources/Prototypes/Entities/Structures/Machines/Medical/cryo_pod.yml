@@ -60,14 +60,14 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100
+        damage: 175
       behaviors:
         - !type:EmptyAllContainersBehaviour
         - !type:PlaySoundBehavior
           sound:
             collection: WindowShatter
         - !type:ChangeConstructionNodeBehavior
-          node: machineFrame
+          node: cryopodBroken
         - !type:DoActsBehavior
           acts: [ "Destruction" ]
   - type: ApcPowerReceiver
@@ -123,6 +123,9 @@
   name: destroyed cryo pod
   description: A cryo pod that has seen better days. It's entirely inoperable; not good for anything but scrap.
   components:
+  - type: Construction
+    graph: Machine
+    node: cryopodBroken
   - type: Sprite
     sprite: Structures/Machines/Medical/cryopod.rsi
     drawdepth: Mobs
@@ -149,6 +152,8 @@
       - !type:PlaySoundBehavior
         sound:
           collection: WindowShatter
+      - !type:ChangeConstructionNodeBehavior
+        node: machine
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: PhysicalComposition
