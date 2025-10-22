@@ -6,13 +6,15 @@
   requirements:
   - !type:DepartmentTimeRequirement
     department: Juridical
-    time: 36000
+    time: 10h
+    department: Command
+    time: 20h
   - !type:DepartmentTimeRequirement
     department: Command
     time: 72000
   - !type:DepartmentTimeRequirement
     department: Security
-    time: 36000
+    time: 10h
   - !type:TraitsRequirement
     inverted: true
     traits:
