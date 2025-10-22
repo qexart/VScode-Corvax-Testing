@@ -1,4 +1,4 @@
-ent-AutolatheMachineCircuitboard = автолат (машинная плата)
+﻿ent-AutolatheMachineCircuitboard = автолат (машинная плата)
     .desc = Печатная плата автолата.
 ent-AutolatheHyperConvectionMachineCircuitboard = гиперконвекционный автолат (машинная плата)
     .desc = Печатная плата гиперконвекционного автолата.
@@ -166,5 +166,3 @@ ent-ReagentGrinderIndustrialMachineCircuitboard = промышленный из�
     .desc = { ent-BaseMachineCircuitboard.desc }
 ent-CutterMachineCircuitboard = резательный станок (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
-ent-SmartFridgeCircuitboard = умный холодильник (машинная плата)
-    .desc = Печатная плата для умного холодильника.

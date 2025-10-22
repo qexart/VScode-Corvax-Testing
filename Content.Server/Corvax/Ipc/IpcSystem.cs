@@ -21,7 +21,6 @@ using Content.Shared.Humanoid;
 using Content.Server.Humanoid;
 using Content.Shared.Humanoid.Markings;
 using Robust.Shared.Player;
-using Content.Shared.Emp;
 
 namespace Content.Server.Corvax.Ipc;
 

@@ -12,6 +12,7 @@ using Content.Client.UserInterface.Systems.Guidebook;
 using Content.Shared.CCVar;
 using Content.Shared.Clothing;
 using Content.Shared.Corvax.CCCVars;
+using Content.Shared._NC.CorvaxVars; // Corvax-Fallout-Barks
 using Content.Shared.GameTicking;
 using Content.Shared.Guidebook;
 using Content.Shared.Humanoid;
@@ -225,6 +226,18 @@ namespace Content.Client.Lobby.UI
             };
 
             #endregion Gender
+
+            // Corvax-Fallout-Barks-start
+            #region Barks
+
+            if (_cfgManager.GetCVar(CorvaxVars.BarksEnabled))
+            {
+                BarksContainer.Visible = true;
+                InitializeBarkVoice();
+            }
+
+            #endregion
+            // Corvax-Fallout-Barks-end
 
             RefreshSpecies();
 
@@ -831,6 +844,7 @@ namespace Content.Client.Lobby.UI
             UpdateSaveButton();
             UpdateMarkings();
             UpdateTTSVoicesControls(); // Corvax-TTS
+            UpdateBarkVoicesControls(); // Corvax-Fallout-Barks
             UpdateHairPickers();
             UpdateCMarkingsHair();
             UpdateCMarkingsFacialHair();
@@ -1290,6 +1304,14 @@ namespace Content.Client.Lobby.UI
             SetDirty();
         }
 
+        // Corvax-Fallout-Barks-start
+        private void SetBarkVoice(string newVoice)
+        {
+            Profile = Profile?.WithBarkVoice(newVoice);
+            IsDirty = true;
+        }
+        // Corvax-Fallout-Barks-end
+
         public bool IsDirty
         {
             get => _isDirty;
@@ -1604,7 +1626,7 @@ namespace Content.Client.Lobby.UI
                 return;
 
             StartExport();
-            await using var file = await _dialogManager.OpenFile(new FileDialogFilters(new FileDialogFilters.Group("yml")), FileAccess.Read);
+            await using var file = await _dialogManager.OpenFile(new FileDialogFilters(new FileDialogFilters.Group("yml")));
 
             if (file == null)
             {

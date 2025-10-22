@@ -1,0 +1,45 @@
+- type: entity
+  parent: AirlockBlueshield
+  id: AirlockBlueshieldLocked
+  suffix: Blueshield, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlueshield ]
+  - type: Wires
+    layoutId: AirlockBlueshield
+
+- type: entity
+  parent: AirlockJuridical
+  id: AirlockJuridicalLocked
+  suffix: Juridical, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLawyer ]
+  - type: Wires
+    layoutId: AirlockJuridical
+
+# Glass
+
+- type: entity
+  parent: AirlockBlueshieldGlass
+  id: AirlockBlueshieldGlassLocked
+  suffix: Blueshield, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlueshield ]
+  - type: Wires
+    layoutId: AirlockBlueshieldGlass
+
+- type: entity
+  parent: AirlockJuridicalGlass
+  id: AirlockJuridicalLockedGlass
+  suffix: Juridical, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLawyer ]
+  - type: Wires
+    layoutId: AirlockJuridicalGlass

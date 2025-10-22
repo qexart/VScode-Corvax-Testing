@@ -119,15 +119,15 @@
         # Corvax-Mapping-Start
         mining: !type:GridSpawnGroup
           paths:
-          - /Maps/Corvax/Shuttles/corvax_mining.yml
+          - /Maps/_FNStation/Shuttles/corvax_mining.yml
         # Corvax-Mapping-End
 
 - type: entity
-  id: BaseStationCentcomm
+  id: BaseStationCentComm
   abstract: true
   components:
-    - type: StationCentcomm
-      map: "/Maps/Corvax/corvax_centcomm.yml" # Corvax-Mapping
+    - type: StationCentCommFNS
+      station: CorvaxCentComm # Corvax-Mapping # Перенос в _FNStation
 
 - type: entity
   id: BaseStationEvacuation

@@ -1,0 +1,24 @@
+- type: job
+  id: CentCommOperator
+  name: job-name-centcommOperator
+  description: job-description-centcommOperator
+  playTimeTracker: JobCentCommOperator
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobCentCommAssistant
+      time: 36000 #10 hrs # _FNStation-Time
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 54000 #15 hrs
+  weight: 40
+  startingGear: OfficerCentCommGear
+  icon: "JobIconNanotrasenAverage"
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]

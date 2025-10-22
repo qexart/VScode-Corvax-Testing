@@ -6,21 +6,21 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 20h # Corvax-RoleTime 4
+      time: 72000 #20 hrs # Corvax-RoleTime
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 20h # Corvax-RoleTime 4
+      time: 72000 #20 hrs # Corvax-RoleTime
     - !type:DepartmentTimeRequirement
       department: Science
-      time: 4h
+      time: 14400 # 4 hours
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 20h # Corvax-RoleTime 4
+      time: 72000 #20 hrs # Corvax-RoleTime
 #    - !type:DepartmentTimeRequirement
 #      department: Command
-#      time: 4h
+#      time: 54000 # 15 hours
     - !type:OverallPlaytimeRequirement
-      time: 140h # Corvax-RoleTime 4
+      time: 504000 #140 hrs # Corvax-RoleTime
     - !type:TraitsRequirement #Corvax-TraitsRequirement
       inverted: true
       traits:
@@ -31,6 +31,7 @@
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
   canBeAntag: false
+  radioBold: true
   accessGroups:
   - AllAccess
   special:

@@ -1,0 +1,111 @@
+# Representative
+- type: entity
+  id: LockerNanotrasenRepresentative
+  name: шкаф представителя NanoTrasen
+  parent: LockerBaseSecure
+  components:
+    - type: Appearance
+    - type: Sprite
+      sprite: _FNStation/Structures/Storage/closet.rsi
+      noRot: true
+      layers:
+      - state: generic
+        map: ["enum.StorageVisualLayers.Base"]
+      - state: generic_door
+        map: ["enum.StorageVisualLayers.Door"]
+      - state: locked
+        map: ["enum.LockVisualLayers.Lock"]
+        shader: unshaded
+      - state: welded
+        visible: false
+        map: ["enum.WeldableLayers.BaseWelded"]
+    - type: EntityStorageVisuals
+      stateBaseClosed: representative
+      stateDoorOpen: representative_open
+      stateDoorClosed: representative_door
+    - type: AccessReader
+      access: [["NanotrasenRepresentive"]]
+
+# Blueshield
+- type: entity
+  id: LockerBlueshield
+  name: шкаф офицера "Синий Щит"
+  parent: LockerBaseSecure
+  components:
+    - type: Appearance
+    - type: Sprite
+      sprite: _FNStation/Structures/Storage/closet.rsi
+      noRot: true
+      layers:
+      - state: generic
+        map: ["enum.StorageVisualLayers.Base"]
+      - state: generic_door
+        map: ["enum.StorageVisualLayers.Door"]
+      - state: locked
+        map: ["enum.LockVisualLayers.Lock"]
+        shader: unshaded
+      - state: welded
+        visible: false
+        map: ["enum.WeldableLayers.BaseWelded"]
+    - type: EntityStorageVisuals
+      stateBaseClosed: blueshield
+      stateDoorOpen: blueshield_open
+      stateDoorClosed: blueshield_door
+    - type: AccessReader
+      access: [["Blueshield"]]
+
+# Magistrat
+- type: entity
+  id: LockerMagistrat
+  name: шкаф магистрата
+  parent: LockerBaseSecure
+  components:
+    - type: Appearance
+    - type: Sprite
+      sprite: _FNStation/Structures/Storage/closet.rsi
+      noRot: true
+      layers:
+      - state: generic
+        map: ["enum.StorageVisualLayers.Base"]
+      - state: generic_door
+        map: ["enum.StorageVisualLayers.Door"]
+      - state: locked
+        map: ["enum.LockVisualLayers.Lock"]
+        shader: unshaded
+      - state: welded
+        visible: false
+        map: ["enum.WeldableLayers.BaseWelded"]
+    - type: EntityStorageVisuals
+      stateBaseClosed: mag
+      stateDoorOpen: mag_open
+      stateDoorClosed: mag_door
+    - type: AccessReader
+      access: [["Magistrat"]]
+
+# Patologoanatom
+- type: entity
+  id: LockerPatologoanatom
+  name: шкаф патологоанатома
+  parent: LockerBaseSecure
+  components:
+    - type: Appearance
+    - type: Sprite
+      sprite: _FNStation/Structures/Storage/closet.rsi
+      noRot: true
+      layers:
+      - state: generic
+        map: ["enum.StorageVisualLayers.Base"]
+      - state: generic_door
+        map: ["enum.StorageVisualLayers.Door"]
+      - state: locked
+        map: ["enum.LockVisualLayers.Lock"]
+        shader: unshaded
+      - state: welded
+        visible: false
+        map: ["enum.WeldableLayers.BaseWelded"]
+    - type: EntityStorageVisuals
+      stateBaseClosed: patologoanatom
+      stateDoorOpen: patologoanatom_open
+      stateDoorClosed: patologoanatom_door
+    - type: AccessReader
+      access: [["Patologoanatom"]]

@@ -9,12 +9,12 @@
 #      time: 21600 #6 hrs
     - !type:RoleTimeRequirement
       role: JobSalvageSpecialist
-      time: 10h # Corvax-RoleTime 2.5
+      time: 36000 #10 hrs # Corvax-RoleTime
     - !type:DepartmentTimeRequirement
       department: Cargo
-      time: 10h
+      time: 36000 #10 hours
     - !type:OverallPlaytimeRequirement
-      time: 40h # Corvax-RoleTime
+      time: 144000 #40 hrs
     - !type:TraitsRequirement #Corvax-TraitsRequirement
       inverted: true
       traits:
@@ -24,6 +24,7 @@
   icon: "JobIconQuarterMaster"
   supervisors: job-supervisors-captain
   canBeAntag: false
+  radioBold: true
   access:
   - Cargo
   - Salvage

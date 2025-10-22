@@ -1,0 +1,27 @@
+- type: job
+  id: CentCommRepresentive
+  name: job-name-centcommRepresentive
+  description: job-description-centcommRepresentive
+  playTimeTracker: JobCentCommRepresentive
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobCentCommOperator
+      time: 36000 #10 hrs # _FNStation-Time
+    - !type:RoleTimeRequirement
+      role: JobNanotrasenRepresentive
+      time: 54000 #15 hrs
+  weight: 30
+  startingGear: OfficerCentCommGear
+  icon: "JobIconNanotrasenAverage"
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+  inhand:
+    - BriefcaseBrownFilled
