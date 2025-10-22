@@ -117,3 +117,33 @@
               prototype: SheetSteel1
               amount: 3
             - !type:DeleteEntity {}
+
+# Cryopod Construction # _FNStation edit
+    - node: cryopodBroken
+      entity: CryoPodDestroyed
+      edges:
+        - to: machine
+          conditions:
+            - !type:EntityAnchored {}
+          completed:
+            - !type:SpawnPrototype
+              prototype: ShardGlass
+              amount: 2
+          steps:
+            - tool: Prying
+              doAfter: 5
+
+# Stasis Bed Construction # _FNStation edit
+    - node: stasisBedBroken
+      entity: StasisBedBroken
+      edges:
+        - to: machine
+          conditions:
+            - !type:EntityAnchored {}
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 1
+          steps:
+            - tool: Prying
+              doAfter: 5

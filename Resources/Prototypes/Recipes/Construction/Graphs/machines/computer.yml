@@ -143,3 +143,14 @@
           steps:
             - tool: Prying
               doAfter: 2
+
+# Computer BrokenMonitor # _FNStation edit
+    - node: monitorSmashed
+      entity: ComputerMonitorSmashed
+      edges:
+        - to: computer
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - tool: Welding
+              doAfter: 4
