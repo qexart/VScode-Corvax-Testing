@@ -1,0 +1,93 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieArbuz
+  name: плюшевый Арбуз
+  description: Это плюшевый Арбуз. Поверьте, он точно не взорвётся если...
+  components:
+  - type: Sprite
+    sprite: _FNStation/Objects/Fun/toys.rsi
+    state: arbuz
+#  - type: EmitSoundOnUse
+#    sound:
+#      path: /Audio/SS220/Items/Toys/ArbuzPerni.ogg
+#  - type: EmitSoundOnLand
+#    sound:
+#      path: /Audio/SS220/Items/Toys/ArbuzPerni.ogg
+#  - type: EmitSoundOnActivate
+#    sound:
+#      path: /Audio/SS220/Items/Toys/ArbuzPerni.ogg
+#  - type: EmitSoundOnTrigger
+#    sound:
+#      path: /Audio/SS220/Items/Toys/ArbuzPerni.ogg
+#  - type: EmitSoundOnCollide
+#    sound:
+#      path: /Audio/SS220/Items/Toys/ArbuzPerni.ogg
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieCrow
+  name: PLUSHIEFICATION!!!
+  description: THIS IF PLUSHIEFICATION
+  components:
+  - type: Sprite
+    sprite: _FNStation/Objects/Fun/toys.rsi
+    state: crow
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieQexart
+  name: плюшевый qexart
+  description: Человек который точно не тратил время на подобные вещи.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Objects/Fun/toys.rsi
+    state: plushie_qexart
+
+# buranyaa ~~
+- type: entity
+  parent: BasePlushie
+  id: NecoArc
+  name: плюшевая неко арк
+  description: бурунью
+  components:
+  - type: Sprite
+    sprite: _FNStation/Objects/Fun/necoarc.rsi
+    state: necoarc
+    scale: 0.80, 0.80
+  - type: EmitSoundOnUse
+    sound:
+      collection: NecoArcSounds
+      volume: -2
+      params:
+        variation: 0.125
+  - type: EmitSoundOnLand
+    sound:
+      collection: NecoArcSounds
+      volume: -2
+      params:
+        variation: 0.125
+  - type: EmitSoundOnActivate
+    sound:
+      collection: NecoArcSounds
+      volume: -2
+      params:
+        variation: 0.125
+  - type: EmitSoundOnCollide
+    sound:
+      collection: NecoArcSounds
+      volume: -2
+      params:
+        variation: 0.125
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: NecoArcSounds
+      volume: -2
+      params:
+        variation: 0.125
+  - type: MeleeWeapon
+    wideAnimationRotation: 110
+    soundHit:
+      collection: NecoArcSounds
+      volume: -2
+      params:
+        variation: 0.125

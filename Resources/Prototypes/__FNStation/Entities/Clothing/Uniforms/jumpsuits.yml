@@ -1,0 +1,21 @@
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitNTRformal
+  name: торжественный костюм представителя Nanotrasen
+  description: Костюм для особых случаев.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/ntrformal.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/ntrformal.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitBlueshieldBase
+  name: комбинезон офицера "Синий Щит"
+  description: Хоть и выглядит он довольно ухоженным, но зачастую запах от такой униформы веет чем то старым, кто знает, где только оно ни было.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/blueshield.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/blueshield.rsi

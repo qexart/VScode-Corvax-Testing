@@ -1,5 +1,5 @@
 - type: stack
-  id: Ointment
+  id: OintmentStack
   name: stack-ointment
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: ointment }
   spawn: Ointment
@@ -20,7 +20,7 @@
   maxCount: 10
 
 - type: stack
-  id: Brutepack
+  id: BrutepackStack
   name: stack-brutepack
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: gauze }
   spawn: Brutepack
@@ -34,14 +34,14 @@
   maxCount: 10
 
 - type: stack
-  id: MedicatedSuture
+  id: MedicatedSutureStack
   name: stack-medicated-suture
   icon: {sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: medicated-suture }
   spawn: MedicatedSuture
   maxCount: 10
 
 - type: stack
-  id: RegenerativeMesh
+  id: RegenerativeMeshStack
   name: stack-regenerative-mesh
   icon: {sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: regenerative-mesh}
   spawn: RegenerativeMesh

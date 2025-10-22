@@ -1,0 +1,39 @@
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconMagistrat
+  icon:
+    sprite: /Textures/SS220/Interface/Misc/job_icons.rsi
+    state: Magistrat
+  jobName: магистрат
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconBlueshield
+  icon:
+    sprite: /Textures/SS220/Interface/Misc/job_icons.rsi
+    state: Blueshield
+  jobName: офицер "Синий Щит"
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconNanotrasenRepresentive
+  icon:
+    sprite: /Textures/SS220/Interface/Misc/job_icons.rsi
+    state: NanotrasenRepresentive
+  jobName: представитель NanoTrasen
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconPathologist
+  icon:
+    sprite:  /Textures/SS220/Interface/Misc/job_icons.rsi
+    state: pathologist_ico
+  jobName: патологоанатом
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconNanotrasenAverage
+  icon:
+    sprite: /Textures/SS220/Interface/Misc/job_icons.rsi
+    state: NanotrasenAverage
+  jobName: офицер центрального командования

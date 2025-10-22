@@ -1,0 +1,65 @@
+# For mantles
+#- type: loadoutEffectGroup
+#  id: MasterCap
+#  effects:
+#  - !type:JobRequirementLoadoutEffect
+#    requirement:
+#      !type:RoleTimeRequirement
+#      role: JobCaptain
+#      time: 72000 #20 hrs
+
+# Armor
+- type: loadout
+  id: BlueshieldCarapace
+  equipment:
+    outerClothing: ClothingOuterArmorBlueshield
+
+# Uniform
+- type: loadout
+  id: BlueshieldUniform
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBlueshield
+
+- type: loadout
+  id: BlueshieldJumpsuitNew
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBlueshieldBase
+
+# Belt
+- type: loadout
+  id: BlueshieldBeltSecurity
+  equipment:
+    belt: ClothingBeltSecurityFilled
+
+- type: loadout
+  id: BlueshieldBeltAssault
+  equipment:
+    belt: ClothingBeltAssaultFilled
+
+# Shoes
+- type: loadout
+  id: BlueshieldShoes
+  equipment:
+    shoes: ClothingShoesBootsJack
+
+- type: loadout
+  id: BlueshieldShoesCombat
+  equipment:
+    shoes: ClothingShoesBootsCombat
+
+# Head
+- type: loadout
+  id: BlueshieldHead
+  equipment:
+    head: ClothingHeadHatBeretNavyBlue
+
+# Neck
+- type: loadout
+  id: BlueshieldNeck
+  equipment:
+    neck: ClothingNeckCloakShcloack
+
+# Back
+
+# Belt
+

@@ -5,6 +5,9 @@
   playTimeTracker: JobIAA
   requirements:
   - !type:DepartmentTimeRequirement
+    department: Juridical
+    time: 10h
+  - !type:DepartmentTimeRequirement
     department: Command
     time: 20h
   - !type:DepartmentTimeRequirement
@@ -17,6 +20,7 @@
   startingGear: IAAGear
   icon: "JobIconIAA"
   supervisors: job-supervisors-centcom
+  radioBold: true
   canBeAntag: false
   access:
   - Service

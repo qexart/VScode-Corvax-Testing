@@ -1,0 +1,90 @@
+# For mantles
+#- type: loadoutEffectGroup
+#  id: MasterCap
+#  effects:
+#  - !type:JobRequirementLoadoutEffect
+#    requirement:
+#      !type:RoleTimeRequirement
+#      role: JobCaptain
+#      time: 72000 #20 hrs
+
+# Shoes
+- type: loadout
+  id: NTRShoesJack
+  equipment:
+    shoes: ClothingShoesBootsJack
+
+- type: loadout
+  id: NTRShoesLaceup
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+
+# Head
+- type: loadout
+  id: NTRHead
+  equipment:
+    head: ClothingHeadHatCapNtr
+
+# Neck
+- type: loadout
+  id: NTRNeck
+  equipment:
+    neck: ClothingNeckCloakNanotrasenRepresentive
+
+# OuterClothing
+
+- type: loadout
+  id: NTRArmorBasic
+  equipment:
+    outerClothing: ClothingOuterArmorBasic
+
+# Jumpsuit | Jumpskirts
+
+- type: loadout
+  id: NTRbasesuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNTRepresentive
+
+- type: loadout
+  id: NTRformalsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNTRformal
+
+- type: loadout
+  id: NTRformalskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtNTRformal
+
+# Back
+
+# Belt
+- type: loadout
+  id: NTRCCClipboard
+  equipment:
+    belt: BoxFolderCentComClipboard
+
+# Gloves
+- type: loadout
+  id: NTRFormalGloves
+  equipment:
+    gloves: ClothingHandsGlovesNTR
+
+- type: loadout
+  id: NTRCombatGloves
+  equipment:
+    gloves: ClothingHandsGlovesCombat
+
+- type: loadout
+  id: NTRBlackGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorBlack
+
+- type: loadout
+  id: NTRGrayGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorGray
+
+- type: loadout
+  id: NTRWhiteGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorWhite

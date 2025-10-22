@@ -71,3 +71,15 @@
       emergencyLightColor: DarkViolet
       forceEnableEmergencyLights: true
       shuttleTime: 1200
+    sierra: # _FNStation edit # _FNStation sierra code
+      announcement: alert-level-sierra-announcement
+      selectable: false
+      sound:
+        path: /Audio/_FNStation/Misc/sierra.ogg
+        params:
+          volume: -2
+      disableSelection: true
+      color: PaleVioletRed
+      emergencyLightColor: PaleVioletRed
+      forceEnableEmergencyLights: true
+      shuttleTime: 1200

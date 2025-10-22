@@ -23,7 +23,6 @@
   - Clown
   - HeadOfPersonnel
   - Janitor
-  - Lawyer
   - Librarian
   - Mime
   - Musician
@@ -37,7 +36,7 @@
   id: CentralCommand
   name: department-CentralCommand
   description: department-CentralCommand-description
-  color: "#0c344d"
+  color: "#ffd700"
   roles:
   - CentralCommandOfficial
   - CBURN
@@ -55,7 +54,7 @@
   id: Command
   name: department-Command
   description: department-Command-description
-  color: "#334E6D"
+  color: "#ffd700"
   roles:
   - Captain
   - IAA # Corvax-IAA
@@ -74,6 +73,8 @@
   - ERTSecurity
   - ERTEngineer
   - DeathSquad
+  - Blueshield # _FNStation edit
+  - NanotrasenRepresentive # _FNStation edit
   primary: false
   weight: 100
 
@@ -102,6 +103,7 @@
   - Psychologist
   - Paramedic
   - SeniorPhysician # Corvax-MentorRoles
+  - MedicalPathologist # _FNStation edit
 
 - type: department
   id: Security
@@ -129,6 +131,7 @@
   - SeniorResearcher # Corvax-MentorRoles
   - Scientist
   - ResearchAssistant
+  - Roboticist
 
 - type: department
   id: Silicon

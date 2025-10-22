@@ -1,0 +1,28 @@
+- type: playTimeTracker
+  id: JobBlueshield
+
+- type: playTimeTracker
+  id: JobNanotrasenRepresentive
+
+- type: playTimeTracker
+  id: JobMagistrat
+
+- type: playTimeTracker
+  id: JobPathologist
+
+- type: playTimeTracker
+  id: JobRoboticist
+
+# Ведущие роли отделов # Corvax Mentor Roles
+
+#- type: playTimeTracker
+#  id: JobSeniorOfficer
+
+#- type: playTimeTracker
+#  id: JobSeniorEngineer
+
+#- type: playTimeTracker
+#  id: JobSeniorPhysician
+
+#- type: playTimeTracker
+#  id: JobSeniorResearcher

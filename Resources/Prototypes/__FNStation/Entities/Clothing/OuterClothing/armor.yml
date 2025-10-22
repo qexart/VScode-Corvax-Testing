@@ -1,0 +1,19 @@
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorBlueshield
+  name: бронежилет офицера "Синий Щит"
+  description: Бронежилет 2 класса, имеет усиленные бронепластины что позволяет выдерживать большие повреждения в отличии от стандартного варианта. Такое обмундирование Центральное Командование предоставляет как первый вариант защиты своим офицерам из "Синего Щита". Сможет уберечь вас от потери случайной конечности, наверное.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Armor/blueshield.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Armor/blueshield.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.55
+        Heat: 0.90
+  - type: ExplosionResistance
+    damageCoefficient: 0.80

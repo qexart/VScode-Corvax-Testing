@@ -264,6 +264,8 @@ namespace Content.Server.Database
                 loadouts[role.RoleName] = loadout;
             }
 
+            var barkVoice = profile.BarkVoice ?? SharedHumanoidAppearanceSystem.DefaultBarkVoice; // Corvax-Fallout-Barks
+
             return new HumanoidCharacterProfile(
                 profile.CharacterName,
                 profile.FlavorText,
@@ -287,7 +289,8 @@ namespace Content.Server.Database
                 (PreferenceUnavailableMode) profile.PreferenceUnavailable,
                 antags.ToHashSet(),
                 traits.ToHashSet(),
-                loadouts
+                loadouts,
+                barkVoice // Corvax-Fallout-Barks
             );
         }
 
@@ -369,6 +372,8 @@ namespace Content.Server.Database
 
                 profile.Loadouts.Add(dz);
             }
+
+            profile.BarkVoice = humanoid.BarkVoice; // Corvax-Fallout-Barks
 
             return profile;
         }

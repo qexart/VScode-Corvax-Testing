@@ -35,7 +35,6 @@ public abstract class SharedChatSystem : EntitySystem
 
     public static readonly string DefaultChannelPrefix = $"{RadioChannelPrefix}{DefaultChannelKey}";
     public static readonly ProtoId<SpeechVerbPrototype> DefaultSpeechVerb = "Default";
-
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
 
@@ -180,7 +179,6 @@ public abstract class SharedChatSystem : EntitySystem
 
         return true;
     }
-
     public string SanitizeMessageCapital(string message)
     {
         if (string.IsNullOrEmpty(message))

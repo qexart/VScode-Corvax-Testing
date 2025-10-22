@@ -603,6 +603,39 @@
         },
         {
             "name": "representative_door"
+        },
+        {
+            "name": "representative_open"
+        },
+        {
+            "name": "representative"
+        },
+        {
+            "name": "blueshield_door"
+        },
+        {
+            "name": "blueshield_open"
+        },
+        {
+            "name": "blueshield"
+        },
+        {
+            "name": "mag"
+        },
+        {
+            "name": "mag_door"
+        },
+        {
+            "name": "mag_open"
+        },
+        {
+            "name": "patologoanatom"
+        },
+        {
+            "name": "patologoanatom_door"
+        },
+        {
+            "name": "patologoanatom_open"
         }
     ]
 }

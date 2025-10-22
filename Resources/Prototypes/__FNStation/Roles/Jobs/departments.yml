@@ -1,0 +1,37 @@
+- type: department
+  id: Juridical
+  name: department-Juridical
+  description: department-Juridical-description
+  color: "#5e4b42"
+  weight: 30
+  roles:
+   - IAA # Corvax-IAA
+   - Lawyer
+   - Magistrat
+
+- type: department
+  id: CentCommFNS # _FNStation CentComm # Lobby-Color
+  name: department-CentComm
+  description: department-CentComm-description
+  color: "#267513"
+  weight: 40
+  roles:
+   - CentCommHSCC
+   - CentCommAssistant
+   - CentCommOperator
+   - CentCommRepresentive
+   - CentCommOSS
+
+- type: department
+  id: CentCommFNSColor # _FNStation CentComm # InRound-Color
+  name: department-CentComm
+  description: department-CentComm-description
+  color: "#ffd700"
+  weight: 110
+  roles:
+   - CentCommHSCC
+   - CentCommAssistant
+   - CentCommOperator
+   - CentCommRepresentive
+   - CentCommOSS
+  editorHidden: true

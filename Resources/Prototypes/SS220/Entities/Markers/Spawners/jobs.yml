@@ -1,0 +1,102 @@
+# Command
+- type: entity
+  id: SpawnPointMagistrat
+  parent: SpawnPointJobBase
+  name: магистрат
+  components:
+  - type: SpawnPoint
+    job_id: Magistrat
+  - type: Sprite
+    layers:
+      - state: green
+
+- type: entity
+  id: SpawnPointNanotrasenRepresentive
+  parent: SpawnPointJobBase
+  name: представитель NanoTrasen
+  components:
+  - type: SpawnPoint
+    job_id: NanotrasenRepresentive
+  - type: Sprite
+    layers:
+      - state: green
+
+- type: entity
+  id: SpawnPointBlueshield
+  parent: SpawnPointJobBase
+  name: офицер "Синий Щит"
+  components:
+  - type: SpawnPoint
+    job_id: Blueshield
+  - type: Sprite
+    layers:
+      - state: green
+
+# Medical
+- type: entity
+  id: SpawnPointMedicalPathologist
+  parent: SpawnPointJobBase
+  name: патологоанатом
+  components:
+  - type: SpawnPoint
+    job_id: MedicalPathologist
+  - type: Sprite
+    layers:
+      - state: green
+      - state: doctor
+
+# CentralCommand
+- type: entity
+  id: SpawnPointHSCC
+  parent: SpawnPointJobBase
+  name: НШЦК спавн
+  components:
+  - type: SpawnPoint
+    job_id: CentCommHSCC
+  - type: Sprite
+    layers:
+      - state: green
+
+- type: entity
+  id: SpawnPointACC
+  parent: SpawnPointJobBase
+  name: Ассистент ЦК спавн
+  components:
+  - type: SpawnPoint
+    job_id: CentCommAssistant
+  - type: Sprite
+    layers:
+      - state: green
+
+- type: entity
+  id: SpawnPointOCC
+  parent: SpawnPointJobBase
+  name: Оператор ЦК спавн
+  components:
+  - type: SpawnPoint
+    job_id: CentCommOperator
+  - type: Sprite
+    layers:
+      - state: green
+
+- type: entity
+  id: SpawnPointCCR
+  parent: SpawnPointJobBase
+  name: Представитель ЦК спавн
+  components:
+  - type: SpawnPoint
+    job_id: CentCommRepresentive
+  - type: Sprite
+    layers:
+      - state: green
+
+- type: entity
+  id: SpawnPointOSSCC
+  parent: SpawnPointJobBase
+  name: ОССБ спавн
+  components:
+  - type: SpawnPoint
+    job_id: CentCommOSS
+  - type: Sprite
+    layers:
+      - state: green

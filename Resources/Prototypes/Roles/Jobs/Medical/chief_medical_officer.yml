@@ -25,6 +25,7 @@
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"
   supervisors: job-supervisors-captain
+  radioBold: true
   canBeAntag: false
   access:
   - Medical
@@ -34,6 +35,7 @@
   - ChiefMedicalOfficer
   - Brig
   - Cryogenics
+  - Patologoanatom
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]

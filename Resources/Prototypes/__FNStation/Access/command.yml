@@ -1,0 +1,11 @@
+- type: accessLevel
+  id: NanotrasenRepresentive
+  name: представитель Nanotrasen
+
+- type: accessLevel
+  id: Blueshield
+  name: офицер "Синий Щит"
+
+- type: accessLevel
+  id: Magistrat
+  name: Магистрат

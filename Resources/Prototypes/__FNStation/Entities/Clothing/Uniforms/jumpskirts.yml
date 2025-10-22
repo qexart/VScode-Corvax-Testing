@@ -1,0 +1,10 @@
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtNTRformal
+  name: торжественное платье представителя Nanotrasen
+  description: Костюм для особых случаев.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Jumpskirt/ntrformaldress.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Jumpskirt/ntrformaldress.rsi
