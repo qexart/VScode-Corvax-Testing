@@ -1,0 +1,6 @@
+- type: radioChannel
+  id: Juridical
+  name: Юридический
+  keycode: 'ю' # Corvax-Localization
+  frequency: 1984
+  color: "#5e4b42"

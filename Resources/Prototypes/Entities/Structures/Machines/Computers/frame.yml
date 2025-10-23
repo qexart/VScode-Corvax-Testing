@@ -37,7 +37,7 @@
         sound:
           collection: GlassBreak
       - !type:ChangeConstructionNodeBehavior
-        node: monitorSmashed
+        node: monitorBroken
       - !type:DoActsBehavior
         acts: ["Destruction"]
 
