@@ -67,11 +67,13 @@
   - type: Sprite
     sprite: Objects/Fun/Instruments/rockguitar.rsi
   - type: MeleeWeapon
+    animationRotation: -45 # WWDP
     wideAnimationRotation: 45
     damage:
       types:
         Blunt: 6
         Slash: 2
+    angle: 90 # WWDP
   - type: Wieldable
   - type: IncreaseDamageOnWield #they don't call it an axe for nothing
     damage:
@@ -117,6 +119,7 @@
       types:
         Blunt: 20
   - type: MeleeWeapon
+    animationRotation: -45 # WWDP
     wideAnimationRotation: 45
     damage:
       types:

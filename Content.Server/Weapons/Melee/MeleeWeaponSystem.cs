@@ -10,6 +10,13 @@ using Robust.Shared.Map;
 using Robust.Shared.Player;
 using System.Linq;
 using System.Numerics;
+using Content.Goobstation.Common.CCVar;
+using Content.Shared._EinsteinEngines.Contests;
+using Content.Shared.Coordinates;
+using Content.Shared.Item;
+using Content.Shared.Throwing;
+using Robust.Shared.Configuration;
+using Robust.Shared.Physics.Components;
 
 namespace Content.Server.Weapons.Melee;
 
@@ -19,13 +26,43 @@ public sealed class MeleeWeaponSystem : SharedMeleeWeaponSystem
     [Dependency] private readonly DamageExamineSystem _damageExamine = default!;
     [Dependency] private readonly LagCompensationSystem _lag = default!;
     [Dependency] private readonly SharedColorFlashEffectSystem _color = default!;
+    [Dependency] private readonly ContestsSystem _contests = default!;
+    [Dependency] private readonly ThrowingSystem _throwing = default!; // Goob - Shove Rework
+    [Dependency] private readonly INetConfigurationManager _config = default!; // Goob - Shove Rework
+    [Dependency] private readonly SharedTransformSystem _transform = default!; // Goob - Shove Rework
+
+    //Goob - Shove
+    private float _shoveRange;
+    private float _shoveSpeed;
+    private float _shoveMass;
+    //Goob - Shove
 
     public override void Initialize()
     {
         base.Initialize();
         SubscribeLocalEvent<MeleeSpeechComponent, MeleeHitEvent>(OnSpeechHit);
         SubscribeLocalEvent<MeleeWeaponComponent, DamageExamineEvent>(OnMeleeExamineDamage);
+        Subs.CVar(_config, GoobCVars.ShoveRange, SetShoveRange, true);
+        Subs.CVar(_config, GoobCVars.ShoveSpeed, SetShoveSpeed, true);
+        Subs.CVar(_config, GoobCVars.ShoveMassFactor, SetShoveMass, true);
     }
+
+    // Goobstation - Shove
+    private void SetShoveRange(float value)
+    {
+        _shoveRange = value;
+    }
+
+    private void SetShoveSpeed(float value)
+    {
+        _shoveSpeed = value;
+    }
+
+    private void SetShoveMass(float value)
+    {
+        _shoveMass = value;
+    }
+    //Goob - Shove
 
     private void OnMeleeExamineDamage(EntityUid uid, MeleeWeaponComponent component, ref DamageExamineEvent args)
     {
@@ -83,13 +120,33 @@ public sealed class MeleeWeaponSystem : SharedMeleeWeaponSystem
         return Interaction.InRangeUnobstructed(user, target, range);
     }
 
+    private void PhysicalShove(EntityUid user, EntityUid target)
+    {
+        var force = _shoveRange * _contests.MassContest(user, target, rangeFactor: _shoveMass);
+
+        var userPos = _transform.ToMapCoordinates(user.ToCoordinates()).Position;
+        var targetPos = _transform.ToMapCoordinates(target.ToCoordinates()).Position;
+        var pushVector = (targetPos - userPos).Normalized() * force;
+
+        var animated = false;
+        var throwInAir = false;
+
+        if (HasComp<ItemComponent>(target)) // Throw items instead of shoving
+        {
+            animated = true;
+            throwInAir = true;
+        }
+
+        _throwing.TryThrow(target, pushVector, force * _shoveSpeed, animated: animated, throwInAir: throwInAir);
+    }
+
     protected override void DoDamageEffect(List<EntityUid> targets, EntityUid? user, TransformComponent targetXform)
     {
         var filter = Filter.Pvs(targetXform.Coordinates, entityMan: EntityManager).RemoveWhereAttachedEntity(o => o == user);
         _color.RaiseEffect(Color.Red, targets, filter);
     }
 
-    public override void DoLunge(EntityUid user, EntityUid weapon, Angle angle, Vector2 localPos, string? animation, bool predicted = true)
+    public override void DoLunge(EntityUid user, EntityUid weapon, Angle angle, Vector2 localPos, string? animation, Angle spriteRotation, bool flipAnimation, bool predicted = true)
     {
         Filter filter;
 
@@ -102,7 +159,7 @@ public sealed class MeleeWeaponSystem : SharedMeleeWeaponSystem
             filter = Filter.Pvs(user, entityManager: EntityManager);
         }
 
-        RaiseNetworkEvent(new MeleeLungeEvent(GetNetEntity(user), GetNetEntity(weapon), angle, localPos, animation), filter);
+        RaiseNetworkEvent(new MeleeLungeEvent(GetNetEntity(user), GetNetEntity(weapon), angle, localPos, animation, spriteRotation, flipAnimation), filter);
     }
 
     private void OnSpeechHit(EntityUid owner, MeleeSpeechComponent comp, MeleeHitEvent args)

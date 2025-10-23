@@ -82,6 +82,7 @@
     - Pickaxe
     - Pen
   - type: MeleeWeapon
+    animationRotation: -45 # WWDP
     wideAnimationRotation: -45
     damage:
       types:

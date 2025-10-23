@@ -349,7 +349,7 @@ public abstract class SharedAbsorbentSystem : EntitySystem
         var localPos = Vector2.Transform(targetPos, _transform.GetInvWorldMatrix(userXform));
         localPos = userXform.LocalRotation.RotateVec(localPos);
 
-        _melee.DoLunge(user, absorbEnt, Angle.Zero, localPos, null);
+        _melee.DoLunge(user, absorbEnt, Angle.Zero, localPos, null, Angle.Zero, false);
 
         return true;
     }

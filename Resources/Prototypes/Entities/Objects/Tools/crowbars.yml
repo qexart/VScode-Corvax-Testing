@@ -11,6 +11,7 @@
     tags:
     - Crowbar
   - type: MeleeWeapon
+    animationRotation: -45 # WWDP
     wideAnimationRotation: -135
     damage:
       types:

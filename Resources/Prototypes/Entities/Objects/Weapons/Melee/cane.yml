@@ -13,6 +13,7 @@
   - type: Appearance
   - type: MobilityAid
   - type: MeleeWeapon
+    animationRotation: -45 # WWDP
     wideAnimationRotation: 45
     damage:
       types:
@@ -36,7 +37,8 @@
   - type: Sprite
     sprite: Objects/Weapons/Melee/cane_blade.rsi
   - type: MeleeWeapon
-    wideAnimationRotation: 65
+    animationRotation: 45 # WWDP
+    wideAnimationRotation: 45 # WWDP
     attackRate: 1.5
     damage:
       types:

@@ -44,6 +44,7 @@
         Heat: 15
         Structural: 20
   - type: MeleeWeapon
+    animationRotation: -45 # WWDP
     wideAnimationRotation: -135
     attackRate: 1
     damage:
@@ -236,7 +237,8 @@
     color: white
     netsync: false
   - type: MeleeWeapon
-    wideAnimationRotation: 145
+    animationRotation: 135 # WWDP
+    wideAnimationRotation: 135 # WWDP
     attackRate: 1
     hidden: true
     damage:
@@ -372,6 +374,7 @@
   - type: Wieldable
     wieldSound: null # esword light sound instead
   - type: MeleeWeapon
+    animationRotation: -45 # WWDP
     wideAnimationRotation: -135
     attackRate: 1.5
     angle: 100

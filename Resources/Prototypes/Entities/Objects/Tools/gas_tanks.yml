@@ -39,6 +39,7 @@
     explosionType: MicroBomb
     maxIntensity: 20
   - type: MeleeWeapon
+    animationRotation: -45 # WWDP
     wideAnimationRotation: 45
     attackRate: 0.8
     damage:

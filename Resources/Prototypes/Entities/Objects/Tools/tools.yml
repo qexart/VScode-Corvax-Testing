@@ -18,6 +18,7 @@
       map: [ "enum.DamageStateVisualLayers.Base" ]
     - state: cutters-cutty-thingy
   - type: MeleeWeapon
+    animationRotation: -90 # WWDP
     wideAnimationRotation: -90
     damage:
       types:
@@ -66,6 +67,7 @@
     sprite: Objects/Tools/screwdriver.rsi
     storedRotation: -90
   - type: MeleeWeapon
+    animationRotation: -90 # WWDP
     wideAnimationRotation: -90
     attackRate: 1
     damage:
@@ -109,6 +111,7 @@
       sprite: Objects/Tools/wrench.rsi
       state: storage
   - type: MeleeWeapon
+    animationRotation: 225 # WWDP
     wideAnimationRotation: 135
     attackRate: 1.5
     damage:
@@ -283,7 +286,8 @@
   - type: StaticPrice
     price: 100
   - type: MeleeWeapon
-    wideAnimationRotation: -90
+    animationRotation: 90 # WWDP
+    wideAnimationRotation: 90 # WWDP
     attackRate: 1.5
     damage:
       types:
@@ -470,6 +474,7 @@
     sprite: Objects/Tools/shovel.rsi
     state: icon
   - type: MeleeWeapon
+    animationRotation: -45 # WWDP
     wideAnimationRotation: 45
     damage:
       types:

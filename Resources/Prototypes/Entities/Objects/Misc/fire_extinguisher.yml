@@ -51,7 +51,8 @@
     verbToggleOff: fire-extinguisher-component-verb-engage
   - type: SpraySafety
   - type: MeleeWeapon
-    wideAnimationRotation: 180
+    animationRotation: -90 # WWDP
+    wideAnimationRotation: 0 # WWDP
     damage:
       types:
         Blunt: 10

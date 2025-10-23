@@ -60,6 +60,7 @@
     equippedFillBaseName: -fill-
     equippedMaxFillLevels: 1
   - type: MeleeWeapon
+    animationRotation: -135 # WWDP
     wideAnimationRotation: -135
     damage:
       types:
@@ -150,6 +151,7 @@
     capacity: 1
     proto: CartridgeAntiMateriel
   - type: MeleeWeapon
+    animationRotation: -135 # WWDP
     wideAnimationRotation: -135
     damage:
       types:
