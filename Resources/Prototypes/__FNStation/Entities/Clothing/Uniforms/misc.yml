@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtNunCurvy
+  name: костюм монахини
+  description: Соблазнительный костюм в монашеском стиле, богохульство.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/Nun/curvy.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/Nun/curvy.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtNunSkinny
+  name: костюм монахини
+  description: Соблазнительный костюм в монашеском стиле, богохульство.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/Nun/skinny.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/Nun/skinny.rsi

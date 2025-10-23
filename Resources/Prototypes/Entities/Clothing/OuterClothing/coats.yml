@@ -65,14 +65,14 @@
   components:
   - type: Armor
     modifiers:
-      coefficients:
-        Blunt: 0.65
-        Slash: 0.65
-        Piercing: 0.6
-        Heat: 0.7
+      coefficients: # _FNStation edit # trench can now be worn around the neck
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.85
+        Heat: 0.95
         Caustic: 0.75 # not the full 90% from ss13 because of the head
   - type: ExplosionResistance
-    damageCoefficient: 0.9
+    damageCoefficient: 0.95
 
 - type: entity
   abstract: true
@@ -100,6 +100,14 @@
     sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
+    slots: 
+    - NECK
+    - OUTERCLOTHING
+    clothingVisuals:
+      neck:
+      - state: equipped-NECK
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
 
 - type: entity
   parent: ClothingOuterStorageToggleableBase
