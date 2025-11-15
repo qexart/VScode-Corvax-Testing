@@ -10,3 +10,15 @@
       sprite: _FNStation/Clothing/Hands/Gloves/ntr.rsi
     - type: Insulated
     - type: FingerprintMask
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesMagistrat
+  name: перчатки магистрата
+  description: Пара высококачественных плотных перчаток, украшенных золотым шитьём, которым выдаются только представительным лицам Nanotrasen.
+  components:
+    - type: Sprite
+      sprite: _FNStation/Clothing/Hands/Gloves/magistrat.rsi
+    - type: Clothing
+      sprite: _FNStation/Clothing/Hands/Gloves/magistrat.rsi
+    - type: FingerprintMask

@@ -236,10 +236,10 @@
     node: BenchSofaRightNode # Frontier
     
 - type: entity
-  name: sofa
+  name: диван
   id: BenchSofaCorner
   suffix: Угол, коричневый
-#  parent: BenchSofaMiddle
+  parent: BenchSofaMiddle
   placement:
     mode: SnapgridCenter
   components:
@@ -308,10 +308,10 @@
     node: BenchSofaCorpRightNode # Frontier
 
 - type: entity
-  name: grey sofa
+  name: диван
   id: BenchSofaCorpCorner
-  suffix: Угол, тёмный
-#  parent: BenchSofaCorpMiddle
+  suffix: диван, тёмный
+  parent: BenchSofaCorpMiddle
   placement:
     mode: SnapgridCenter
   components:
@@ -360,7 +360,7 @@
 - type: entity
   id: BenchSofaWhiteLeft
   suffix: Левые, белый
-  parent: BenchSofaCorpMiddle
+  parent: BenchSofaWhiteMiddle
   components:
   - type: Sprite
     state: left
@@ -371,7 +371,7 @@
 - type: entity
   id: BenchSofaWhiteRight
   suffix: Правые, белый
-  parent: BenchSofaCorpMiddle
+  parent: BenchSofaWhiteMiddle
   components:
   - type: Sprite
     state: right
@@ -380,10 +380,10 @@
     node: BenchSofaWhiteRightNode # Frontier
 
 - type: entity
-  name: grey sofa
+  name: диван
   id: BenchSofaWhiteCorner
   suffix: Угол, белый
-#  parent: BenchSofaCorpMiddle
+  parent: BenchSofaCorpMiddle
   placement:
     mode: SnapgridCenter
   components:
@@ -391,7 +391,7 @@
     anchored: true
   - type: Rotatable
   - type: Sprite
-    sprite: _FNStation/Structures/Furniture/Benches/sofa_corp.rsi
+    sprite: _FNStation/Structures/Furniture/Benches/sofa_white.rsi
     state: corner
   - type: Clickable
   - type: InteractionOutline

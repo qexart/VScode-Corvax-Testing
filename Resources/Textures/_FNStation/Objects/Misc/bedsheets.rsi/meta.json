@@ -9,6 +9,9 @@
     "states": [
         {
             "name": "sheet_ntr"
+        },
+        {
+            "name": "sheet_mgt"
         }
     ]
 }

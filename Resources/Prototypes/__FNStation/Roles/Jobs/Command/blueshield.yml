@@ -41,6 +41,7 @@
   - Cargo
   - Medical
   - Lawyer
+  - Patologoanatom
   - Blueshield
   special:
   - !type:AddImplantSpecial

@@ -40,6 +40,7 @@
       - Kitchen
       - Lawyer
       - Maintenance
+      - Patologoanatom
       - Medical
       - Quartermaster
       - Research
@@ -131,6 +132,10 @@
     - Xenoborg
     - GenpopEnter
     - GenpopLeave
+    - Patologoanatom
+    - Magistrat               #
+    - NanotrasenRepresentive  # this need more access.
+    - Blueshield              #
     privilegedIdSlot:
       name: id-card-console-privileged-id
       startingItem: UniversalIDCard

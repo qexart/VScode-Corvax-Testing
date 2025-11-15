@@ -15,10 +15,10 @@
     head: ClothingHeadHatPwig
 
 # Neck
-#- type: loadout
-#  id: NTRNeck
-#  equipment:
-#    neck: ClothingNeckCloakNanotrasenRepresentive
+- type: loadout
+  id: MagistratNeckMassive
+  equipment:
+    neck: ClothingNeckCloakMagistrat
 
 # Jumpsuit
 - type: loadout
@@ -33,7 +33,7 @@
     belt: BoxFolderClipboard
 
 # Gloves
-#- type: loadout
-#  id: MagistratBlackGloves
-#  equipment:
-#    gloves: ClothingHandsGlovesColorBlack
+- type: loadout
+  id: MagistratGlovesFormal
+  equipment:
+    gloves: ClothingHandsGlovesMagistrat

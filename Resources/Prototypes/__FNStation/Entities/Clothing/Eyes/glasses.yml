@@ -1,0 +1,20 @@
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons, BaseCommandContraband]
+  id: ClothingEyesGlassesMagistrat
+  name: очки магистрата
+  description: Очки которые вероятнее защищают экипаж от ослеплённой красоты владельца, чем самого его.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Eyes/Glasses/mg-glasses.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Eyes/Glasses/mg-glasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - PetWearable
+    - WhitelistChameleon
+  - type: IdentityBlocker
+    coverage: EYES
