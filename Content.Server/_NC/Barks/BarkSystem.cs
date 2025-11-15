@@ -36,7 +36,7 @@ public sealed class BarkSystem : EntitySystem
 
         var sourceEntity = _entityManager.GetNetEntity(uid);
         var soundPath = barkProto.SoundFiles[new Random().Next(barkProto.SoundFiles.Count)];
-        RaiseNetworkEvent(new PlayBarkEvent(soundPath, sourceEntity, args.Message, comp.PlaybackSpeed, args.IsWhisper));
+        RaiseNetworkEvent(new PlayBarkEvent(soundPath, sourceEntity, args.Message, comp.PlaybackSpeed/*, args.IsWhisper*/));
     }
 
     private async void OnRequestPreviewBark(RequestPreviewBarkEvent ev, EntitySessionEventArgs args)

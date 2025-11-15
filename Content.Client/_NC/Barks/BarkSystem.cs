@@ -55,12 +55,12 @@ public sealed class BarkSystem : EntitySystem
         var userVolume = _cfg.GetCVar(CorvaxVars.BarksVolume);
         var baseVolume = SharedAudioSystem.GainToVolume(userVolume * ContentAudioSystem.BarksMultiplier);
 
-        float volume = MinimalVolume + baseVolume;
-        if (ev.Obfuscated) volume -= WhisperFade;
+        //float volume = MinimalVolume + baseVolume;
+        //if (ev.Obfuscated) volume -= WhisperFade;
 
         var audioParams = new AudioParams
         {
-            Volume = volume,
+            //Volume = volume,
             Variation = 0.125f
         };
 
