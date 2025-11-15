@@ -1,8 +1,23 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsBlueshield
-  suffix: Blueshield, Locked
+  suffix: Синий Щит, Закрыт
   components:
   - type: AccessReader
     access: [["Blueshield"], ["Captain"]]
 
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsMagistrat
+  suffix: Магистрат, Закрыт
+  components:
+  - type: AccessReader
+    access: [["Magistrat"], ["Captain"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanotrasenRepresentive
+  suffix: ПНТ, Закрыт
+  components:
+  - type: AccessReader
+    access: [["NanotrasenRepresentive"], ["Captain"]]

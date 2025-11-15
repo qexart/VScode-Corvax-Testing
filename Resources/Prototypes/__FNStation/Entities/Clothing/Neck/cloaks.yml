@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakMagistrat
+  name: плащ магистрата
+  description: Массивный плащ из дорогого текстиля с символов весов, что описывают свою пренадлежность к не менее "массивной" личности служителя закона.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Neck/Cloaks/magistrat.rsi

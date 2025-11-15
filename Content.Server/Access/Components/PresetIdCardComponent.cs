@@ -11,4 +11,7 @@ public sealed partial class PresetIdCardComponent : Component
 
     [DataField("name")]
     public string? IdName;
+
+    [DataField("color")]
+    public string? JobColor;
 }

@@ -299,6 +299,13 @@
 #region Citadel Station
 
 - type: bark
+  id: BarksCitadelMeow1
+  name: Meow 1 (Citadel Station)
+  roundStart: true
+  soundFiles:
+    - "/Audio/_NC/Voice/Barks/meow1.ogg"
+
+- type: bark
   id: BarksCitadelMutedString1
   name: Muted String Low (Citadel Station)
   roundStart: true

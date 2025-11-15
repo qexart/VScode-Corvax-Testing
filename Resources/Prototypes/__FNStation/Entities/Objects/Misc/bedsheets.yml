@@ -8,3 +8,14 @@
     state: sheet_ntr
   - type: Clothing
     sprite: _FNStation/Clothing/Neck/Bedsheets/ntr.rsi
+
+- type: entity
+  id: BedsheetMagistrat
+  parent: BedsheetBase
+  name: одеяло магистрата
+  components:
+  - type: Sprite
+    sprite: _FNStation/Objects/Misc/bedsheets.rsi
+    state: sheet_mgt
+  - type: Clothing
+    sprite: _FNStation/Clothing/Neck/Bedsheets/magistrat.rsi

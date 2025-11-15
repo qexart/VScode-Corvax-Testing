@@ -1,7 +1,8 @@
 - type: entity
   parent: AirlockBlueshield
   id: AirlockBlueshieldLocked
-  suffix: Blueshield, Locked
+  name: шлюз
+  suffix: Синий Щит, Закрыт
   components:
   - type: ContainerFill
     containers:
@@ -12,7 +13,8 @@
 - type: entity
   parent: AirlockJuridical
   id: AirlockJuridicalLocked
-  suffix: Juridical, Locked
+  name: шлюз
+  suffix: Юридический, Закрыт
   components:
   - type: ContainerFill
     containers:
@@ -20,12 +22,34 @@
   - type: Wires
     layoutId: AirlockJuridical
 
+- type: entity
+  parent: AirlockJuridical
+  id: AirlockMagistratLocked
+  name: шлюз
+  suffix: Магистрат, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMagistrat ]
+  - type: Wires
+    layoutId: AirlockJuridical
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockNanotrasenRepresentiveLocked
+  suffix: ПНТ, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenRepresentive ]
+
 # Glass
 
 - type: entity
   parent: AirlockBlueshieldGlass
   id: AirlockBlueshieldGlassLocked
-  suffix: Blueshield, Locked
+  name: шлюз
+  suffix: Синий Щит, Закрыт
   components:
   - type: ContainerFill
     containers:
@@ -36,10 +60,32 @@
 - type: entity
   parent: AirlockJuridicalGlass
   id: AirlockJuridicalLockedGlass
-  suffix: Juridical, Locked
+  name: шлюз
+  suffix: Юридический, Закрыт
   components:
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsLawyer ]
   - type: Wires
     layoutId: AirlockJuridicalGlass
+
+- type: entity
+  parent: AirlockJuridicalGlass
+  id: AirlockMagistratLockedGlass
+  name: шлюз
+  suffix: Магистрат, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMagistrat ]
+  - type: Wires
+    layoutId: AirlockJuridicalGlass
+
+- type: entity
+  parent: AirlockCommandGlass
+  id: AirlockNanotrasenRepresentiveGlassLocked
+  suffix: ПНТ, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenRepresentive ]

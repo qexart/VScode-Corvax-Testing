@@ -66,13 +66,13 @@
   loadouts:
   - MagistratHead
 
-#- type: loadoutGroup
-#  id: MagistratHead
-#  name: Магистрат, шея
-#  minLimit: 1
-#  maxLimit: 1
-#  loadouts:
-#  - MagistratNeck   ---   Добавить плащ на подобии адмирала НТ.
+- type: loadoutGroup
+  id: MagistratNeck
+  name: Магистрат, шея
+  minLimit: 0
+  loadouts:
+  - LawyerNeck
+  - MagistratNeckMassive
 
 - type: loadoutGroup
   id: MagistratGloves
@@ -83,6 +83,7 @@
   - NTRBlackGloves
   - NTRGrayGloves
   - NTRWhiteGloves
+  - MagistratGlovesFormal
 
 #- type: loadoutGroup
 #  id: MagistratJumpsuit
