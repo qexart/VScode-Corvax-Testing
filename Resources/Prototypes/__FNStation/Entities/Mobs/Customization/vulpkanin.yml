@@ -1,0 +1,55 @@
+# Ears
+
+# Tails
+- type: marking
+  id: VulpTailFoxTip
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [CorvaxVulpkanin, Felinid]
+  sprites:
+  - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fox
+  - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fox-tip
+
+- type: marking
+  id: VulpTailFoxWag
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [CorvaxVulpkanin, Felinid]
+  sprites:
+  - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fox_wag
+  - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fox_wag-fade
+
+- type: marking
+  id: VulpTailFoxWagTip
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [CorvaxVulpkanin, Felinid]
+  sprites:
+  - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fox_wag
+  - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fox_wag-tip
+
+- type: marking
+  id: VulpTailFluffyFNS
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [CorvaxVulpkanin]
+  sprites:
+  - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fluffy
+
+- type: marking
+  id: VulpTailFluffyAltFNS
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [CorvaxVulpkanin]
+  sprites:
+  - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fluffy_alt-outer
+  - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fluffy_alt-inner

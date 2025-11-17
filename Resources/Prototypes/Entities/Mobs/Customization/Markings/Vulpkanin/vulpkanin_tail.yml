@@ -3,7 +3,7 @@
   id: VulpTailFennec
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [ Vulpkanin ]
+  speciesRestriction: [ Vulpkanin, CorvaxVulpkanin ]
   sprites:
     - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fennec
