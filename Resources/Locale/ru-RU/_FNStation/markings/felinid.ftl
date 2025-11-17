@@ -1,0 +1,23 @@
+marking-FelinidEars = Длинные уши
+marking-FelinidEars-ears_vini_outer = Наружное ухо
+marking-FelinidEars-ears_vini_inner = Внутреннее ухо
+marking-FelinidEarsBig = Большие уши
+marking-FelinidEarsBig-ears_big_outer = Внутреннее ухо
+marking-FelinidEarsBig-ears_big_inner = Внутреннее ухо
+marking-FelinidEarsDroop = Опущенные уши
+marking-FelinidEarsDroop-ears_nyshka_outer = Внутреннее ухо
+marking-FelinidEarsDroop-ears_nyshka_inner = Внутреннее ухо
+marking-FelinidEarsShort = Короткие уши
+marking-FelinidEarsShort-ears_food_outer = Внутреннее ухо
+marking-FelinidEarsShort-ears_food_inner = Внутреннее ухо
+# Tails
+marking-FelinidTails = Пушистый хвост
+marking-FelinidTails-felinid_tail_prosto = Первичные полосы
+marking-FelinidTails-felinid_tail = Вторичные полосы
+marking-FelinidTailsDoubleFluffy = Двойной пушистый хвост
+marking-FelinidTailsDoubleFluffy-felinid_tail_pair = Первый хвост
+marking-FelinidTailsDoubleFluffy-felinid_tail_pair_second = Второй хвост
+marking-FelinidTailsStripedDouble = Полосатый дв. пушистый хвост
+marking-FelinidTailsStripedDouble-felinid_tail_pair = Хвост
+marking-FelinidTailsStripedDouble-felinid_tail_pair_striped = Полосы
+marking-FelinidTailsBasic = Уберите это пожалуйста

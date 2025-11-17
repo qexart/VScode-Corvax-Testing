@@ -93,15 +93,12 @@
                                 </BoxContainer>
                             </BoxContainer>
                             <!-- Corvax-Fallout-Barks-Start -->
-                        <PanelContainer HorizontalExpand="True" VerticalExpand="False" MinSize="0 200" Margin="0 5 0 20">
-                            <BoxContainer Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" Margin="5" Visible="False" Name="BarksContainer">
+                            <BoxContainer HorizontalExpand="True" Visible="False" Name="BarksContainer">
                                 <Label Text="{Loc 'humanoid-profile-editor-voice-label'}" />
                                 <Control HorizontalExpand="True"/>
                                 <OptionButton Name="BarkVoiceButton" HorizontalAlignment="Right" />
                                 <Button Name="BarkVoicePlayButton" Text="{Loc 'humanoid-profile-editor-voice-play'}" MaxWidth="80" />
-                                <LineEdit MinSize="0 200" />
                             </BoxContainer>
-                        </PanelContainer>
                             <!-- Corvax-Fallout-Barks-End -->
                             <!-- Skin -->
                             <BoxContainer Margin="10" HorizontalExpand="True" Orientation="Vertical">

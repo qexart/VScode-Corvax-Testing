@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "tail_curved - by Borkroman from AdvSpace; tail_lizard - by qexart",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "tail_curved",
+      "directions": 4
+    },
+    {
+      "name": "tail_curved2",
+      "directions": 4
+    },
+    {
+      "name": "tail_lizard",
+      "directions": 4
+    },
+    {
+      "name": "tail_lizard2",
+      "directions": 4
+    }
+  ]
+}
