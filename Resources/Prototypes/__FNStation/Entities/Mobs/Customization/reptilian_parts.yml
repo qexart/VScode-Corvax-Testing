@@ -1,0 +1,33 @@
+# Tails
+- type: marking
+  id: LizardTailCurved # Added from Adventure Space
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _FNStation/Mobs/Customization/Reptilian/tails.rsi
+    state: tail_curved
+  - sprite: _FNStation/Mobs/Customization/Reptilian/tails.rsi
+    state: tail_curved2
+
+- type: marking
+  id: LizardTailLong
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _FNStation/Mobs/Customization/Reptilian/tails.rsi
+    state: tail_lizard
+  - sprite: _FNStation/Mobs/Customization/Reptilian/tails.rsi
+    state: tail_lizard2
+
+- type: marking
+  id: LizardTailCurvedAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Mobs/Customization/reptilian_parts.rsi
+      state: tail_smooth_wagging_primary
+    - sprite: Mobs/Customization/reptilian_parts.rsi
+      state: tail_smooth_wagging_secondary
