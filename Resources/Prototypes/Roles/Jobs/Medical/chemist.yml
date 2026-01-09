@@ -6,7 +6,12 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
+<<<<<<< HEAD
       time: 18000 #5 hrs # Corvax-RoleTime
+=======
+      time: 5h
+  weight: 8
+>>>>>>> 22ec87a64e (Уйма фиксов, звуков, текстур и ля-ля тополя)
   startingGear: ChemistGear
   icon: "JobIconChemist"
   supervisors: job-supervisors-cmo

@@ -35,7 +35,17 @@
             "name": "light_overlay_wide"
         },
         {
-            "name": "pda"
+            "name": "pda",
+            "delays": [
+                [
+                    0.9,
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.3
+                ]
+            ]
         },
         {
             "name": "pda-atmos"

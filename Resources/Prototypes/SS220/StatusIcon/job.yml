@@ -28,7 +28,7 @@
   icon:
     sprite:  /Textures/SS220/Interface/Misc/job_icons.rsi
     state: pathologist_ico
-  jobName: патологоанатом
+  jobName: коронер
 
 - type: jobIcon
   parent: JobIcon

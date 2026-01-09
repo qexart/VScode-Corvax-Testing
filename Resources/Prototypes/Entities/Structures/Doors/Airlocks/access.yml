@@ -17,7 +17,7 @@
   components:
   - type: ContainerFill
     containers:
-      board: [ DoorElectronicsLawyer ]
+      board: [ DoorElectronicsJuridical ]
 
 - type: entity
   parent: AirlockServiceLocked
@@ -468,7 +468,7 @@
   components:
   - type: ContainerFill
     containers:
-      board: [ DoorElectronicsLawyer ]
+      board: [ DoorElectronicsJuridical ]
 
 - type: entity
   parent: AirlockServiceGlassLocked

@@ -181,6 +181,7 @@ public abstract partial class SharedBuckleSystem
                 return;
         }
         // _FNStation edit end // ADT vehicles end
+
         if (component.Buckled)
             args.Cancel();
     }
@@ -193,8 +194,7 @@ public abstract partial class SharedBuckleSystem
 
     private void OnBuckleUpdateCanMove(EntityUid uid, BuckleComponent component, UpdateCanMoveEvent args)
     {
-        if (component.Buckled &&
-            !HasComp<VehicleComponent>(component.BuckledTo)) // _FNStation edit // ADT vehicles back
+        if (component.Buckled && !HasComp<VehicleComponent>(component.BuckledTo)) // _FNStation edit // ADT vehicles back
             args.Cancel();
     }
 
@@ -546,6 +546,9 @@ public abstract partial class SharedBuckleSystem
         RaiseLocalEvent(buckle, ref unbuckleAttempt);
         if (unbuckleAttempt.Cancelled)
             return false;
+
+        if (TryComp<VehicleComponent>(strapUid, out var vehicle) && vehicle.Rider != user && !_mobState.IsIncapacitated(buckle)) // Corvax-Wega-Vehicles
+            return false; // Corvax-Wega-Vehicles
 
         var unstrapAttempt = new UnstrapAttemptEvent(strap, buckle!, user, popup);
         RaiseLocalEvent(strap, ref unstrapAttempt);

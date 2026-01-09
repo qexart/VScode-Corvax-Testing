@@ -1,0 +1,18 @@
+
+- type: entity
+  parent: [ClothingBackpack, BaseCommandContraband]
+  id: ClothingBackpackCMO
+  name: рюкзак главного врача
+  description: It's a very sterile backpack.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Back/Backpacks/cmo.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackCoroner
+  name: рюкзак коронера
+  description: It's a tough backpack for the daily grind of station life.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Back/Backpacks/coroner.rsi

@@ -77,6 +77,7 @@
   minLimit: 0
   loadouts:
   - Glasses
+  - SunGlasses
   - GlassesJamjar
   - GlassesJensen
 
@@ -150,6 +151,7 @@
   name: loadout-group-captain-neck
   minLimit: 0
   loadouts:
+  - CaptainGreatcoat
   - CaptainCloak
   - CaptainCloakFormal
   - CaptainMantle
@@ -663,6 +665,7 @@
   name: loadout-group-quartermaster-outerclothing
   minLimit: 0
   loadouts:
+  - QuartermasterJacket
   - QuartermasterWintercoat
 
 - type: loadoutGroup
@@ -1182,6 +1185,7 @@
   loadouts:
   - ChiefMedicalOfficerBeret
   - CMOMedicalHeadMirror
+  - ChiefMedicalSurgcap
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerJumpsuit
@@ -1191,6 +1195,7 @@
   - ChiefMedicalOfficerJumpskirt
   - ChiefMedicalOfficerTurtleneckJumpsuit
   - ChiefMedicalOfficerTurtleneckJumpskirt
+  - ChiefMedicalOfficerScrub
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerOuterClothing
@@ -1328,6 +1333,8 @@
   id: ParamedicJumpsuit
   name: loadout-group-paramedic-jumpsuit
   loadouts:
+  - ParamedicJumpsuitDark
+  - ParamedicJumpskirtDark
   - ParamedicJumpsuit
   - ParamedicJumpskirt
 
@@ -1343,6 +1350,7 @@
   id: ParamedicShoes
   name: loadout-group-paramedic-shoes
   loadouts:
+  - BlackShoes
   - BlueShoes
   - WhiteShoes
   - MedicalWinterBoots
@@ -1355,6 +1363,7 @@
   - MedicalHud
   - MedicalEyePatchHud
   - Glasses
+  - SunGlasses
   - GlassesJamjar
   - GlassesJensen
 

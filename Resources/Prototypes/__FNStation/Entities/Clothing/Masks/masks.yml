@@ -1,0 +1,54 @@
+- type: entity
+  parent: ClothingMaskGas
+  id: ClothingMaskEmojiAngry
+  name: злая рожица
+  description: вы злой
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Mask/Fun/angry.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Mask/Fun/angry.rsi
+
+- type: entity
+  parent: ClothingMaskEmojiAngry
+  id: ClothingMaskEmojiFlushed
+  name: ой))
+  description: ой))
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Mask/Fun/flushed.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Mask/Fun/flushed.rsi
+
+- type: entity
+  parent: ClothingMaskEmojiAngry
+  id: ClothingMaskEmojiPensive
+  name: задумчивая рожица
+  description: nuh uh.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Mask/Fun/pensive.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Mask/Fun/pensive.rsi
+
+- type: entity
+  parent: ClothingMaskEmojiAngry
+  id: ClothingMaskEmojiPleading
+  name: умоляющая рожица
+  description: q-q
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Mask/Fun/pleading.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Mask/Fun/pleading.rsi
+
+- type: entity
+  parent: ClothingMaskEmojiAngry
+  id: ClothingMaskJoker
+  name: маска джокера
+  description: выглядит как что-то замышляющее немыслимый план, да, летучая мышь?
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Mask/Fun/joker.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Mask/Fun/joker.rsi

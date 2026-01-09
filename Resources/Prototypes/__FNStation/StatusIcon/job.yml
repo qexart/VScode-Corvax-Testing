@@ -1,0 +1,39 @@
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconNanotrasenCommand
+  icon:
+    sprite: /Textures/_FNStation/Interface/Misc/job_icons.rsi
+    state: NanotrasenCommand
+  jobName: Начальник Штаба Центрального Командования
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconNanotrasenLead
+  icon:
+    sprite: /Textures/_FNStation/Interface/Misc/job_icons.rsi
+    state: NanotrasenLead
+  jobName: лидер ОБР
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSeniorServicer
+  icon:
+    sprite: /Textures/_FNStation/Interface/Misc/job_icons.rsi
+    state: SeniorServicer
+  jobName: сервисный менеджер
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconNanotrasenOSS
+  icon:
+    sprite:  /Textures/_FNStation/Interface/Misc/job_icons.rsi
+    state: NanotrasenOSS
+  jobName: Офицер Специальной Службы Безопасности
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconXeno
+  icon:
+    sprite: /Textures/_FNStation/Interface/Misc/job_icons.rsi
+    state: Xeno
+  jobName: Ксеноморф

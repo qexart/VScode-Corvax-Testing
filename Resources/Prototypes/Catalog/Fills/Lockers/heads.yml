@@ -21,6 +21,7 @@
     - id: ClothingHandsKnuckleDustersQM
     - id: MailTeleporterMachineCircuitboard
     - id: PrinterDocFlatpack # Corvax-Printer
+    - id: ClothingOuterTrenchcoatQuartermaster # _FNStation edit
 
 - type: entity
   id: LockerQuarterMasterFilled

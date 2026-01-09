@@ -1,0 +1,18 @@
+
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseCommandContraband]
+  id: ClothingBackpackDuffelCMO
+  name: вещмешок главного врача
+  description: A large duffel bag for holding extra medical related goods.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Back/Duffels/cmo.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelCoroner
+  name: вещмешок коронера
+  description: A large duffel bag for holding extra beakers and test tubes.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Back/Duffels/coroner.rsi

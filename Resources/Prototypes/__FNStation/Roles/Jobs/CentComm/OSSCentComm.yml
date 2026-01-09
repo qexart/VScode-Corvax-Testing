@@ -15,7 +15,7 @@
       time: 54000 #15 hrs
   weight: 20
   startingGear: OSSCentCommGear
-  icon: "JobIconNanotrasenAverage"
+  icon: "JobIconNanotrasenOSS"
   requireAdminNotify: true
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom

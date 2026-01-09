@@ -90,8 +90,8 @@
 
 - type: entity
   parent: DoorElectronics
-  id: DoorElectronicsLawyer
-  suffix: Lawyer, Locked
+  id: DoorElectronicsJuridical
+  suffix: Juridical, Locked
   components:
   - type: AccessReader
     access: [["Lawyer"]]

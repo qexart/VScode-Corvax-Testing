@@ -1,0 +1,23 @@
+{
+    "size": {
+        "x": 8,
+        "y": 8
+    },
+    "states": [
+      {
+        "name": "NanotrasenLead"
+      },
+      {
+        "name": "NanotrasenCommand"
+      },
+      {
+        "name": "SeniorServicer"
+      },
+      {
+        "name": "NanotrasenOSS"
+      },
+      {
+        "name": "Xeno"
+      }
+   ]
+}

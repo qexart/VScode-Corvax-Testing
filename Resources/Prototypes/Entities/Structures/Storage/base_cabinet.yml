@@ -22,10 +22,6 @@
         enum.ItemCabinetVisuals.Layer:
           True: { visible: true }
           False: { visible: false }
-      enum.OpenableVisuals.Opened:
-        enum.OpenableVisuals.Layer:
-          True: { state: open }
-          False: { state: closed }
 
 - type: entity
   abstract: true

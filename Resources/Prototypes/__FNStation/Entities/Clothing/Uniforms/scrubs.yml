@@ -1,0 +1,21 @@
+- type: entity
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase]
+  id: UniformScrubsColorBlack
+  name: чёрная роба
+  description: Сочетание комфорта и практичности, призванное сделать процесс извлечения всех органов человека и их продажи космическим роботам более официальным.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Scrubs/black.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Scrubs/black.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase]
+  id: UniformScrubsCMO
+  name: роба главного врача
+  description: Сочетание комфорта и практичности, призванное сделать процесс извлечения всех органов человека и их продажи космическим роботам более официальным.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Scrubs/cmo.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Scrubs/cmo.rsi

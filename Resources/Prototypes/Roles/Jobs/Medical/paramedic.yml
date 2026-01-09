@@ -6,7 +6,12 @@
   requirements:
   - !type:DepartmentTimeRequirement
     department: Medical
+<<<<<<< HEAD
     time: 9000 #2.5 hrs
+=======
+    time: 2.5h
+  weight: 4
+>>>>>>> 22ec87a64e (Уйма фиксов, звуков, текстур и ля-ля тополя)
   startingGear: ParamedicGear
   icon: "JobIconParamedic"
   supervisors: job-supervisors-cmo

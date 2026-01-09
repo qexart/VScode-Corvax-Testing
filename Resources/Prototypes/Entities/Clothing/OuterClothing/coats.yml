@@ -10,7 +10,7 @@
     sprite: Clothing/OuterClothing/Coats/bomber.rsi
 
 - type: entity
-  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ClothingOuterArmorBase]
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ClothingOuterStorageFoldableBase, ClothingOuterArmorBase]
   id: ClothingOuterCoatDetective
   name: detective trenchcoat
   description: An 18th-century multi-purpose trenchcoat. Someone who wears this means serious business.
@@ -27,6 +27,11 @@
     damageCoefficient: 1 #its a coat. it doesnt do shit
 
 - type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatDetective]
+  id: ClothingOuterCoatDetectiveOpened
+  name: коричневый тренчкот
+
+- type: entity
   parent: [ClothingOuterCoatDetectiveLoadout]
   id: ClothingOuterCoatDetectiveLoadoutGrey
   name: noir trenchcoat
@@ -36,7 +41,6 @@
     sprite: Clothing/OuterClothing/Coats/detective_grey.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/detective_grey.rsi
-
 
 - type: entity
   parent: ClothingOuterCoatDetective
@@ -65,12 +69,12 @@
   components:
   - type: Armor
     modifiers:
-      coefficients: # _FNStation edit # trench can now be worn around the neck
-        Blunt: 0.90
-        Slash: 0.90
-        Piercing: 0.85
-        Heat: 0.95
-        Caustic: 0.75 # not the full 90% from ss13 because of the head
+        coefficients: # _FNStation edit # trench can now be worn around the neck
+          Blunt: 0.90
+          Slash: 0.90
+          Piercing: 0.95
+          Heat: 0.85
+          Caustic: 0.75 # not the full 90% from ss13 because of the head
   - type: ExplosionResistance
     damageCoefficient: 0.95
 
@@ -100,14 +104,14 @@
     sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
-    slots: 
-    - NECK
+    slots:
     - OUTERCLOTHING
+    - NECK
     clothingVisuals:
-      neck:
-      - state: equipped-NECK
       outerClothing:
       - state: equipped-OUTERCLOTHING
+      neck:
+      - state: equipped-NECK
 
 - type: entity
   parent: ClothingOuterStorageToggleableBase

@@ -2,7 +2,25 @@
   parent: ClothingNeckBase
   id: ClothingNeckCloakMagistrat
   name: плащ магистрата
-  description: Массивный плащ из дорогого текстиля с символов весов, что описывают свою пренадлежность к не менее "массивной" личности служителя закона.
+  description: Массивный плащ из дорогого текстиля с символов весов, что показывает свою пренадлежность к не менее "массивной" личности служителя закона.
   components:
   - type: Sprite
     sprite: _FNStation/Clothing/Neck/Cloaks/magistrat.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCaptainWide
+  name: широкая накидка капитана
+  description: Широкая накидка капитана. Не обеспечивает защиты, смотрится стильно.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Neck/Cloaks/wide_captain_cloak.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckNTRWide
+  name: широкая накидка представителя Nanotrasen
+  description: Широкая накидка представителя Nanotrasen. Не обеспечивает защиты, смотрится стильно.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Neck/Cloaks/wide_ntr_cloak.rsi

@@ -1,0 +1,88 @@
+- type: constructionGraph
+  id: WallmountCabinet
+  start: start
+  graph:
+    - node: start
+      actions:
+        - !type:SpawnPrototype
+          prototype: Plasteel
+          amount: 1
+        - !type:DeleteEntity
+      edges:
+        - to: cabinetFrame
+          steps:
+            - material: Plasteel
+              amount: 10
+              doAfter: 2.5
+        - to: FireAxeCabinetBroken
+          steps:
+            - material: Plasteel
+              amount: 5
+              doAfter: 2.5
+
+    - node: cabinetFrame
+      entity: FrameCabinet
+      edges:
+        - to: unsecuredCabinet
+          steps:
+            - material: Cable
+              amount: 5
+              doAfter: 2.5
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: Plasteel
+              amount: 5
+          steps:
+            - tool: Prying
+              doAfter: 3
+
+    - node: unsecuredCabinet
+      entity: UnsecuredCabinet
+      edges:
+        - to: unfinishedCabinet
+          steps:
+            - material: ReinforcedGlass
+              amount: 5
+              doAfter: 2.5
+        - to: cabinetFrame
+          completed:
+            - !type:SpawnPrototype
+              prototype: Cable
+              amount: 3
+          steps:
+            - tool: Cutting
+              doAfter: 2
+
+    - node: unfinishedCabinet
+      entity: UnfinishedCabinet
+      edges:
+        - to: baseCabinet
+          steps:
+            - tool: Prying
+              doAfter: 2
+        - to: unsecuredCabinet
+          completed:
+            - !type:SpawnPrototype
+              prototype: ReinforcedGlass
+              amount: 3
+          steps:
+            - tool: Screwing
+              doAfter: 2
+
+    - node: baseCabinet
+      entity: FireAxeCabinet
+      edges:
+        - to: unfinishedCabinet
+          steps:
+            - tool: Prying
+              doAfter: 2
+
+    - node: brokenCabinet
+      entity: FireAxeCabinetBroken
+      edges:
+        - to: unsecuredCabinet
+          steps:
+            - tool: Screwing
+              doAfter: 5
+

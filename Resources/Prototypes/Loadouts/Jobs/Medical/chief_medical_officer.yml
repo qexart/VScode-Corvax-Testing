@@ -40,6 +40,11 @@
   equipment:
     head: ClothingHeadMirror
 
+- type: loadout
+  id: ChiefMedicalSurgcap
+  equipment:
+    head: ClothingHeadHatSurgcapCMO
+
 # Neck
 - type: loadout
   id: ChiefMedicalOfficerCloak
@@ -69,4 +74,3 @@
   id: ChiefMedicalOfficerWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCMO
-
