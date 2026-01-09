@@ -91,8 +91,8 @@
       200: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
-      40: 0.7
-      50: 0.5
+      50: 0.7
+      70: 0.5
   - type: MeleeWeapon
     hidden: true
     soundHit:
@@ -135,7 +135,7 @@
     - reagents: [ Water, SpaceCleaner ]
       methods: [ Touch ]
       effects:
-      - !type:WashCreamPie
+      - !type:WashCreamPieReaction
       - !type:Emote
         emote: Hisses
         showInChat: true
@@ -143,10 +143,6 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.0
     baseSprintSpeed: 4.0
-  - type: Item
-    size: Huge
-    shape:
-    - 0,0,3,3
 
 - type: entity
   save: false

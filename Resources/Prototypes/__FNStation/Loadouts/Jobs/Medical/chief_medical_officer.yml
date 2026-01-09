@@ -1,0 +1,21 @@
+# Jumpsuit
+- type: loadout
+  id: ChiefMedicalOfficerScrub
+  equipment:
+    jumpsuit: UniformScrubsCMO
+
+# Back
+- type: loadout
+  id: ChiefMedicalOfficerBackpack
+  equipment:
+    back: ClothingBackpackCMO
+
+- type: loadout
+  id: ChiefMedicalOfficerDuffel
+  equipment:
+    back: ClothingBackpackDuffelCMO
+
+- type: loadout
+  id: ChiefMedicalOfficerSatchel
+  equipment:
+    back: ClothingBackpackSatchelCMO

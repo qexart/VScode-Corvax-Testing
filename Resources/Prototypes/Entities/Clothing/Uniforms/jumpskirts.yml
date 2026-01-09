@@ -277,7 +277,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/mime.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpskirtParamedic
   name: paramedic jumpskirt
   description: It's got a plus on it, that's a good thing right?

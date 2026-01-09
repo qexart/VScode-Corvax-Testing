@@ -1,3 +1,75 @@
+# MEDICAL - Медицинский
+# CMO - ГВ - Главный Врач
+- type: loadoutGroup
+  id: ChiefMedicalOfficerBackpack
+  name: Главный врач, рюкзак
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - ChiefMedicalOfficerBackpack
+  - ChiefMedicalOfficerDuffel
+  - ChiefMedicalOfficerSatchel
+
+# Coroner - Коронер
+- type: loadoutGroup
+  id: CoronerHead
+  name: Коронер, голова
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - CoronerMedHat
+
+- type: loadoutGroup
+  id: CoronerJumpsuit
+  name: Коронер, комбинезон
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CoronerJumpsuit
+  - CoronerJumpskirt
+  - CoronerScrub
+
+- type: loadoutGroup
+  id: CoronerBackpack
+  name: Коронер, рюкзак
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CoronerBackpack
+  - CoronerDuffel
+  - CoronerSatchel
+
+- type: loadoutGroup
+  id: CoronerGloves
+  name: Коронер, перчатки
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - LatexGloves
+  - NitrileGloves
+  - NTRBlackGloves
+
+- type: loadoutGroup
+  id: CoronerOuterClothing
+  name: Коронер, верхняя одежда
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - CoronerLabCoat
+  - CoronerApronWhite
+  - BartenderApron
+#  - CoronerWinterCoat
+
+- type: loadoutGroup
+  id: CoronerShoes
+  name: Коронер, обувь
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BlackShoes
+  - WhiteShoes
+  - MedicalWinterBoots
+
 # Blueshield
 - type: loadoutGroup
   id: BlueshieldOuterClothing
@@ -15,14 +87,6 @@
   loadouts:
   - BlueshieldBeltSecurity
   - BlueshieldBeltAssault
-
-- type: loadoutGroup
-  id: BlueshieldArmor
-  name: Синий Щит, комбинезон
-  minLimit: 1
-  maxLimit: 1
-  loadouts:
-  - BlueshieldCarapace
 
 - type: loadoutGroup
   id: BlueshieldUniforms
@@ -132,7 +196,8 @@
   name: ПНТ, шея
   minLimit: 0
   loadouts:
-  - NTRNeck
+  - NTRWideCloak
+  - NTRBaseCloak
 
 - type: loadoutGroup
   id: NanotrasenRepresentiveOuterClothing
@@ -144,7 +209,7 @@
 
 - type: loadoutGroup
   id: NanotrasenRepresentiveJumpsuit
-  name: ПНТ, комбинезон
+  name: ПНТ, униформа
   minLimit: 1
   maxLimit: 1
   loadouts:
@@ -413,10 +478,10 @@
   minLimit: 1
   maxLimit: 1
   loadouts:
-  - CentCommCCRWintercoat
   - CentCommCCRArmorCarapace
   - CentCommCCRArmorBasic
   - CentCommCCRVest
+  - CentCommCCRWintercoat
 
 - type: loadoutGroup
   id: CentCommHSCCBoots

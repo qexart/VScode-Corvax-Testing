@@ -224,7 +224,7 @@
   - type: Appearance
 
 - type: entity
-  parent: ClothingBeltMedical
+  parent: ClothingBeltStorageBase
   id: ClothingBeltMedicalEMT
   name: EMT belt
   description: Perfect for holding various equipment for medical emergencies.
@@ -233,6 +233,70 @@
     sprite: Clothing/Belt/emt.rsi
   - type: Clothing
     sprite: Clothing/Belt/emt.rsi
+  - type: Storage
+    whitelist:
+      tags:
+      - Bottle
+      - Spray
+      - Brutepack
+      - Bloodpack
+      - Gauze
+      - Ointment
+      - CigPack
+      - PillCanister
+      - Radio
+      - DiscreteHealthAnalyzer
+      - SurgeryTool
+      - Dropper
+      - Powerdrill
+      - Wirecutter
+      - Crowbar
+      - Screwdriver
+      - Flashlight
+      - Wrench
+      - Multitool
+      - AppraisalTool
+      - JawsOfLife
+      components:
+      - Hypospray
+      - Injector
+      - Pill
+      - HandLabeler
+      - ParamedicJawsOfLife
+  - type: ItemMapper
+    sprite: *BeltOverlay
+    mapLayers:
+      bottle:
+        whitelist:
+          tags:
+          - Bottle
+      hypo:
+        whitelist:
+          components:
+          - Hypospray
+      pill:
+        whitelist:
+          components:
+          - Pill
+          tags:
+          - PillCanister
+      bottle_spray:
+        whitelist:
+          tags:
+          - Spray
+      # spray_med:
+      #   whitelist:
+      #     tags:
+      #     - SprayMedical
+      # wrench_medical:
+      #   whitelist:
+      #     tags:
+      #     - WrenchMedical
+      wrench:
+        whitelist:
+          tags:
+          - Wrench
+  - type: Appearance
 
 - type: entity
   parent: ClothingBeltStorageBase

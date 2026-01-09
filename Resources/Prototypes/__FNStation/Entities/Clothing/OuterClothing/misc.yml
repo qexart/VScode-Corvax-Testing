@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterApronWhite
+  name: apron
+  description: An apron-jacket used by a high class chef.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Misc/apron_white.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Misc/apron_white.rsi
+  - type: Tag
+    tags:
+    - Apron
+    - WhitelistChameleon

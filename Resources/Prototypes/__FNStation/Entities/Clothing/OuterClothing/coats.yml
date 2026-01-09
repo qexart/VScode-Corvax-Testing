@@ -1,14 +1,87 @@
+# MEDICAL
 - type: entity
-  parent: ClothingOuterStorageBase
-  id: ClothingOuterCoatPatologoanatom
-  name: Халат патологоанатома
-  description: Стерильный чёрный халат патологоанатома для работы с трупами. Немного защищает от проливов кислот.
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatLabCoroner
+  name: лабораторный халат коронера
+  description: Изготовленный по специальному заказу синий лабораторный халат главного врача обеспечивает дополнительную защиту от разливов химикатов и мелких порезов.
   components:
   - type: Sprite
-    sprite: _FNStation/Clothing/OuterClothing/Coats/patolocoat.rsi
+    sprite: _FNStation/Clothing/OuterClothing/Coats/labcoat_coroner.rsi
   - type: Clothing
-    sprite: _FNStation/Clothing/OuterClothing/Coats/patolocoat.rsi
+    sprite: _FNStation/Clothing/OuterClothing/Coats/labcoat_coroner.rsi
   - type: Armor
     modifiers:
       coefficients:
         Caustic: 0.75
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabCoroner]
+  id: ClothingOuterCoatLabCoronerOpened
+  name: лабораторный халат коронера
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatParamedic
+  name: ветровка парамедика
+  description: A suit that protects against minor chemical spills. Has an orange stripe on the shoulder.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/paramedic_coat.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/paramedic_coat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.90
+        Caustic: 0.85
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatParamedic]
+  id: ClothingOuterCoatParamedicOpened
+  name: куртка парамедика
+
+# CARGO
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterJacketQuartermaster
+  name: бомбер квартирмейстера
+  description: A suit that protects against minor chemical spills. Has an orange stripe on the shoulder.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/qm_jacket.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/qm_jacket.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.90
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterJacketQuartermaster]
+  id: ClothingOuterJacketQuartermasterOpened
+  name: бомбер квартирмейстера
+
+- type: entity
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ClothingOuterStorageFoldableBase, BaseCommandContraband]
+  id: ClothingOuterTrenchcoatQuartermaster
+  name: тренчкот квартирмейстера
+  description: A suit that protects against minor chemical spills. Has an orange stripe on the shoulder.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/qm_trenchcoat.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/qm_trenchcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.95
+        Heat: 0.85
+        Caustic: 0.90
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterTrenchcoatQuartermaster]
+  id: ClothingOuterTrenchcoatQuartermasterOpened
+  name: тренчкот квартирмейстера

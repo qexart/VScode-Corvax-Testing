@@ -1,4 +1,23 @@
-# Magistrat
+# MEDICAL - Медицинский
+# Coroner - Коронер
+- type: roleLoadout
+  id: JobMedicalPathologist
+  groups:
+  - Inventory # Corvax-Loadouts
+  - GroupTankHarness
+  - CoronerHead
+  - MedicalMask
+  - CoronerJumpsuit
+  - CoronerGloves
+  - CoronerBackpack
+  - CoronerOuterClothing
+  - CoronerShoes
+  - MedicalEyewear
+  - SurvivalMedical
+  - Trinkets
+  - GroupSpeciesBreathToolMedical
+
+# Magistrat - Магистрат
 - type: roleLoadout
   id: JobMagistrat
   groups:
@@ -16,7 +35,7 @@
   - GroupSpeciesBreathTool
 
 
-# NanotrasenRepresentive
+# NanotrasenRepresentive - Представитель NanoTrasen
 - type: roleLoadout
   id: JobNanotrasenRepresentive
   groups:
@@ -32,7 +51,7 @@
   - Trinkets
   - GroupSpeciesBreathTool
 
-# Blueshield
+# Blueshield - Синий Щит
 - type: roleLoadout
   id: JobBlueshield
   groups:
@@ -47,7 +66,7 @@
   - Trinkets
   - GroupSpeciesBreathToolSecurity
 
-# Робототехник
+# Robocoticist - Робототехник
 
 - type: roleLoadout
   id: JobRoboticist
@@ -61,7 +80,7 @@
   - Survival
   - Trinkets
 
-# CentralCommand
+# CentralCommand - ЦК - Центральное Командование
 - type: roleLoadout
   id: JobCentCommAssistant
   groups:

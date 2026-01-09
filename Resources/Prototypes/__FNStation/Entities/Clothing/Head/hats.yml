@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSurgcapCMO
+  name: хирургическая шапочка
+  description: Бирюзовая шапочка, которую хирурги надевают на операции. Не даёт их волосам щекотать ваши внутренние органы.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Head/Hats/surgcap_cmo.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Head/Hats/surgcap_cmo.rsi
+#  - type: HideLayerClothing
+#    layers:
+#      Hair: HEAD
+#      HeadTop : HEAD
+#      HeadSide : HEAD

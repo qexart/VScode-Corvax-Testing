@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingBeltSecurity, ContentsExplosionResistanceBase, BaseCommandContraband]
+  parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseCommandContraband]
   id: ClothingBeltAssault
   name: assault belt
   description: A tactical assault belt.
@@ -8,3 +8,35 @@
     sprite: Clothing/Belt/assault.rsi
   - type: Clothing
     sprite: Clothing/Belt/assault.rsi
+  - type: Storage
+    whitelist:
+      tags:
+      - Wirecutter
+      - Crowbar
+      - Screwdriver
+      - Wrench
+      - Multitool
+      - CigPack
+      - Taser
+      - SecBeltEquip
+      - Radio
+      - Sidearm
+      - MagazinePistol
+      - MagazineMagnum
+      - CombatKnife
+      - Truncheon
+      - HandGrenade
+      components:
+      - HoloprojectorField
+      - MedkitCombat
+      - Stunbaton
+      - FlashOnTrigger
+      - SmokeOnTrigger
+      - Flash
+      - Handcuff
+      - BallisticAmmoProvider
+      - CartridgeAmmo
+      - DoorRemote
+      - Whistle
+      - BalloonPopper
+  - type: Appearance

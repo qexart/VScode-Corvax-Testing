@@ -29,6 +29,9 @@
       state: generic_keyboard
     - map: ["computerLayerScreen"]
       state: generic
+    - map: ["computerLayerScreenSmashed" ]
+      state: screen_broken
+      visible: false
     - map: ["computerLayerKeys"]
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]

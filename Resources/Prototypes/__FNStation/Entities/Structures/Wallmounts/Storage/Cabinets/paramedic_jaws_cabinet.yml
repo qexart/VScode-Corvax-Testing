@@ -1,0 +1,73 @@
+# Paramedic cabinet
+- type: entity
+  parent: FireAxeCabinet
+  id: ParamedicJawsCabinetCabinet
+  name: шкаф для челюстей жизни
+  description: Здесь имеется маленькая надпись "Только в экстренных случаях". Можно обратить внимание что табличка с надписью сильно потёрта.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 200 #20ish crowbar hits
+      behaviors:
+      - !type:EmptyAllContainersBehaviour
+#      - !type:ChangeConstructionNodeBehavior
+#        node: jawsParamedicCabinetBroken
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+  - type: Sprite
+    sprite: _FNStation/Structures/Wallmounts/paramedic_jaws_cabinet.rsi
+    layers:
+    - state: cabinet
+    - state: item
+      map: ["enum.ItemCabinetVisuals.Layer"]
+      visible: true
+    - state: glass
+      map: ["enum.OpenableVisuals.Layer"]
+  - type: ItemSlots
+    slots:
+      ItemCabinet:
+        ejectOnInteract: true
+        whitelist:
+          tags:
+          - ParamedicJawsOfLife
+  - type: Lock
+  - type: AccessReader
+    access: [["Medical"], ["Command"]]
+
+- type: entity
+  parent: ParamedicJawsCabinetCabinet
+  id: ParamedicJawsCabinetOpen
+  suffix: Open
+  components:
+  - type: Openable
+    opened: true
+  - type: Lock
+    locked: false
+
+- type: entity
+  parent: ParamedicJawsCabinetCabinet
+  id: ParamedicJawsCabinetFilled
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      ItemCabinet:
+      - ParamedicJawsOfLife
+
+- type: entity
+  parent: [ParamedicJawsCabinetFilled, ParamedicJawsCabinetOpen]
+  id: ParamedicJawsCabinetFilledOpen
+  suffix: Filled, Open

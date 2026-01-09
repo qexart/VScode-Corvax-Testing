@@ -42,6 +42,11 @@
 
 # Neck
 - type: loadout
+  id: CaptainGreatcoat
+  equipment:
+    neck: ClothingNeckCaptainWide
+
+- type: loadout
   id: CaptainCloak
   equipment:
     neck: ClothingNeckCloakCap

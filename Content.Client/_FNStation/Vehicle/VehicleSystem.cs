@@ -1,7 +1,6 @@
 using Content.Shared.Vehicle;
 using Content.Shared.Vehicle.Components;
 using Robust.Client.GameObjects;
-using Robust.Shared.GameStates;
 
 namespace Content.Client.Vehicle;
 
@@ -15,7 +14,6 @@ public sealed class VehicleSystem : SharedVehicleSystem
 
         SubscribeLocalEvent<RiderComponent, ComponentStartup>(OnRiderStartup);
         SubscribeLocalEvent<RiderComponent, ComponentShutdown>(OnRiderShutdown);
-        SubscribeLocalEvent<RiderComponent, ComponentHandleState>(OnRiderHandleState);
         SubscribeLocalEvent<VehicleComponent, AppearanceChangeEvent>(OnVehicleAppearanceChange);
     }
 
@@ -35,21 +33,6 @@ public sealed class VehicleSystem : SharedVehicleSystem
         {
             _eye.SetTarget(uid, null, eyeComp);
         }
-    }
-
-    private void OnRiderHandleState(EntityUid uid, RiderComponent component, ref ComponentHandleState args)
-    {
-        if (args.Current is not RiderComponentState state)
-            return;
-
-        var entity = EnsureEntity<RiderComponent>(state.Entity, uid);
-
-        if (TryComp(uid, out EyeComponent? eyeComp) && eyeComp.Target == component.Vehicle)
-        {
-            _eye.SetTarget(uid, entity, eyeComp);
-        }
-
-        component.Vehicle = entity;
     }
 
     private void OnVehicleAppearanceChange(EntityUid uid, VehicleComponent component, ref AppearanceChangeEvent args)

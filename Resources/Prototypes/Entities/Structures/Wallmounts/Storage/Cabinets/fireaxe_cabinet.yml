@@ -6,6 +6,9 @@
   placement:
     mode: SnapgridCenter
   components:
+#  - type: Construction
+#    graph: WallmountCabinet
+#    node: baseCabinet
   - type: Destructible
     thresholds:
     - trigger:
@@ -19,20 +22,31 @@
         damage: 200 #20ish crowbar hits
       behaviors:
       - !type:EmptyAllContainersBehaviour
+#      - !type:ChangeConstructionNodeBehavior
+#        node: fireAxeCabinetBroken
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
       - !type:PlaySoundBehavior
         sound:
-          collection: MetalGlassBreak
+          collection: GlassBreak
   - type: Sprite
     sprite: Structures/Wallmounts/fireaxe_cabinet.rsi
     layers:
     - state: cabinet
-    - state: fireaxe
+    - state: item
       map: ["enum.ItemCabinetVisuals.Layer"]
       visible: true
     - state: glass
       map: ["enum.OpenableVisuals.Layer"]
+#    - state: glass-4
+#      map: ["OpenableBrokenCabinetVisuals"]
+#      visible: false
+#  - type: GenericVisualizer
+#    visuals:
+#      enum.OpenableVisuals.Opened:
+#        OpenableBrokenCabinetVisuals:
+#          True: { state: glass-broken-up }
+#          False: { state: glass-4 }
   - type: ItemSlots
     slots:
       ItemCabinet:
@@ -68,3 +82,51 @@
   parent: [FireAxeCabinetFilled, FireAxeCabinetOpen]
   id: FireAxeCabinetFilledOpen
   suffix: Filled, Open
+
+- type: entity
+  parent: FireAxeCabinet
+  id: FireAxeCabinetBroken
+  name: fire axe cabinet
+  description: There is a small label that reads "For Emergency use only" along with details for safe use of the axe. As if.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Construction
+    graph: WallmountCabinet
+    node: brokenCabinet
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 200 #20ish crowbar hits
+      behaviors:
+      - !type:EmptyAllContainersBehaviour
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+  - type: Sprite
+    layers:
+    - state: glass
+      map: ["enum.OpenableVisuals.Layer"]
+      visible: false
+    - state: glass-4
+      map: ["OpenableBrokenCabinetVisuals"]
+      visible: true
+  - type: ItemSlots
+    slots:
+      ItemCabinet:
+        ejectOnInteract: true
+        whitelist:
+          tags:
+          - FireAxe
+  - type: Lock
+  - type: AccessReader
+    access: [["Atmospherics"], ["Command"]]

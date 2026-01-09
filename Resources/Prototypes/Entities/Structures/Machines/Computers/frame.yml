@@ -37,7 +37,7 @@
         sound:
           collection: GlassBreak
       - !type:ChangeConstructionNodeBehavior
-        node: monitorBroken
+        node: monitorSmashed
       - !type:DoActsBehavior
         acts: ["Destruction"]
 
@@ -103,18 +103,21 @@
 
 # Computer BrokenMonitor # _FNStation edit
 - type: entity
-  parent: BaseStructureComputer
+  parent: [ BaseComputer, BaseStructureComputer ]
   id: ComputerMonitorSmashed
-  name: broken computer
-  description: This computer has seen better days.
+  name: консоль
   components:
   - type: Construction
     graph: Computer
     node: monitorSmashed
   - type: Sprite
     layers:
-    - map: ["computerLayerScreen"]
-      state: screen_broken
+    - state: generic
+      map: ["computerLayerScreen"]
+      visible: false
+    - state: screen_broken
+      map: ["computerLayerScreenSmashed"]
+      visible: true
   - type: Destructible
     thresholds:
     - trigger: # Computer BrokenMonitor # _FNStation edit

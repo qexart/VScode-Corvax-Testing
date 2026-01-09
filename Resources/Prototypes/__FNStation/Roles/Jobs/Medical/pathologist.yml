@@ -1,12 +1,13 @@
 - type: job
   id: MedicalPathologist
-  name: патологоанатом
+  name: коронер
   description: Врач, которые относит трупы в морг и занимается прижизненной и посмертной диагностикой трупа. 
   playTimeTracker: JobMedicalPathologist
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
       time: 36000 #10 hrs # Corvax-RoleTime
+  weight: 5
   startingGear: PathologistGear
   icon: "JobIconPathologist"
   supervisors: job-supervisors-cmo
@@ -18,16 +19,6 @@
 - type: startingGear
   id: PathologistGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
-    back: ClothingBackpackMedical
-    shoes: ClothingShoesColorBlack
-    outerClothing: ClothingOuterCoatPatologoanatom
     id: PathologistPDA
     ears: ClothingHeadsetPatologoanatom
-    head: ClothingHeadHatPatologonatHat
     belt: ClothingBeltMedicalFilled
-  innerClothingSkirt: ClothingUniformJumpskirtMedicalDoctor
-  satchel: ClothingBackpackSatchelMedical
-  duffelbag: ClothingBackpackDuffelMedical
-
-

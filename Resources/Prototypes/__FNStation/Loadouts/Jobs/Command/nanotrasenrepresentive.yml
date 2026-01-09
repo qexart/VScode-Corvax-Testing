@@ -27,9 +27,14 @@
 
 # Neck
 - type: loadout
-  id: NTRNeck
+  id: NTRBaseCloak
   equipment:
     neck: ClothingNeckCloakNanotrasenRepresentive
+
+- type: loadout
+  id: NTRWideCloak
+  equipment:
+    neck: ClothingNeckNTRWide
 
 # OuterClothing
 

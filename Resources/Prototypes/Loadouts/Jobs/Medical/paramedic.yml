@@ -6,6 +6,16 @@
 
 # Jumpsuit
 - type: loadout
+  id: ParamedicJumpsuitDark
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitParamedicDark
+
+- type: loadout
+  id: ParamedicJumpskirtDark
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtParamedicDark
+
+- type: loadout
   id: ParamedicJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitParamedic
@@ -19,7 +29,7 @@
 - type: loadout
   id: ParamedicWindbreaker
   equipment:
-    outerClothing: ClothingOuterCoatParamedicWB
+    outerClothing: ClothingOuterCoatParamedic
 
 - type: loadout
   id: ParamedicWintercoat

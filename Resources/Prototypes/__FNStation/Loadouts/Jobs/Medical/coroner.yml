@@ -1,0 +1,58 @@
+# Head
+- type: loadout
+  id: CoronerMedHat
+  equipment:
+    head: ClothingHeadHatPatologonatHat
+
+# Jumpsuit
+- type: loadout
+  id: CoronerJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCoroner
+
+- type: loadout
+  id: CoronerJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCoroner
+
+- type: loadout
+  id: CoronerScrub
+  equipment:
+    jumpsuit: UniformScrubsColorBlack
+
+# Outer clothing
+- type: loadout
+  id: CoronerMedCoat
+  equipment:
+    outerClothing: ClothingOuterCoatPatologoanatom
+
+- type: loadout
+  id: CoronerLabCoat
+  equipment:
+    outerClothing: ClothingOuterCoatLabCoroner
+
+- type: loadout
+  id: CoronerApronWhite
+  equipment:
+    outerClothing: ClothingOuterApronWhite
+
+#- type: loadout
+#  id: CoronerWinterCoat
+#  equipment:
+#    outerClothing: ClothingOuterWinterPara
+
+# Back
+- type: loadout
+  id: CoronerBackpack
+  equipment:
+    back: ClothingBackpackCoroner
+
+- type: loadout
+  id: CoronerDuffel
+  equipment:
+    back: ClothingBackpackDuffelCoroner
+
+- type: loadout
+  id: CoronerSatchel
+  equipment:
+    back: ClothingBackpackSatchelCoroner

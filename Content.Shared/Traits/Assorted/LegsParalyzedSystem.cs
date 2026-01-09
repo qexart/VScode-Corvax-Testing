@@ -4,6 +4,7 @@ using Content.Shared.Movement.Events;
 using Content.Shared.Movement.Systems;
 using Content.Shared.Standing;
 using Content.Shared.Throwing;
+using Content.Shared.Vehicle.Components; // Corvax-Wega-Vehicles
 
 namespace Content.Shared.Traits.Assorted;
 
@@ -42,6 +43,9 @@ public sealed class LegsParalyzedSystem : EntitySystem
 
     private void OnUnbuckled(EntityUid uid, LegsParalyzedComponent component, ref UnbuckledEvent args)
     {
+        if (TryComp<BuckleComponent>(uid, out var buckle) && HasComp<VehicleComponent>(buckle.BuckledTo)) // Corvax-Wega-Vehicles
+            return; // Corvax-Wega-Vehicles
+
         _standingSystem.Down(uid);
     }
 

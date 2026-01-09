@@ -13,6 +13,7 @@
     - id: AstroNavCartridge
     - id: ClothingHandsKnuckleDustersQM
     - id: PrinterDocFlatpack # Corvax-Printer
+    - id: ClothingOuterTrenchcoatQuartermaster # _FNStation edit
 
 - type: entity
   id: LockerQuarterMasterFilled

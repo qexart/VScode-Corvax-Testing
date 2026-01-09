@@ -1,3 +1,25 @@
+# MEDICAL
+- type: entity
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase]
+  id: ClothingUniformJumpsuitCoroner
+  name: комбинезон коронера
+  description: Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/coroner.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase]
+  id: ClothingUniformJumpsuitParamedicDark
+  name: комбинезон парамедика
+  description: It's got a plus on it, that's a good thing right?
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/paramedic.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/paramedic.rsi
+
+# COMMAND
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitNTRformal

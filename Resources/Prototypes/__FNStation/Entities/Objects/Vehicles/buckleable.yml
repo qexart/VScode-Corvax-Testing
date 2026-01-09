@@ -10,13 +10,13 @@
     enabled: false
   - type: MovementSpeedModifier
     weightlessModifier: 0
-    acceleration: 2
-    friction: 2
+    baseAcceleration: 2
+    baseFriction: 2
     frictionNoInput: 6
     baseWalkSpeed: 4.5
     baseSprintSpeed: 6
   - type: Repairable
-    fuelcost: 20
+    fuelCost: 20
     doAfterDelay: 20
   - type: Damageable
     damageContainer: Inorganic
@@ -48,7 +48,6 @@
   components:
   - type: Strap
     buckleOffset: "0.10, 0.36"
-    maxBuckleDistance: 1
   - type: InputMover
   - type: InteractionOutline
   - type: Vehicle
@@ -190,10 +189,9 @@
     noRot: true
   - type: Strap
     buckleOffset: "0.15, -0.05"
-    maxBuckleDistance: 1
   - type: MovementSpeedModifier
-    acceleration: 1
-    friction: 1
+    baseAcceleration: 1
+    baseFriction: 0.8
     baseWalkSpeed: 4.5
     baseSprintSpeed: 6
   - type: Armor
@@ -215,8 +213,6 @@
           path: /Audio/Effects/Vehicle/vehiclestartup.ogg
           params:
             volume: -3
-  - type: StealTarget
-    stealGroup: VehicleSecway
 
 - type: entity
   parent: BaseVehicleRideable
@@ -235,14 +231,15 @@
     - state: vehicle
       map: ["enum.VehicleVisualLayers.AutoAnimate"]
     noRot: true
+  # - type: RandomMetadata
+  #   descriptionSegments: [ATVDescriptions]
   - type: MovementSpeedModifier
-    acceleration: 1
-    friction: 1
+    baseAcceleration: 1
+    baseFriction: 0.8
     baseWalkSpeed: 4.5
     baseSprintSpeed: 7
   - type: Strap
     buckleOffset: "0.1, -0.05"
-    maxBuckleDistance: 1
   - type: UnpoweredFlashlight
   - type: PointLight
     enabled: false
@@ -286,7 +283,6 @@
       noRot: true
     - type: Strap
       buckleOffset: "0.15, -0.05"
-      maxBuckleDistance: 1
     - type: Armor
       modifiers:
         coefficients:
@@ -326,10 +322,9 @@
       noRot: true
     - type: Strap
       buckleOffset: "0.1, -0.05"
-      maxBuckleDistance: 1
     - type: MovementSpeedModifier
-      acceleration: 2
-      friction: 1.5
+      baseAcceleration: 2
+      baseFriction: 1.3
       baseWalkSpeed: 4.5
       baseSprintSpeed: 7
     - type: UnpoweredFlashlight
@@ -378,10 +373,9 @@
     noRot: true
   - type: Strap
     buckleOffset: "0.1, -0.05"
-    maxBuckleDistance: 1
   - type: MovementSpeedModifier
-    acceleration: 1
-    friction: 0.8
+    baseAcceleration: 1
+    baseFriction: 0.8
     baseWalkSpeed: 3.5
     baseSprintSpeed: 4.3
   - type: Destructible
@@ -435,7 +429,6 @@
       baseSprintSpeed: 2
     - type: Strap
       buckleOffset: "0,0"
-      maxBuckleDistance: 1
     - type: Fixtures
       fixtures:
         fix1:
