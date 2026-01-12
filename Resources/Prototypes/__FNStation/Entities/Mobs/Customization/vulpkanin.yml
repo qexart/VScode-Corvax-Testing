@@ -1,4 +1,38 @@
+# Shout
+- type: marking
+  id: FoxSnoutLong
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [CorvaxVulpkanin]
+  sponsorOnly: false # Corvax-Sponsors
+  sprites:
+    - sprite: _FNStation/Mobs/Customization/Vulpkanin/other.rsi
+      state: long-nose
+
 # Ears
+- type: marking
+  id: IrbisEarLong
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [CorvaxVulpkanin]
+  sponsorOnly: false # Corvax-Sponsors
+  sprites:
+    - sprite: _FNStation/Mobs/Customization/Irbis-Feline/ears_markings.rsi
+      state: feline_long
+    - sprite: _FNStation/Mobs/Customization/Irbis-Feline/ears_markings.rsi
+      state: feline_long-inner
+
+- type: marking
+  id: IrbisEarLongPunk
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [CorvaxVulpkanin]
+  sponsorOnly: false # Corvax-Sponsors
+  sprites:
+    - sprite: _FNStation/Mobs/Customization/Irbis-Feline/ears_markings.rsi
+      state: feline_punk
+    - sprite: _FNStation/Mobs/Customization/Irbis-Feline/ears_markings.rsi
+      state: feline_punk-inner
 
 # Tails
 - type: marking
@@ -35,15 +69,6 @@
     state: fox_wag-tip
 
 - type: marking
-  id: VulpTailFluffyFNS
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [CorvaxVulpkanin]
-  sprites:
-  - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
-    state: fluffy
-
-- type: marking
   id: VulpTailFluffyAltFNS
   bodyPart: Tail
   markingCategory: Tail
@@ -53,3 +78,23 @@
     state: fluffy_alt-outer
   - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
     state: fluffy_alt-inner
+
+# will be carried to the Irbis race
+- type: marking
+  id: IrbisTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [CorvaxVulpkanin]
+  sponsorOnly: false # Corvax-Sponsors
+  sprites:
+    - sprite: _FNStation/Mobs/Customization/Irbis-Feline/tail_leopard.rsi
+      state: leopard_static
+
+- type: marking
+  id: IrbisTailAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: _FNStation/Mobs/Customization/Irbis-Feline/tail_leopard.rsi
+      state: leopard_wag

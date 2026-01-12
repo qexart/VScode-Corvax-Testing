@@ -22,7 +22,15 @@
       "name": "walkietalkie-off"
     },
     {
-      "name": "walkietalkie-on"
+      "name": "walkietalkie-on",
+      "delays": [
+        [
+          0.6,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     }
   ]
 }
