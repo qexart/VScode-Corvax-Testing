@@ -1,12 +1,8 @@
 # Topical medicines
 
 - type: stack
-<<<<<<< HEAD:Resources/Prototypes/Stacks/medical_stacks.yml
-  id: OintmentStack
-=======
   parent: BaseSmallStack
   id: Ointment
->>>>>>> aad5613341df4bd34b24db1b4c5a99a411f92cb6:Resources/Prototypes/Stacks/Specific/medical.yml
   name: stack-ointment
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: ointment }
   spawn: Ointment
@@ -26,12 +22,8 @@
   spawn: Gauze
 
 - type: stack
-<<<<<<< HEAD:Resources/Prototypes/Stacks/medical_stacks.yml
-  id: BrutepackStack
-=======
   parent: BaseSmallStack
   id: Brutepack
->>>>>>> aad5613341df4bd34b24db1b4c5a99a411f92cb6:Resources/Prototypes/Stacks/Specific/medical.yml
   name: stack-brutepack
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: gauze }
   spawn: Brutepack
@@ -44,23 +36,15 @@
   spawn: Bloodpack
 
 - type: stack
-<<<<<<< HEAD:Resources/Prototypes/Stacks/medical_stacks.yml
-  id: MedicatedSutureStack
-=======
   parent: BaseSmallStack
   id: MedicatedSuture
->>>>>>> aad5613341df4bd34b24db1b4c5a99a411f92cb6:Resources/Prototypes/Stacks/Specific/medical.yml
   name: stack-medicated-suture
   icon: {sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: medicated-suture }
   spawn: MedicatedSuture
 
 - type: stack
-<<<<<<< HEAD:Resources/Prototypes/Stacks/medical_stacks.yml
-  id: RegenerativeMeshStack
-=======
   parent: BaseSmallStack
   id: RegenerativeMesh
->>>>>>> aad5613341df4bd34b24db1b4c5a99a411f92cb6:Resources/Prototypes/Stacks/Specific/medical.yml
   name: stack-regenerative-mesh
   icon: {sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: regenerative-mesh}
   spawn: RegenerativeMesh
