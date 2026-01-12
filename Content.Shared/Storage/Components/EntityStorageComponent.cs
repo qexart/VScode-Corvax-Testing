@@ -145,14 +145,12 @@ public sealed class EntityStorageComponentState : ComponentState
 
     public TimeSpan NextInternalOpenAttempt;
 
-    public EntityStorageComponentState(bool open, int capacity, bool isCollidableWhenOpen, bool openOnMove, bool closeSound, bool openSound, float enteringRange, TimeSpan nextInternalOpenAttempt)
+    public EntityStorageComponentState(bool open, int capacity, bool isCollidableWhenOpen, bool openOnMove, float enteringRange, TimeSpan nextInternalOpenAttempt)
     {
         Open = open;
         Capacity = capacity;
         IsCollidableWhenOpen = isCollidableWhenOpen;
         OpenOnMove = openOnMove;
-        OpenSound = openSound;
-        CloseSound = closeSound;
         EnteringRange = enteringRange;
         NextInternalOpenAttempt = nextInternalOpenAttempt;
     }
