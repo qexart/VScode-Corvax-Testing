@@ -1,4 +1,4 @@
-admin-smite-chess-self = Вы чувствуете себя необычайно маленьким.
+﻿admin-smite-chess-self = Вы чувствуете себя необычайно маленьким.
 admin-smite-chess-others = { CAPITALIZE($name) } уменьшается до шахматной доски!
 admin-smite-set-alight-self = Вы загораетесь пламенем!
 admin-smite-set-alight-others = { CAPITALIZE($name) } загорается пламенем!
@@ -60,6 +60,8 @@ admin-smite-nyanify-name = НЯфикация
 admin-smite-kill-sign-name = Знак смерти
 admin-smite-omni-accent-name = Омни-акцент
 admin-smite-crawler-name = Ползун
+admin-smite-homing-rod-name = Самонаводящийся жезл
+admin-smite-homing-rod-slow-name = Медленный самонаводящийся жезл
 admin-smite-silicon-laws-bound-name = Сделать синтетиком
 
 ## Smite descriptions
@@ -107,6 +109,8 @@ admin-smite-terminate-description = Создаёт экстерминатора 
 admin-smite-super-slip-description = Очень сильно поскальзывает цель.
 admin-smite-omni-accent-description = Заставляет цель говорить с почти каждым возможным акцентом.
 admin-smite-crawler-description = Заставляет цель упасть и не позволяет встать. Для дополнительного эффекта удалите и руки!
+admin-smite-homing-rod-description = Запускает самонаводящийся неподвижный жезл, двигающийся прямо к цели.
+admin-smite-homing-rod-slow-description = Запускает самонаводящийся неподвижный жезл, медленно двигающийся прямо к цели.
 admin-smite-super-bonk-lite-description = Заставляет цель удариться о каждый стол на станции и за её пределами. Прекращает действовать после смерти цели.
 admin-smite-silicon-laws-bound-description = Заставляет цель соблюдать законы синтетиков. Закон 2, выпрыгни с окна.
 
@@ -129,9 +133,9 @@ admin-trick-revoke-all-access-description = Забирает у цели вес�
 admin-trick-rejuvenate-description = Возрождает цель, исцеляет её от всего.
 admin-trick-adjust-stack-description = Устанавливает размер стопки на указанное значение.
 admin-trick-fill-stack-description = Устанавливает размер стопки на максимум.
-admin-trick-rename-description = Переименовывает целевой объект. Обратите внимание, что это не равно команде `rename` и не исправит его ID.
-admin-trick-redescribe-description = Переописывает целевой объект.
-admin-trick-rename-and-redescribe-description = Переименовывает и переописывает объект одной кнопкой.
+admin-trick-rename-description = Изменяет имя целевого объекта. Обратите внимание, что это не равно команде `rename` и не исправит его ID.
+admin-trick-redescribe-description = Изменяет описание целевого объекта.
+admin-trick-rename-and-redescribe-description = Изменяет имя и описание объекта одной кнопкой.
 admin-trick-bar-job-slots-description = Закрывает все слоты должностей на станции, так что никто не сможет присоединиться.
 admin-trick-locate-cargo-shuttle-description = Телепортирует вас прямо на грузовой шаттл станции, если он есть.
 admin-trick-infinite-battery-description = Перенастраивает СМЭСы и подстанции на сетке/станции/карте на быструю автозарядку.

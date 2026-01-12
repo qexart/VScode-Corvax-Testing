@@ -1,7 +1,6 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - Amber
   - Bagel
   - Box
   - Elkridge
@@ -12,4 +11,8 @@
   - Plasma
   - Reach
   - Exo
+<<<<<<< HEAD
   
+=======
+  - Snowball
+>>>>>>> aad5613341df4bd34b24db1b4c5a99a411f92cb6
