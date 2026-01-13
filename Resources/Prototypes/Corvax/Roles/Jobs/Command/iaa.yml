@@ -6,14 +6,10 @@
   requirements:
   - !type:DepartmentTimeRequirement
     department: Juridical
-<<<<<<< HEAD
-    time: 36000
-=======
     time: 10h
   - !type:DepartmentTimeRequirement
     department: Command
     time: 20h
->>>>>>> 3be904db98 (Фикс после поломки апстрима)
   - !type:DepartmentTimeRequirement
     department: Security
     time: 36000
