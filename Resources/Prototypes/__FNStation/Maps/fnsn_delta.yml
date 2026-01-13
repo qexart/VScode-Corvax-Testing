@@ -26,12 +26,9 @@
             SeniorOfficer: [ 1, 1 ] # _FNStation edit
             SeniorResearcher: [ 1, 1 ] # _FNStation edit
             SeniorEngineer: [ 1, 1 ] # _FNStation edit
-<<<<<<< HEAD
             Roboticist: [ 1, 1 ]
-=======
             StationAi: [ 1, 1 ] # _FNStation edit
             Borg: [ 5, 5 ] # _FNStation edit
->>>>>>> d1242add7b (Aspid | + Медикаментам добавили разные версии под разные количества.)
             CargoTechnician: [ 4, 4 ]
             Passenger: [ -1, -1 ]
             Bartender: [ 1, 1 ]
