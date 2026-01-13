@@ -12,7 +12,7 @@
     time: 20h
   - !type:DepartmentTimeRequirement
     department: Security
-    time: 36000
+    time: 10h
   - !type:TraitsRequirement
     inverted: true
     traits:

@@ -3,7 +3,7 @@
   parent: Dresser
   suffix: Filled, Captain
   components:
-  - type: StorageFill
+  - type: EntityTableContainerFill
     contents:
       - id: ClothingHeadHatCaptain
       - id: ClothingHeadHatCapcap
@@ -19,20 +19,22 @@
   parent: Dresser
   suffix: Filled, Chief Engineer
   components:
-  - type: StorageFill
-    contents:
-      - id: ClothingUniformJumpsuitChiefEngineerTurtle
-      - id: ClothingUniformJumpskirtChiefEngineerTurtle
-      - id: ClothingHeadHatBeretEngineering
-      - id: ClothingOuterWinterCE
-      - id: ClothingNeckCloakCe
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingUniformJumpsuitChiefEngineerTurtle
+        - id: ClothingUniformJumpskirtChiefEngineerTurtle
+        - id: ClothingHeadHatBeretEngineering
+        - id: ClothingOuterWinterCE
+        - id: ClothingNeckCloakCe
 
 - type: entity
   id: DresserChiefMedicalOfficerFilled
   parent: Dresser
   suffix: Filled, Chief Medical Officer
   components:
-  - type: StorageFill
+  - type: EntityTableContainerFill
     contents:
       - id: ClothingOuterCoatLabCmo
       - id: ClothingUniformJumpsuitCMOTurtle
@@ -49,7 +51,7 @@
   parent: Dresser
   suffix: Filled, Head Of Personnel
   components:
-  - type: StorageFill
+  - type: EntityTableContainerFill
     contents:
       - id: ClothingHeadHatHopcap
       - id: ClothingOuterWinterHoP
@@ -62,7 +64,7 @@
   parent: Dresser
   suffix: Filled, Head Of Security
   components:
-  - type: StorageFill
+  - type: EntityTableContainerFill
     contents:
       - id: ClothingHeadHatBeretHoS
       - id: ClothingHeadHatHoshat
@@ -70,7 +72,7 @@
       - id: ClothingUniformJumpsuitHoSAlt
       - id: ClothingUniformJumpskirtHosFormal
       - id: ClothingUniformJumpsuitHosFormal
-      - id: ClothingOuterWinterHoS
+#      - id: ClothingOuterWinterHoS
       - id: ClothingNeckCloakHos
       - id: ClothingShoesHeeledRed # Adventure
 
@@ -79,38 +81,44 @@
   parent: Dresser
   suffix: Filled, Quarter Master
   components:
-  - type: StorageFill
-    contents:
-      - id: ClothingHeadHatBeretQM
-      - id: ClothingUniformJumpsuitQMFormal
-      - id: ClothingUniformJumpsuitQMTurtleneck
-      - id: ClothingUniformJumpskirtQMTurtleneck
-      - id: ClothingHandsGlovesColorBrown
-      - id: ClothingOuterWinterQM
-      - id: ClothingNeckCloakQm
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingHeadHatBeretQM
+        - id: ClothingUniformJumpsuitQMFormal
+        - id: ClothingUniformJumpsuitQMTurtleneck
+        - id: ClothingUniformJumpskirtQMTurtleneck
+        - id: ClothingHandsGlovesColorBrown
+        - id: ClothingOuterWinterQM
+        - id: ClothingNeckCloakQm
 
 - type: entity
   id: DresserResearchDirectorFilled
   parent: Dresser
   suffix: Filled, Research Director
   components:
-  - type: StorageFill
-    contents:
-      - id: ClothingHeadHatBeretRND
-      - id: ClothingHandsGlovesColorPurple
-      - id: ClothingEyesGlasses
-      - id: ClothingOuterWinterRD
-      - id: ClothingOuterCoatRD
-      - id: ClothingNeckCloakRd
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingHeadHatBeretRND
+        - id: ClothingHandsGlovesColorPurple
+        - id: ClothingEyesGlasses
+        - id: ClothingOuterWinterRD
+        - id: ClothingOuterCoatRD
+        - id: ClothingNeckCloakRd
 
 - type: entity
   id: DresserWardenFilled
   parent: Dresser
   suffix: Filled, Warden
   components:
-  - type: StorageFill
-    contents:
-      - id: ClothingHeadHatWarden
-      - id: ClothingHeadHatBeretWarden
-      - id: ClothingUniformJumpskirtWarden
-      - id: ClothingUniformJumpsuitWarden
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingHeadHatWarden
+        - id: ClothingHeadHatBeretWarden
+        - id: ClothingUniformJumpskirtWarden
+        - id: ClothingUniformJumpsuitWarden

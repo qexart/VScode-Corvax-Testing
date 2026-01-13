@@ -19,6 +19,7 @@
     - Moth
     - Reptilian
     #Corvax-Species-Start
+    - CorvaxVulpkanin
     - Vulpkanin
     - Tajaran
     #Corvax-Species-End
@@ -81,6 +82,7 @@
     - Reptilian
     #Corvax-Species-Start
     - Vulpkanin
+    - CorvaxVulpkanin
     - Tajaran
     #Corvax-Species-End
 
@@ -193,6 +195,29 @@
   storage:
     back:
     - BoxSurvivalSyndicateNitrogen
+
+# Military / Double Extended
+- type: loadout
+  id: EmergencyOxygenMilitaryDouble
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreather
+  equipment:
+    pocket1: DoubleEmergencyOxygenTankFilled
+  storage:
+    back:
+    - BoxSurvivalMilitaryDouble
+
+- type: loadout
+  id: EmergencyNitrogenMilitaryDouble
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreather
+  equipment:
+    pocket1: DoubleEmergencyNitrogenTankFilled
+  storage:
+    back:
+    - BoxSurvivalMilitaryDoubleNitrogen
 
 # Pre-equipped species gear
 
