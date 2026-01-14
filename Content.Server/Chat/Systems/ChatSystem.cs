@@ -517,7 +517,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         _replay.RecordServerMessage(new ChatMessage(ChatChannel.Whisper, message, wrappedMessage, GetNetEntity(source), null, MessageRangeHideChatForReplay(range)));
 
-        var ev = new EntitySpokeEvent(source, message, originalMessage, channel, obfuscatedMessage, true);
+        var ev = new EntitySpokeEvent(source, message, originalMessage, channel, obfuscatedMessage);
         RaiseLocalEvent(source, ev, true);
         if (!hideLog)
             if (originalMessage == message)
