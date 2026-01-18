@@ -18,6 +18,30 @@
       },
       {
         "name": "Xeno"
+      },
+      {
+        "name": "CargoAssistant"
+      },
+      {
+        "name": "SeniorLogistician"
+      },
+      {
+        "name": "Surgeon"
+      },
+      {
+        "name": "Xenogeneticist"
+      },
+      {
+        "name": "Roboticist"
+      },
+      {
+        "name": "Scientist"
+      },
+      {
+        "name": "Mailman"
+      },
+      {
+        "name": "Jurist"
       }
    ]
 }

@@ -1,3 +1,52 @@
+# CARGO - Карго
+# Mailman - Почтальон
+- type: roleLoadout
+  id: JobCargoMailman
+  groups:
+  - Inventory # Corvax-Loadouts
+  - GroupTankHarness
+  - CargoTechnicianHead
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianBackpack
+  - CargoTechnicianOuterClothing
+  - CargoTechnicianShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# Cargo Assistant - Грузовой Ассистент
+- type: roleLoadout
+  id: JobCargoAssistant
+  groups:
+  - Inventory # Corvax-Loadouts
+  - GroupTankHarness
+  - CargoTechnicianHead
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianBackpack
+  - CargoTechnicianOuterClothing
+  - CargoTechnicianShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# Senior Logistician - Ведущий Логист
+- type: roleLoadout
+  id: JobSeniorLogistician
+  groups:
+  - Inventory # Corvax-Loadouts
+  - GroupTankHarness
+  - CargoTechnicianHead
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianBackpack
+  - CargoTechnicianOuterClothing
+  - CargoTechnicianShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
 # MEDICAL - Медицинский
 # Coroner - Коронер
 - type: roleLoadout
@@ -17,6 +66,23 @@
   - Trinkets
   - GroupSpeciesBreathToolMedical
 
+# SERVICE - Сервисный
+# Senior Servicer - Сервисный Менеджер
+- type: roleLoadout
+  id: JobSeniorServicer
+  groups:
+  - Inventory # Corvax-Loadouts
+  - GroupTankHarness
+  - BartenderHead
+  - BartenderJumpsuit
+  - CommonBackpack
+  - BartenderOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# LAW - Юридический
 # Magistrat - Магистрат
 - type: roleLoadout
   id: JobMagistrat
@@ -34,6 +100,18 @@
   - Trinkets
   - GroupSpeciesBreathTool
 
+- type: roleLoadout
+  id: JobJurist
+  groups:
+  - Inventory # Corvax-Loadouts
+  - GroupTankHarness
+  - LawyerNeck
+  - LawyerJumpsuit
+  - CommonBackpack
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
 
 # NanotrasenRepresentive - Представитель NanoTrasen
 - type: roleLoadout

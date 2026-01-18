@@ -1,0 +1,17 @@
+- type: job
+  id: CargoAssistant
+  name: грузовой ассистент
+  description: job-description-cargotech
+  playTimeTracker: JobCargoAssistant
+  startingGear: CargoTechGear
+  icon: "JobIconCargoAssistant"
+  supervisors: job-supervisors-qm
+  access:
+  - Cargo
+  - Maintenance
+  extendedAccess:
+  - Salvage
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: BoxingDay
+    prototype: BoxCardboard

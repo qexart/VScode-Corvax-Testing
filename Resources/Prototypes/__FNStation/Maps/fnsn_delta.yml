@@ -27,7 +27,6 @@
             SeniorOfficer: [ 1, 1 ] # _FNStation edit
             SeniorResearcher: [ 1, 1 ] # _FNStation edit
             SeniorEngineer: [ 1, 1 ] # _FNStation edit
-            Roboticist: [ 1, 1 ]
             StationAi: [ 1, 1 ] # _FNStation edit
             Borg: [ 5, 5 ] # _FNStation edit
             CargoTechnician: [ 4, 4 ]

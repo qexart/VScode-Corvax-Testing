@@ -13,6 +13,7 @@
     - !type:DepartmentTimeRequirement
       department: Medical
       time: 36000
+  weight: 9
   startingGear: BlueshieldGear
   icon: "JobIconBlueshield"
   supervisors: job-supervisors-centcom

@@ -16,6 +16,10 @@
   - Maintenance
   extendedAccess:
   - Chemistry
+#  subRoles:
+#  - Surgeon
+#  - Geneticist
+#  - MedicalPathologist
   special:
   - !type:GiveItemOnHolidaySpecial
     holiday: DoctorDay

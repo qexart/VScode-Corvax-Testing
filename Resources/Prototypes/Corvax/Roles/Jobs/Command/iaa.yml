@@ -17,6 +17,7 @@
     inverted: true
     traits:
     - Muted
+  weight: 8
   startingGear: IAAGear
   icon: "JobIconIAA"
   supervisors: job-supervisors-centcom

@@ -18,7 +18,7 @@
     - BaseStationArrivals
     - BaseStationGateway
     - BaseStationShuttles
-    - BaseStationCentComm
+    - BaseStationCentcomm
     - BaseStationEvacuation
     - BaseStationAlertLevels
     - BaseStationMagnet

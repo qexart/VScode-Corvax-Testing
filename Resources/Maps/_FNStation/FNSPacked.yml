@@ -65699,8 +65699,6 @@ entities:
       pos: 23.5,41.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 16077
     - type: AtmosPipeColor
@@ -66143,8 +66141,6 @@ entities:
       pos: 78.5,3.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 86
     - type: AtmosPipeColor
@@ -66163,8 +66159,6 @@ entities:
       pos: 18.5,40.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 16077
 - proto: GasVentScrubber
@@ -66648,8 +66642,6 @@ entities:
       pos: 22.5,41.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 16077
     - type: AtmosPipeColor
@@ -67060,8 +67052,6 @@ entities:
       pos: 76.5,3.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 86
     - type: AtmosPipeColor
@@ -67072,8 +67062,6 @@ entities:
       pos: 17.5,39.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 16077
 - proto: GasVolumePump

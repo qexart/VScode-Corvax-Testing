@@ -7,6 +7,7 @@
     - !type:DepartmentTimeRequirement
       department: Science
       time: 5h # Corvax-RoleTime
+  weight: 7
   startingGear: ScientistGear
   icon: "JobIconScientist"
   supervisors: job-supervisors-rd

@@ -10,6 +10,7 @@
     - !type:DepartmentTimeRequirement
       department: Engineering
       time: 14400 # 4 hrs
+  weight: 8
   startingGear: RoboticistGear
   icon: JobIconRoboticist
   supervisors: job-supervisors-rd

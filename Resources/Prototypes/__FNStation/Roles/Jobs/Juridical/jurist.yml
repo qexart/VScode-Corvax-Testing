@@ -1,0 +1,16 @@
+- type: job
+  id: Jurist
+  name: юрист
+  description: job-description-lawyer
+  playTimeTracker: JobJurist
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 2.5h
+  startingGear: LawyerGear
+  icon: "JobIconJurist"
+  supervisors: job-supervisors-hop
+  access:
+  - Service
+  - Lawyer
+  - Brig
+  - Maintenance

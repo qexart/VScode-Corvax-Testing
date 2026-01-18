@@ -1,0 +1,17 @@
+- type: job
+  id: SeniorLogistician
+  name: ведущий логист
+  description: job-description-cargotech
+  playTimeTracker: JobSeniorLogistician
+  weight: 9
+  startingGear: CargoTechGear
+  icon: "JobIconSeniorLogistician"
+  supervisors: job-supervisors-qm
+  access:
+  - Cargo
+  - Maintenance
+  - Salvage
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: BoxingDay
+    prototype: BoxCardboard

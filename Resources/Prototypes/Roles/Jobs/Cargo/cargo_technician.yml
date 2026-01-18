@@ -3,6 +3,7 @@
   name: job-name-cargotech
   description: job-description-cargotech
   playTimeTracker: JobCargoTechnician
+  weight: 7
   startingGear: CargoTechGear
   icon: "JobIconCargoTechnician"
   supervisors: job-supervisors-qm
@@ -11,6 +12,8 @@
   - Maintenance
   extendedAccess:
   - Salvage
+  subRoles:
+  - CargoMailman
   special:
   - !type:GiveItemOnHolidaySpecial
     holiday: BoxingDay

@@ -1,0 +1,22 @@
+- type: job
+  id: SeniorServicer
+  name: сервисный менеджер
+  description: job-description-bartender
+  playTimeTracker: JobSeniorServicer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 40h # Corvax-RoleTime
+  weight: 9
+  startingGear: BartenderGear
+  icon: "JobIconSeniorServicer"
+  supervisors: job-supervisors-hop
+  access:
+  - Service
+  - Maintenance
+  - Bar
+  - Kitchen
+  - Hydroponics
+#  extendedAccess:
+#  - Kitchen
+#  - Hydroponics

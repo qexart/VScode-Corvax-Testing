@@ -67,13 +67,15 @@ public sealed class EntitySpokeEvent : EntityEventArgs
     /// message gets sent on this channel, this should be set to null to prevent duplicate messages.
     /// </summary>
     public RadioChannelPrototype? Channel;
+    public readonly bool IsWhisper;
 
-    public EntitySpokeEvent(EntityUid source, string message, string originalMessage, RadioChannelPrototype? channel, string? obfuscatedMessage)// Corvax-TTS originalMessage
+    public EntitySpokeEvent(EntityUid source, string message, string originalMessage, RadioChannelPrototype? channel, string? obfuscatedMessage, bool whisper = false)// Corvax-TTS originalMessage
     {
         Source = source;
         Message = message;
         OriginalMessage = originalMessage; // Corvax-TTS: Spec symbol sanitize
         Channel = channel;
         ObfuscatedMessage = obfuscatedMessage;
+        IsWhisper = whisper;
     }
 }

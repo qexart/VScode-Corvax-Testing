@@ -8,6 +8,7 @@
    - IAA # Corvax-IAA
    - Lawyer
    - Magistrat
+   - Jurist
 
 - type: department
   id: CentCommFNS # _FNStation CentComm # Lobby-Color

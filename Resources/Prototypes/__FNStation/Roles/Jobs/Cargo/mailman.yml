@@ -1,0 +1,18 @@
+- type: job
+  id: CargoMailman
+  name: почтальон
+  description: job-description-cargotech
+  playTimeTracker: JobCargoMailman
+  isSubRole: true
+  startingGear: CargoTechGear
+  icon: "JobIconCargoMailman"
+  supervisors: job-supervisors-qm
+  access:
+  - Cargo
+  - Maintenance
+  extendedAccess:
+  - Salvage
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: BoxingDay
+    prototype: BoxCardboard

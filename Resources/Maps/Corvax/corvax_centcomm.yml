@@ -30634,8 +30634,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 70.5,49.5
       parent: 1
-<<<<<<< HEAD
-=======
 - proto: ComputerCloningConsole
   entities:
   - uid: 3636
@@ -30651,7 +30649,6 @@ entities:
         7209:
         - - MedicalScannerSender
           - MedicalScannerReceiver
->>>>>>> 2cbb9a10c15a8e759f48baa6ca8d2adaedce5b12
 - proto: ComputerCrewMonitoring
   entities:
   - uid: 3637
@@ -58108,8 +58105,6 @@ entities:
     - type: Transform
       pos: 14.5,63.5
       parent: 1
-<<<<<<< HEAD
-=======
 - proto: LockableButtonBrig
   entities:
   - uid: 7137
@@ -58441,7 +58436,6 @@ entities:
           - Toggle
     - type: Fixtures
       fixtures: {}
->>>>>>> 2cbb9a10c15a8e759f48baa6ca8d2adaedce5b12
 - proto: LockerAtmosphericsFilled
   entities:
   - uid: 7148
@@ -58875,16 +58869,6 @@ entities:
           showEnts: False
           occludes: True
           ents:
-<<<<<<< HEAD
-          - 3406
-          - 3407
-          - 3408
-          - 3411
-          - 3412
-          - 3413
-          - 3409
-          - 3410
-=======
           - 3531
           - 3532
           - 3533
@@ -58975,7 +58959,6 @@ entities:
         - - Output
           - Toggle
     - type: Visibility
->>>>>>> 2cbb9a10c15a8e759f48baa6ca8d2adaedce5b12
 - proto: LootSpawnerMedicalMinor
   entities:
   - uid: 7177
@@ -68461,8 +68444,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 84.5,82.5
       parent: 1
-<<<<<<< HEAD
-=======
 - proto: SignalButton
   entities:
   - uid: 8547
@@ -69299,7 +69280,6 @@ entities:
           - Close
     - type: Fixtures
       fixtures: {}
->>>>>>> 2cbb9a10c15a8e759f48baa6ca8d2adaedce5b12
 - proto: SignArcade
   entities:
   - uid: 8576
@@ -74118,8 +74098,6 @@ entities:
     - type: Transform
       pos: 21.5,93.5
       parent: 1
-<<<<<<< HEAD
-=======
 - proto: TwoWayLever
   entities:
   - uid: 9215
@@ -74276,7 +74254,6 @@ entities:
           - Reverse
         - - Middle
           - Off
->>>>>>> 2cbb9a10c15a8e759f48baa6ca8d2adaedce5b12
 - proto: UniformPrinter
   entities:
   - uid: 9218
@@ -82108,8 +82085,6 @@ entities:
     - type: Transform
       pos: 63.5,72.5
       parent: 1
-<<<<<<< HEAD
-=======
 - proto: WindoorSecure
   entities:
   - uid: 10555
@@ -82146,7 +82121,6 @@ entities:
         10555:
         - - DoorStatus
           - Close
->>>>>>> 2cbb9a10c15a8e759f48baa6ca8d2adaedce5b12
 - proto: WindoorSecureCentralCommandLocked
   entities:
   - uid: 10558

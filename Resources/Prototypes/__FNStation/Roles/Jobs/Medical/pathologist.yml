@@ -3,6 +3,7 @@
   name: коронер
   description: Врач, которые относит трупы в морг и занимается прижизненной и посмертной диагностикой трупа. 
   playTimeTracker: JobMedicalPathologist
+#  isSubRole: true
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical

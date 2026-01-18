@@ -14,7 +14,7 @@
   id: IrbisEarLong
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [CorvaxVulpkanin]
+  speciesRestriction: [Vulpkanin]
   sponsorOnly: false # Corvax-Sponsors
   sprites:
     - sprite: _FNStation/Mobs/Customization/Irbis-Feline/ears_markings.rsi
@@ -26,7 +26,7 @@
   id: IrbisEarLongPunk
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [CorvaxVulpkanin]
+  speciesRestriction: [Vulpkanin]
   sponsorOnly: false # Corvax-Sponsors
   sprites:
     - sprite: _FNStation/Mobs/Customization/Irbis-Feline/ears_markings.rsi
@@ -39,7 +39,7 @@
   id: VulpTailFoxTip
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [CorvaxVulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Felinid]
   sprites:
   - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
     state: fox
@@ -50,7 +50,7 @@
   id: VulpTailFoxWag
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [CorvaxVulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Felinid]
   sprites:
   - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
     state: fox_wag
@@ -61,7 +61,7 @@
   id: VulpTailFoxWagTip
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [CorvaxVulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Felinid]
   sprites:
   - sprite: _FNStation/Mobs/Customization/Vulpkanin/tail_markings.rsi
     state: fox_wag
@@ -84,11 +84,13 @@
   id: IrbisTail
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [CorvaxVulpkanin]
+  speciesRestriction: [Vulpkanin]
   sponsorOnly: false # Corvax-Sponsors
   sprites:
     - sprite: _FNStation/Mobs/Customization/Irbis-Feline/tail_leopard.rsi
       state: leopard_static
+    - sprite: _FNStation/Mobs/Customization/Irbis-Feline/tail_leopard.rsi
+      state: leopard_static-spots
 
 - type: marking
   id: IrbisTailAnimated
@@ -98,3 +100,5 @@
   sprites:
     - sprite: _FNStation/Mobs/Customization/Irbis-Feline/tail_leopard.rsi
       state: leopard_wag
+    - sprite: _FNStation/Mobs/Customization/Irbis-Feline/tail_leopard.rsi
+      state: leopard_wag-spots

@@ -13,6 +13,21 @@
 - type: playTimeTracker
   id: JobRoboticist
 
+- type: playTimeTracker
+  id: JobJurist
+
+- type: playTimeTracker
+  id: JobCargoMailman
+
+- type: playTimeTracker
+  id: JobCargoAssistant
+
+- type: playTimeTracker
+  id: JobSeniorLogistician
+
+- type: playTimeTracker
+  id: JobSeniorServicer
+
 # Ведущие роли отделов # Corvax Mentor Roles
 
 #- type: playTimeTracker

@@ -711,6 +711,19 @@ public abstract class SharedRoleSystem : EntitySystem
     {
         return string.IsNullOrEmpty(subtype) ? Loc.GetString(roleType) : Loc.GetString(subtype);
     }
+
+    // Corvax-Wega-SubRoles-start
+    public IEnumerable<JobPrototype> GetSubRoles(JobPrototype mainJob, IPrototypeManager protoManager)
+    {
+        foreach (var subRoleId in mainJob.SubRoles)
+        {
+            if (protoManager.TryIndex(subRoleId, out JobPrototype? subRole))
+            {
+                yield return subRole;
+            }
+        }
+    }
+    // Corvax-Wega-SubRoles-end
 }
 
 /// <summary>

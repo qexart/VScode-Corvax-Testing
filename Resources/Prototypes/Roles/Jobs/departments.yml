@@ -7,6 +7,8 @@
   - CargoTechnician
   - Quartermaster
   - SalvageSpecialist
+  - SeniorLogistician
+  - CargoAssistant
 
 - type: department
   id: Civilian
@@ -15,6 +17,7 @@
   color: "#9FED58"
   weight: -10
   roles:
+  - SeniorServicer
   - Bartender
   - Botanist
   - Chaplain

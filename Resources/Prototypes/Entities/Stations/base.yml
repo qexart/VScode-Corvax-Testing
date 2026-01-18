@@ -123,11 +123,11 @@
         # Corvax-Mapping-End
 
 - type: entity
-  id: BaseStationCentComm
+  id: BaseStationCentcomm
   abstract: true
   components:
-    - type: StationCentCommFNS
-      station: CorvaxCentComm # Corvax-Mapping # Перенос в _FNStation
+    - type: StationCentcomm
+      map: "/Maps/Corvax/corvax_centcomm.yml" # Corvax-Mapping # Перенос в _FNStation
 
 - type: entity
   id: BaseStationEvacuation

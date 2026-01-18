@@ -16,6 +16,38 @@
 
 - type: jobIcon
   parent: JobIcon
+  id: JobIconJurist
+  icon:
+    sprite: /Textures/_FNStation/Interface/Misc/job_icons.rsi
+    state: Jurist
+  jobName: юрист
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCargoAssistant
+  icon:
+    sprite: /Textures/_FNStation/Interface/Misc/job_icons.rsi
+    state: CargoAssistant
+  jobName: грузовой ассистент
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCargoMailman
+  icon:
+    sprite: /Textures/_FNStation/Interface/Misc/job_icons.rsi
+    state: Mailman
+  jobName: почтальон
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSeniorLogistician
+  icon:
+    sprite: /Textures/_FNStation/Interface/Misc/job_icons.rsi
+    state: SeniorLogistician
+  jobName: ведущий логист
+
+- type: jobIcon
+  parent: JobIcon
   id: JobIconSeniorServicer
   icon:
     sprite: /Textures/_FNStation/Interface/Misc/job_icons.rsi

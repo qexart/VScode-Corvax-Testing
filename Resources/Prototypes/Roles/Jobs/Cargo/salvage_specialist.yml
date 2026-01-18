@@ -7,6 +7,7 @@
     - !type:DepartmentTimeRequirement
       department: Cargo
       time: 3h
+  weight: 8
   icon: "JobIconShaftMiner"
   startingGear: SalvageSpecialistGear
   supervisors: job-supervisors-qm
