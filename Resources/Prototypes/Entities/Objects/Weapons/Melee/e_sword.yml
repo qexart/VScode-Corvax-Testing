@@ -19,7 +19,7 @@
       malus: 0.6
     - type: Execution
       doAfterDuration: 4.0
-      canGunExecute: false # Corvax-Wega-Suicide
+#      canGunExecute: false # Corvax-Wega-Suicide
   - type: ItemToggleHot
   - type: ItemToggleSize
     activatedSize: Huge
