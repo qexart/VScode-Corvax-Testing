@@ -85,3 +85,155 @@
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterTrenchcoatQuartermaster]
   id: ClothingOuterTrenchcoatQuartermasterOpened
   name: тренчкот квартирмейстера
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterJacketCap
+  name: жилет капитана 
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/capjacket.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/capjacket.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.70
+        Heat: 0.70
+        Piercing: 0.65
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterJacketHosBlue
+  name: жилет главы службы безопасности
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/hosbluejacket.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/hosbluejacket.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.60
+        Heat: 0.60
+        Piercing: 0.55
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterJacketLetterman
+  name: коричневый бомбер
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/letterman.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/letterman.rsi
+#  - type: Armor
+#    modifiers:
+#      coefficients:
+#        Slash: 0.95
+
+- type: entity
+  parent: ClothingOuterJacketLetterman
+  id: ClothingOuterJacketLettermanRed
+  name: красный бомбер
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/letterman_red.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/letterman_red.rsi
+
+- type: entity
+  parent: ClothingOuterJacketLetterman
+  id: ClothingOuterJacketLettermanNanotrasen
+  name: синий бомбер
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/letterman_nanotrasen.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/letterman_nanotrasen.rsi
+
+- type: entity
+  parent: ClothingOuterJacketLetterman
+  id: ClothingOuterJacketLettermanSyndicate
+  name: бардовый бомбер
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/letterman_syndicate.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/letterman_syndicate.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterJacketLeather
+  name: кожаная куртка
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/leatherjacket.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/leatherjacket.rsi
+#  - type: Armor
+#    modifiers:
+#      coefficients:
+#        Slash: 0.95
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterJacketLeatherBiker
+  name: куртка байкера
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/leatherjacket_biker.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/leatherjacket_biker.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterJacketBlazerDetective
+  name: блейзер детектива
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/det_blazer.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/det_blazer.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterJacketBlazerNoir
+  name: нуарный блейзер
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/noir_blazer.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/noir_blazer.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterJacketCurator
+  name: куртка куратора
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/curator.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/curator.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatOversized
+  name: шуба оверсайз
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/OuterClothing/Coats/oversized.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/OuterClothing/Coats/oversized.rsi

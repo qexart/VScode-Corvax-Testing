@@ -22,3 +22,54 @@
     - type: Clothing
       sprite: _FNStation/Clothing/Hands/Gloves/magistrat.rsi
     - type: FingerprintMask
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesCE
+  name: перчатки старшего инженера
+  description: Сделайте описание плиз
+  components:
+    - type: Sprite
+      sprite: _FNStation/Clothing/Hands/Gloves/ce_insuls.rsi
+    - type: Clothing
+      sprite: _FNStation/Clothing/Hands/Gloves/ce_insuls.rsi
+    - type: Insulated
+    - type: FingerprintMask
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesAtmos
+  name: перчатки атмосферного техника
+  description: Сделайте описание плиз
+  components:
+    - type: Sprite
+      sprite: _FNStation/Clothing/Hands/Gloves/atmos.rsi
+    - type: Clothing
+      sprite: _FNStation/Clothing/Hands/Gloves/atmos.rsi
+    - type: Insulated
+    - type: FingerprintMask
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesSecRed
+  name: перчатки охраны
+  description: Сделайте описание плиз
+  components:
+    - type: Sprite
+      sprite: _FNStation/Clothing/Hands/Gloves/sec.rsi
+    - type: Clothing
+      sprite: _FNStation/Clothing/Hands/Gloves/sec.rsi
+    - type: FingerprintMask
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesSecBlueshield
+  name: перчатки охраны
+  description: Сделайте описание плиз
+  components:
+    - type: Sprite
+      sprite: _FNStation/Clothing/Hands/Gloves/blu.rsi
+    - type: Clothing
+      sprite: _FNStation/Clothing/Hands/Gloves/blu.rsi
+    - type: Insulated
+    - type: FingerprintMask

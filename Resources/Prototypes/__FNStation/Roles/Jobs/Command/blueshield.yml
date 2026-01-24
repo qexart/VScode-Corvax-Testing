@@ -57,7 +57,7 @@
     eyes: ClothingEyesGlassesBlueshield
     id: BlueshieldPDA
     ears: ClothingHeadsetAltCommand
-    gloves: ClothingHandsGlovesCombat
+    gloves: ClothingHandsGlovesSecBlueshield
   storage:
     back:
     - Flash

@@ -13,3 +13,36 @@
 #      Hair: HEAD
 #      HeadTop : HEAD
 #      HeadSide : HEAD
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCurator
+  name: шляпа куратора
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Head/Hats/curator.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Head/Hats/curator.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatInvestigator
+  name: шляпа следователя
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Head/Hats/investigator.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Head/Hats/investigator.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFedoraCarpskin
+  name: шляпа из шкуры карпа
+  description: Сделайте описание плиз
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Head/Hats/fedora_carpskin.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Head/Hats/fedora_carpskin.rsi
