@@ -41,3 +41,38 @@
     sprite: _FNStation/Clothing/Uniforms/Jumpsuit/blueshield.rsi
   - type: Clothing
     sprite: _FNStation/Clothing/Uniforms/Jumpsuit/blueshield.rsi
+
+# CARGO
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCargoUtility
+  name: комбинезон грузчика
+  description: Никогда не боишься замарать.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/cargo_utility.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/cargo_utility.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitMailman
+  name: комбинезон почтальона
+  description: Будьте вежливы с ним.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/mailman.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/mailman.rsi
+
+# OTHER
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCuratorTG
+  name: комбинезон куратора
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/curator.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Jumpsuit/curator.rsi

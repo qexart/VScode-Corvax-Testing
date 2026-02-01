@@ -4,7 +4,7 @@
   description: job-description-cargotech
   playTimeTracker: JobSeniorLogistician
   weight: 9
-  startingGear: CargoTechGear
+  startingGear: SeniorLogisticianGear
   icon: "JobIconSeniorLogistician"
   supervisors: job-supervisors-qm
   access:
@@ -15,3 +15,13 @@
   - !type:GiveItemOnHolidaySpecial
     holiday: BoxingDay
     prototype: BoxCardboard
+
+- type: startingGear
+  id: SeniorLogisticianGear
+  equipment:
+    id: SeniorCourierPDA
+    ears: ClothingHeadsetCargo
+    pocket1: AppraisalTool
+  #storage:
+    #back:
+    #- Stuff

@@ -1,0 +1,154 @@
+# OTHER
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitFormalPassenger
+  name: формальный костюм пассажира
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/assistant_formal.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/assistant_formal.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitDraculass
+  name: костюм дракулы
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/draculass.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/draculass.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitDutch
+  name: костюм датча
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/dutch.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/dutch.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitKimono1
+  name: кимоно
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/kimono1.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/kimono1.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitKimono2
+  name: кимоно
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/kimono2.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/kimono2.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitKimono3
+  name: кимоно
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/kimono3.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/kimono3.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitYukata1
+  name: юката
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/yukata1.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/yukata1.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitYukata2
+  name: юката
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/yukata2.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/yukata2.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitYukata3
+  name: юката
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/yukata3.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/yukata3.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSwag
+  name: крутой костюм
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/swagoutfit.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/swagoutfit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRedSing
+  name: юбка-комбинезон артиста
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/rsing.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/rsing.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitYellowSing
+  name: платье артиста
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/ysing.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/ysing.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitYuri
+  name: костюм
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/yuri_uniform.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/yuri_uniform.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitOsi
+  name: костюм
+  description: Что.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/osi.rsi
+  - type: Clothing
+    sprite: _FNStation/Clothing/Uniforms/Misc/TGStation/osi.rsi

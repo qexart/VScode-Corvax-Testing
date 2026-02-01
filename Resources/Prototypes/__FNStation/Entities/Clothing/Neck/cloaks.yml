@@ -24,3 +24,12 @@
   components:
   - type: Sprite
     sprite: _FNStation/Clothing/Neck/Cloaks/wide_ntr_cloak.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleCargo
+  name: мантия логиста
+  description: Увесистая мантия из дорогого текстиля, вероятно нужно иметь достаточно лишнего бюджета чтобы заботиться о ней.
+  components:
+  - type: Sprite
+    sprite: _FNStation/Clothing/Neck/Cloaks/cargo_mantle.rsi

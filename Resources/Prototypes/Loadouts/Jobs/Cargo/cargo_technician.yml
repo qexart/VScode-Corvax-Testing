@@ -20,6 +20,11 @@
 
 # Head
 - type: loadout
+  id: CargoTechnicianHeadBlack
+  equipment:
+    head: ClothingHeadHatBlacksoft
+
+- type: loadout
   id: CargoTechnicianHead
   equipment:
     head: ClothingHeadHatCargosoft
@@ -56,6 +61,11 @@
   id: CargoTechnicianWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCargo
+
+- type: loadout
+  id: CargoTechnicianOveralls
+  equipment:
+    outerClothing: ClothingCargoOveralls
 
 # Shoes
 - type: loadout

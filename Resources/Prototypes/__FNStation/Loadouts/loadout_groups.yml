@@ -1,3 +1,23 @@
+# CARGO - Снабжение
+# SL - Ведущий Логист
+- type: loadoutGroup
+  id: CargoTechnicianNeck
+  name: Грузчик, шея
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - SeniorLogisticianMantle
+
+# CARGO - Снабжение
+# Tech - грузчик
+- type: loadoutGroup
+  id: CargoTechJumpsuit
+  name: Грузчик, комбинезон
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CargoTechJumpsuitA
+
 # MEDICAL - Медицинский
 # CMO - ГВ - Главный Врач
 - type: loadoutGroup

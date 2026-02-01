@@ -39,8 +39,8 @@
         layer:
         - MachineLayer
   - type: EntityStorage
-    openSound: /Audio/_FNStation/Items/crate_open.ogg
-    closeSound: /Audio/_FNStation/Items/crate_close.ogg
+    openSound: /Audio/_FNStation/Items/crate_close.ogg
+    closeSound: /Audio/_FNStation/Items/crate_open.ogg
   - type: PlaceableSurface
     isPlaceable: false # defaults to closed.
   - type: Damageable

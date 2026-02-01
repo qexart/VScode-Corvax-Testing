@@ -788,6 +788,7 @@
   name: loadout-group-cargo-technician-head
   minLimit: 0
   loadouts:
+  - CargoTechnicianHeadBlack
   - CargoTechnicianHead
 
 - type: loadoutGroup
@@ -811,6 +812,7 @@
   minLimit: 0
   loadouts:
   - CargoTechnicianWintercoat
+  - CargoTechnicianOveralls
 
 - type: loadoutGroup
   id: CargoTechnicianShoes
