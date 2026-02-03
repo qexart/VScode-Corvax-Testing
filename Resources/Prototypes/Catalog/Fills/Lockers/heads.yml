@@ -55,6 +55,7 @@
     - id: ClothingHeadCaptainHat
     - id: ClothingOuterCoatCaptain
     # Corvax-Resprite-End
+    - id: ControlModsuitMagnate # Adventure modsuits
 
 # No laser table + Laser table
 - type: entityTable
@@ -168,7 +169,8 @@
     - id: RCDAmmo
     - id: RubberStampCE
     - id: MetalFoamGrenade
-
+    - id: ControlModsuitAdvanced
+    
 # Hardsuit table, used for suit storage as well
 - type: entityTable
   id: FillChiefEngineerHardsuit
@@ -224,6 +226,7 @@
     - id: MedkitFilled
     - id: RubberStampCMO
     - id: MedTekCartridge
+    - id: ControlModsuitRescue # Adventure modsuits
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -339,6 +342,7 @@
     - id: ClothingOuterCoatHoSGreatcoat
     - id: BookBusido
     # Corvax-End
+    - id: ControlModsuitSafeguard # Adventure modsuits
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
