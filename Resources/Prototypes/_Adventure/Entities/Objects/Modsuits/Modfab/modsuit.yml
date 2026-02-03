@@ -116,14 +116,14 @@
     Plasteel: 1000
     Plasma: 1000
 
-- type: latheRecipe
-  id: PlatingMagmatiteModsuitConstructing
-  result: PlatingMagmatiteModsuitConstructing
-  completetime: 120
-  materials:
-    Plasteel: 1000
-    ProcessedMagmatite: 1000
-
+#- type: latheRecipe
+#  id: PlatingMagmatiteModsuitConstructing
+#  result: PlatingMagmatiteModsuitConstructing
+#  completetime: 120
+#  materials:
+#    Plasteel: 1000
+#    ProcessedMagmatite: 1000
+#
 - type: latheRecipe
   id: PlatingMagnateModsuitConstructing
   result: PlatingMagnateModsuitConstructing
@@ -153,7 +153,7 @@
   - PlatingCEModsuitConstructing
   - PlatingMagnateModsuitConstructing
   - PlatingHOSModsuitConstructing
-  - PlatingMagmatiteModsuitConstructing
+#  - PlatingMagmatiteModsuitConstructing
 
 - type: latheRecipePack
   id: ModSuitCombat

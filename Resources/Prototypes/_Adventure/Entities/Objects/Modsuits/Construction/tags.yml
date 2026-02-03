@@ -10,18 +10,18 @@
 - type: Tag
   id: LegionModsuitControlStart
 
-- type: Tag
-  id: MagmatiteModsuitBoots
-
-- type: Tag
-  id: MagmatiteModsuitChestplate
-
-- type: Tag
-  id: MagmatiteModsuitGauntlets
-
-- type: Tag
-  id: MagmatiteModsuitHelmet
-
+#- type: Tag
+#  id: MagmatiteModsuitBoots
+#
+#- type: Tag
+#  id: MagmatiteModsuitChestplate
+#
+#- type: Tag
+#  id: MagmatiteModsuitGauntlets
+#
+#- type: Tag
+#  id: MagmatiteModsuitHelmet
+#
 - type: Tag
   id: ModsuitHelmet
 
