@@ -4,15 +4,17 @@
   suffix: Filled, Captain
   components:
   - type: EntityTableContainerFill
-    contents:
-      - id: ClothingHeadHatCaptain
-      - id: ClothingHeadHatCapcap
-      - id: ClothingUniformJumpsuitCapFormal
-      - id: ClothingUniformJumpskirtCapFormalDress
-      - id: ClothingHandsGlovesCaptain
-      - id: ClothingOuterWinterCap
-      - id: ClothingNeckCloakCap
-      - id: BaseClothingShoesHeeled # Adventure
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingHeadHatCaptain
+        - id: ClothingHeadHatCapcap
+        - id: ClothingUniformJumpsuitCapFormal
+        - id: ClothingUniformJumpskirtCapFormalDress
+        - id: ClothingHandsGlovesCaptain
+        - id: ClothingOuterWinterCap
+        - id: ClothingNeckCloakCap
+        - id: BaseClothingShoesHeeled # Adventure
 
 - type: entity
   id: DresserChiefEngineerFilled
@@ -35,16 +37,18 @@
   suffix: Filled, Chief Medical Officer
   components:
   - type: EntityTableContainerFill
-    contents:
-      - id: ClothingOuterCoatLabCmo
-      - id: ClothingUniformJumpsuitCMOTurtle
-      - id: ClothingUniformJumpskirtCMOTurtle
-      - id: ClothingHeadHatBeretCmo
-      - id: ClothingHeadMirror
-      - id: ClothingEyesGlasses
-      - id: ClothingOuterWinterCMO
-      - id: ClothingCloakCmo
-      - id: ClothingShoesHeeledGreen # Adventure
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingOuterCoatLabCmo
+        - id: ClothingUniformJumpsuitCMOTurtle
+        - id: ClothingUniformJumpskirtCMOTurtle
+        - id: ClothingHeadHatBeretCmo
+        - id: ClothingHeadMirror
+        - id: ClothingEyesGlasses
+        - id: ClothingOuterWinterCMO
+        - id: ClothingCloakCmo
+        - id: ClothingShoesHeeledGreen # Adventure
 
 - type: entity
   id: DresserHeadOfPersonnelFilled
@@ -52,12 +56,14 @@
   suffix: Filled, Head Of Personnel
   components:
   - type: EntityTableContainerFill
-    contents:
-      - id: ClothingHeadHatHopcap
-      - id: ClothingOuterWinterHoP
-      - id: ClothingEyesGlasses
-      - id: ClothingNeckCloakHop
-      - id: ClothingShoesHeeledBlue # Adventure
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingHeadHatHopcap
+        - id: ClothingOuterWinterHoP
+        - id: ClothingEyesGlasses
+        - id: ClothingNeckCloakHop
+        - id: ClothingShoesHeeledBlue # Adventure
 
 - type: entity
   id: DresserHeadOfSecurityFilled
@@ -65,16 +71,18 @@
   suffix: Filled, Head Of Security
   components:
   - type: EntityTableContainerFill
-    contents:
-      - id: ClothingHeadHatBeretHoS
-      - id: ClothingHeadHatHoshat
-      - id: ClothingUniformJumpskirtHoSAlt
-      - id: ClothingUniformJumpsuitHoSAlt
-      - id: ClothingUniformJumpskirtHosFormal
-      - id: ClothingUniformJumpsuitHosFormal
-#      - id: ClothingOuterWinterHoS
-      - id: ClothingNeckCloakHos
-      - id: ClothingShoesHeeledRed # Adventure
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingHeadHatBeretHoS
+        - id: ClothingHeadHatHoshat
+        - id: ClothingUniformJumpskirtHoSAlt
+        - id: ClothingUniformJumpsuitHoSAlt
+        - id: ClothingUniformJumpskirtHosFormal
+        - id: ClothingUniformJumpsuitHosFormal
+#        - id: ClothingOuterWinterHoS
+        - id: ClothingNeckCloakHos
+        - id: ClothingShoesHeeledRed # Adventure
 
 - type: entity
   id: DresserQuarterMasterFilled

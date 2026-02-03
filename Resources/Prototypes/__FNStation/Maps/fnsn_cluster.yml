@@ -2,8 +2,7 @@
   id: FNSCluster
   mapName: 'Cluster'
   mapPath: /Maps/_FNStation/fns_cluster.yml
-  minPlayers: 10
-  maxPlayers: 35
+  minPlayers: 0
   stations:
     Cluster:
       stationProto: StandardNanotrasenStation
@@ -29,6 +28,11 @@
             SeniorOfficer: [ 1, 1 ] # _FNStation edit
             SeniorResearcher: [ 1, 1 ] # _FNStation edit
             SeniorEngineer: [ 1, 1 ] # _FNStation edit
+            SeniorLogistician: [ 1, 1 ] # _FNStation edit
+            CargoMailman: [ 1, 1 ] # _FNStation edit
+            CargoAssistant: [ 3, 3 ] # _FNStation edit
+            SeniorServicer: [ 1, 1 ] # _FNStation edit
+            Jurist: [ 1, 1 ] # _FNStation edit
             StationAi: [ 1, 1 ] # _FNStation edit
             Captain: [ 1, 1 ]
             IAA: [ 1, 1 ] # Corvax-IAA

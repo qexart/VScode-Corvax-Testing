@@ -1,14 +1,15 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
+  - FNSAvrite
+  - FNSCluster
+  - FNSDelta
+  - FNSAspid
+  - CorvaxSpectrum
+  - OldBox
+  - OldOutpost
+  - OldGelta
   - Bagel
-  - Box
-  - Elkridge
-  - Fland
   - Marathon
-  - Oasis
   - Packed
-  - Plasma
-  - Reach
-  - Exo
   
