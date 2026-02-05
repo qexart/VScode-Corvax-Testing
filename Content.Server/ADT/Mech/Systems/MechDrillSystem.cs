@@ -8,8 +8,16 @@ using Content.Shared.Mech.Components;
 using Content.Shared.Mech.Equipment.Components;
 using Robust.Shared.Audio.Systems;
 using Content.Shared.Damage;
+using Content.Shared.Damage.Components;
+using Content.Shared.Damage.Events;
+using Content.Shared.Damage.Systems;
+using Content.Shared.Damage.Prototypes;
 using Content.Shared.Mobs.Components;
 using Content.Server.ADT.Mech.Equipment.Components;
+using Robust.Shared.GameStates;
+using Robust.Shared.Prototypes;
+using Robust.Shared.Serialization;
+using Robust.Shared.Timing;
 
 namespace Content.Server.ADT.Mech.Equipment.EntitySystems;
 
@@ -97,8 +105,8 @@ public sealed class MechDrillSystem : EntitySystem
         if (Comp<MechComponent>(equipmentComponent.EquipmentOwner.Value).Energy <= 0)
             args.Repeat = false;
 
-        _damageable.TryChangeDamage(args.Target, component.DamageToDrilled, ignoreResistances: false);
+/*        _damageable.TryChangeDamage(args.Target, component.DamageToDrilled, ignoreResistances: false);
         _mech.UpdateUserInterface(equipmentComponent.EquipmentOwner.Value);
-        args.Repeat = true;
+        args.Repeat = true;*/
     }
 }

@@ -106,7 +106,7 @@
           key: "enum.MechAssemblyVisuals.State"
           data: 14
 
-      - tag: CapacitorStockPart
+      - tag: MicroManipulatorStockPart
         name: capacitor stock part
         icon:
           sprite: "Objects/Misc/stock_parts.rsi"
@@ -116,7 +116,7 @@
           key: "enum.MechAssemblyVisuals.State"
           data: 15
 
-      - tag: CapacitorStockPart
+      - tag: MicroManipulatorStockPart
         name: capacitor stock part
         icon:
           sprite: "Objects/Misc/stock_parts.rsi"

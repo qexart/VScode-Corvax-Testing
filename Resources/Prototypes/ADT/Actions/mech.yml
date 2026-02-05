@@ -45,13 +45,14 @@
   description: "*задыхается*"
   categories: [ HideSpawnMenu ]
   components:
-  - type: InstantAction
-    itemIconStyle: NoItem
+  - type: Action
+    useDelay: 2
     icon:
       sprite: Interface/Actions/actions_mecha.rsi
       state: mech_internals_on
+    itemIconStyle: NoItem
+  - type: InstantAction
     event: !type:MechInhaleEvent
-    useDelay: 2
 
 - type: entity
   id: ActionMechTurnLights
@@ -59,13 +60,14 @@
   description: Мои глазаааа!!!
   categories: [ HideSpawnMenu ]
   components:
-  - type: InstantAction
-    itemIconStyle: NoItem
+  - type: Action
+    useDelay: 2
     icon:
       sprite: Interface/Actions/actions_mecha.rsi
       state: mech_lights_on
+    itemIconStyle: NoItem
+  - type: InstantAction
     event: !type:MechTurnLightsEvent
-    useDelay: 2
 
 - type: entity
   id: ActionMechOverload
@@ -73,13 +75,14 @@
   description: Deja vu I've just been in this place before Higher on the street And I know it's my time to go
   categories: [ HideSpawnMenu ]
   components:
-  - type: InstantAction
-    itemIconStyle: NoItem
+  - type: Action
+    useDelay: 2
     icon:
       sprite: Interface/Actions/actions_mecha.rsi
       state: mech_overload_on
+    itemIconStyle: NoItem
+  - type: InstantAction
     event: !type:MechOverloadEvent
-    useDelay: 2
 
 - type: entity
   id: ActionMechPhaze
@@ -87,10 +90,11 @@
   description: is this a noclip??? No, this is phaze
   categories: [ HideSpawnMenu ]
   components:
-  - type: InstantAction
-    itemIconStyle: NoItem
+  - type: Action
+    useDelay: 2
     icon:
       sprite: Interface/Actions/actions_mecha.rsi
       state: mech_phasing_on
+    itemIconStyle: NoItem
+  - type: InstantAction
     event: !type:MechPhazeEvent
-    useDelay: 2
