@@ -1,3 +1,4 @@
+using Content.Shared.Weapons.Hitscan.Components;
 using Content.Shared.Weapons.Ranged;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
@@ -15,5 +16,5 @@ public sealed partial class HitscanMechAmmoProviderComponent : MechAmmoProviderC
     public float ShotCost = 15f;
 
     [DataField(required: true)]
-    public ProtoId<HitscanPrototype> Proto;
+    public ProtoId<HitscanAmmoComponent> Proto;
 }
