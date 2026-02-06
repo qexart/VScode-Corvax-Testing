@@ -11,6 +11,8 @@ using Content.Shared.Damage.Systems;
 using Content.Shared.Examine;
 using Content.Shared.Hands;
 using Content.Shared.Hands.EntitySystems;
+using Content.Shared.Hands.Components;
+using Content.Shared.Mech.Components;
 using Content.Shared.Popups;
 using Content.Shared.Projectiles;
 using Content.Shared.Tag;
@@ -108,7 +110,7 @@ public abstract partial class SharedGunSystem : EntitySystem
         InitializeClothing();
         InitializeContainer();
         InitializeSolution();
-
+        InitializeMechGun();    // ADT Mech Gun
         // Interactions
         SubscribeLocalEvent<GunComponent, GetVerbsEvent<AlternativeVerb>>(OnAltVerb);
         SubscribeLocalEvent<GunComponent, ExaminedEvent>(OnExamine);
@@ -155,9 +157,16 @@ public abstract partial class SharedGunSystem : EntitySystem
         if (gun.Owner != GetEntity(msg.Gun))
             return;
 
+        // ADT Content start
+        if (TryComp<MechPilotComponent>(user.Value, out var mechPilot))
+        {
+            user = mechPilot.Mech;
+        }
+        // ADT Content end
+
         gun.Comp.ShootCoordinates = GetCoordinates(msg.Coordinates);
         gun.Comp.Target = GetEntity(msg.Target);
-        AttemptShoot(user.Value, gun);
+        AttemptShoot(user.Value,/* ent, */ gun);
     }
 
     private void OnStopShootRequest(RequestStopShootEvent ev, EntitySessionEventArgs args)
@@ -195,6 +204,16 @@ public abstract partial class SharedGunSystem : EntitySystem
     {
         gun = default;
 
+        // ADT Content start
+        if (TryComp<MechPilotComponent>(entity, out var mechPilot) &&
+            TryComp<MechComponent>(mechPilot.Mech, out var mech) &&
+            mech.CurrentSelectedEquipment.HasValue &&
+            TryComp<GunComponent>(mech.CurrentSelectedEquipment.Value, out var mechGun))
+        {
+            gun = (mech.CurrentSelectedEquipment.Value, mechGun);
+            return true;
+        }
+        // ADT Content end
         if (_hands.GetActiveItem(entity) is { } held &&
             TryComp(held, out GunComponent? gunComp))
         {

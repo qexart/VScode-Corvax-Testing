@@ -4,6 +4,8 @@ using Content.Server.Weapons.Ranged.Components;
 using Content.Shared.Cargo;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Systems;
+using Content.Shared.Damage.Components;
+using Content.Shared.Damage;
 using Content.Shared.Projectiles;
 using Content.Shared.Weapons.Melee;
 using Content.Shared.Weapons.Ranged;
@@ -17,6 +19,9 @@ using Robust.Shared.Map;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using Robust.Shared.Containers;
+using Content.Server.Body.Systems;
+using Content.Shared.Mech.Components;
 
 namespace Content.Server.Weapons.Ranged.Systems;
 
@@ -117,7 +122,14 @@ public sealed partial class GunSystem : SharedGunSystem
                     else
                     {
                         userImpulse = false;
-                        Audio.PlayPredicted(gun.Comp.SoundEmpty, gun, user);
+                        // ADT Mech start
+                        if (TryComp<MechComponent>(user, out var cmech))
+                        {
+                            Audio.PlayPredicted(gun.Comp.SoundEmpty, gun, cmech.PilotSlot.ContainedEntity);
+                        }
+                        else
+                            Audio.PlayPredicted(gun.Comp.SoundEmpty, gun, user);
+                        // ADT Mech end
                     }
 
                     // Something like ballistic might want to leave it in the container still
@@ -148,8 +160,14 @@ public sealed partial class GunSystem : SharedGunSystem
                     RaiseLocalEvent(ent.Value, ref hitscanEv);
 
                     Del(ent);
-
-                    Audio.PlayPredicted(gun.Comp.SoundGunshotModified, gun, user);
+                    // ADT Mech start
+                    if (TryComp<MechComponent>(user, out var hmech))
+                    {
+                        Audio.PlayPredicted(gun.Comp.SoundEmpty, gun, hmech.PilotSlot.ContainedEntity);
+                    }
+                    else
+                        Audio.PlayPredicted(gun.Comp.SoundEmpty, gun, user);
+                    // ADT Mech end
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();
@@ -188,7 +206,10 @@ public sealed partial class GunSystem : SharedGunSystem
             }
 
             MuzzleFlash(gun, ammoComp, mapDirection.ToAngle(), user);
-            Audio.PlayPredicted(gun.Comp.SoundGunshotModified, gun, user);
+            if (TryComp<MechComponent>(user, out var mech)) // ADT Mech gun fix
+                Audio.PlayPredicted(gun.Comp.SoundGunshotModified, gun, mech.PilotSlot.ContainedEntity);
+            else
+                Audio.PlayPredicted(gun.Comp.SoundGunshotModified, gun, user);
         }
     }
 

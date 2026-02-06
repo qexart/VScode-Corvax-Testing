@@ -55,7 +55,8 @@
   - type: MobMover
   - type: MovementSpeedModifier
   - type: LagCompensation
-
+  - type: CanEscapeMech # ADT tweak
+  
 - type: entity
   save: false
   id: MobPolymorphable

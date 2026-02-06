@@ -312,6 +312,7 @@
     - BorgModules
     - MechParts
     - MechEquipment
+    - MechWeapon
     # Adventure modsuits start
     - ModSuitAdvanced
     - ModSuitCombat

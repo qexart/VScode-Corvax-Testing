@@ -29,7 +29,17 @@ public sealed class MechSoundboardSystem : EntitySystem
         {
             Sounds = sounds.ToList()
         };
-        args.States.Add(GetNetEntity(uid), state);
+
+        // ADT-Tweak-Start
+        try
+        {
+            args.States.Add(GetNetEntity(uid), state);
+        }
+        catch
+        {
+            return;
+        }
+        // ADT-Tweak-End
     }
 
     private void OnSoundboardMessage(EntityUid uid, MechSoundboardComponent comp, MechEquipmentUiMessageRelayEvent args)
@@ -49,6 +59,6 @@ public sealed class MechSoundboardSystem : EntitySystem
             return;
 
         // honk!!!!!
-        _audio.PlayPvs(comp.Sounds[msg.Sound], uid);
+        _audio.PlayPredicted(comp.Sounds[msg.Sound], uid, GetEntity(args.Pilot));   // ADT Mech predict
     }
 }

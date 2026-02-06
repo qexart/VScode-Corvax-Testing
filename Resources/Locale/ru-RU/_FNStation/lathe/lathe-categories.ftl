@@ -1,0 +1,5 @@
+lathe-category-mechs-gygax = мех "Гигакс"
+lathe-category-mechs-odysseus = мех "Одиссей"
+lathe-category-mechs-clarke = мех "Кларк"
+lathe-category-mechs-durand = мех "Дюранд"
+lathe-category-mechs-phazon = мех "Фазон"
