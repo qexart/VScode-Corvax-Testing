@@ -4,7 +4,7 @@ using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.RichText;
-using Content.Client.ADTUserInterface.RichText;
+using Content.Client.ADT.UserInterface.RichText;
 using Robust.Shared.Utility;
 
 namespace Content.Client.ADT.UserInterface.RichText;

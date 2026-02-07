@@ -2,7 +2,7 @@ using System.Diagnostics.CodeAnalysis;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.RichText;
 using Robust.Shared.Utility;
-using Content.Client.ADTUserInterface.RichText;
+using Content.Client.ADT.UserInterface.RichText;
 
 namespace Content.Client.ADT.UserInterface.RichText;
 
