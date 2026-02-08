@@ -106,6 +106,7 @@ public sealed class NukeopsRuleSystem : GameRuleSystem<NukeopsRuleComponent>
             args.AddLine(text);
         }
 
+        /*
         args.AddLine(Loc.GetString("nukeops-list-start"));
 
         var antags = _antag.GetAntagIdentifiers(uid);
@@ -115,6 +116,7 @@ public sealed class NukeopsRuleSystem : GameRuleSystem<NukeopsRuleComponent>
             args.AddLine(Loc.GetString("nukeops-list-name-user", ("name", name), ("user", sessionData.UserName)));
         }
         args.AddLine("");
+        */
     }
 
     private void OnNukeExploded(NukeExplodedEvent ev)

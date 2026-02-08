@@ -23,6 +23,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
+using Content.Shared.ADT.LastWords;
 
 namespace Content.Shared.Mind;
 
@@ -197,6 +198,7 @@ public abstract partial class SharedMindSystem : EntitySystem
         var mindId = Spawn(_mindProto, MapCoordinates.Nullspace);
         _metadata.SetEntityName(mindId, name == null ? "mind" : $"mind ({name})");
         var mind = EnsureComp<MindComponent>(mindId);
+        EnsureComp<LastWordsComponent>(mindId); //ADT-tweak: последние слова
         mind.CharacterName = name;
         SetUserId(mindId, userId, mind);
 
