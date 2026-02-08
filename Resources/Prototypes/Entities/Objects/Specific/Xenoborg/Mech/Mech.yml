@@ -14,6 +14,7 @@
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: gygax
+    scale: 1.20, 1.20
   - type: FootstepModifier
     footstepSoundCollection:
       path: /Audio/ADT/Mecha/mechstep.ogg
@@ -85,6 +86,7 @@
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: clarke
+    scale: 1.20, 1.20
   - type: FootstepModifier
     footstepSoundCollection:
       path: /Audio/ADT/Mecha/sound_mecha_powerloader_step.ogg
@@ -150,6 +152,7 @@
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: durand
+    scale: 1.20, 1.20
   - type: FootstepModifier
     footstepSoundCollection:
       path: /Audio/ADT/Mecha/sound_mecha_powerloader_step.ogg
@@ -219,6 +222,7 @@
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: odysseus
+    scale: 1.20, 1.20
   - type: FootstepModifier
     footstepSoundCollection:
       path: /Audio/ADT/Mecha/sound_mecha_powerloader_step.ogg
@@ -279,6 +283,7 @@
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: phazon
+    scale: 1.20, 1.20
   - type: FootstepModifier
     footstepSoundCollection:
       path: /Audio/ADT/Mecha/sound_mecha_powerloader_step.ogg
@@ -349,6 +354,7 @@
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: ripleymkii
+    scale: 1.20, 1.20
   - type: FootstepModifier
     footstepSoundCollection:
       path: /Audio/ADT/Mecha/sound_mecha_powerloader_step.ogg
@@ -417,6 +423,7 @@
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: marauder
+    scale: 1.20, 1.20
   - type: FootstepModifier
     footstepSoundCollection:
       path: /Audio/ADT/Mecha/sound_mecha_powerloader_step.ogg
@@ -485,6 +492,7 @@
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: seraph
+    scale: 1.20, 1.20
   - type: Mech
     modifiers:
       coefficients:
@@ -538,6 +546,7 @@
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: darkgygax
+    scale: 1.20, 1.20
   - type: Mech
     modifiers:
       coefficients:
@@ -590,6 +599,7 @@
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: mauler
+    scale: 1.20, 1.20
   - type: FootstepModifier
     footstepSoundCollection:
       path: /Audio/ADT/Mecha/sound_mecha_powerloader_step.ogg
@@ -682,6 +692,7 @@
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: paddy
+    scale: 1.20, 1.20
   - type: FootstepModifier
     footstepSoundCollection:
       path: /Audio/ADT/Mecha/mechstep.ogg
